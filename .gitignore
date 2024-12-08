@@ -1,0 +1,17 @@
+# 排除模型檔案
+*.pth
+*.pt
+*.safetensors
+*.json
+*.csv
+
+# 排除 Torch 庫 DLL 檔案
+.venv/Lib/site-packages/torch/lib/*.dll
+
+# 排除大型數據
+Data_Clean/**/*
+Processed_Data_Opinion/**/*
+results/**/*
+
+# 排除大型 PDF
+*.pdf

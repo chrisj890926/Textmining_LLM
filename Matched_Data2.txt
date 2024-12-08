@@ -1,0 +1,227 @@
+[
+    {
+        "Case Index": 4,
+        "CSV File": "1015 (10)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 4?",
+        "Context": "power is \" the ability to... increase... profits by reducing output and charging more than a competitive price. \" hovenkamp, supra, antitrust law § 3. 1. monopoly power is a high dosage of market power. id. § 5. 2. although various factors are important in determining whether a firm has monopoly power ( such as entry barriers, economies of scale, concentration ), often the analysis turns on market share - - generally, the higher the market share the easier is the plaintiff's case. id. usually, courts require a threshold showing of 60 - 70 % before they will infer monopoly power from market share. see william m. landes & richard a. posner, market power in antitrust cases, 94 harv. l. rev. 937, 951 ( 1981 ) ( discussing the role of elasticity of demand - - responsiveness of quantity demanded to a one percentage change in price - - and elasticity of supply - - responsiveness of quantity supplied to a one percentage change in price ). depending on other factors, however, a market share as low as 40 % might suffice. id. ( explaining that when demand and supply for a product are highly inelastic,",
+        "Predicted Answer": "[SEP] power is \" the ability to . . . increase . . . profits by reducing output and charging more than a competitive price . \" hovenkamp , supra , antitrust law § 3 . 1 . monopoly power is a high dosage of market power . id . § 5 . 2 . although various factors are important in determining whether a firm has monopoly power ( such as entry barriers , economies of scale , concentration ) , often the analysis turns on market share - - generally , the higher the market share the easier is the plaintiff ' s case . id . usually , courts require a threshold showing of 60 - 70 % before they will infer monopoly power from market share . see william m . landes & richard a . posner , market power in antitrust cases , 94 harv . l . rev . 937 , 951 ( 1981 ) ( discussing the role of elasticity of demand - - responsiveness of quantity demanded to a one percentage change in price - - and elasticity of supply - - responsiveness of quantity supplied to a one percentage change in price ) . depending on other factors , however , a market share as low as 40 % might suffice . id . ( explaining that when demand and supply for a product are highly inelastic , [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market."
+            },
+            {
+                "Name": "Economies of Scale",
+                "Definition": "Cost advantages due to increased production, making it harder for new entrants to compete."
+            }
+        ]
+    },
+    {
+        "Case Index": 12,
+        "CSV File": "1015 (2)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 12?",
+        "Context": "##glis ) ; and ( 3 ) when prices are below average variable cost a prima facia case of predatory pricing is established and the defendant has the burden of proving by a preponderance of the evidence that its prices were justified without regard to any anticipated destructive effect they might have ( inglis ). the inglis segments of the ninth circuit test for predatory pricing have been followed to varying degrees by the sixth, 15 eighth, 16 [ * 24 ] tenth, 17 and eleventh 18 circuits. the transamerica segment of the ninth circuit test which allows a plaintiff to show that prices above average total cost are predatory has not been followed by any other circuit. further, all circuits but the eleventh take a very limited view of what may be shown for a party to meet its burden of proof on predatory pricing. the element of proof that the ninth circuit test requires in addition to showing the relationship between price and cost is a showing \" that the anticipated benefits of defendant's price depended on its tendency to discipline or eliminate competition and thereby enhance the firm's long - term ability [ * 23 ] to reap the benefits of monopoly power. \" inglis, 668 f. 2d at 1035. subjective",
+        "Predicted Answer": "[SEP] # # glis ) ; and ( 3 ) when prices are below average variable cost a prima facia case of predatory pricing is established and the defendant has the burden of proving by a preponderance of the evidence that its prices were justified without regard to any anticipated destructive effect they might have ( inglis ) . the inglis segments of the ninth circuit test for predatory pricing have been followed to varying degrees by the sixth , 15 eighth , 16 [ * 24 ] tenth , 17 and eleventh 18 circuits . the transamerica segment of the ninth circuit test which allows a plaintiff to show that prices above average total cost are predatory has not been followed by any other circuit . further , all circuits but the eleventh take a very limited view of what may be shown for a party to meet its burden of proof on predatory pricing . the element of proof that the ninth circuit test requires in addition to showing the relationship between price and cost is a showing \" that the anticipated benefits of defendant ' s price depended on its tendency to discipline or eliminate competition and thereby enhance the firm ' s long - term ability [ * 23 ] to reap the benefits of monopoly power . \" inglis , 668 f . 2d at 1035 . subjective [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 55,
+        "CSV File": "1015 (3)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 55?",
+        "Context": "music, inc. ) is required, as is wmni, to sign the new agreement or not be renewed. ( february 6, 1992 letter, muzak's hearing exhibit 129 ) accordingly, the court finds that muzak is not discriminating against wmni in violation of the wfdl. the essential and reasonable requirements of the new agreement wmni advances two arguments that the provisions of the mta program in the new agreement are not essential and reasonable. first, because muzak has not forced the other affiliates with unexpired agreements [ * * 12 ] to sign on, the mta must not be an essential program. ( wmni's post - hearing brief, p. 19 - 20 ) muzak and the ipma counter that the mta is a competitive necessity. among the many features of the mta is the ability to provide uniform service, achieve economies of scale, negotiate standardized rates, and a single service 822 f. supp. 1332, * 1336 ; 1992 u. s. dist. lexis 21710, * * 9",
+        "Predicted Answer": "[SEP] music , inc . ) is required , as is wmni , to sign the new agreement or not be renewed . ( february 6 , 1992 letter , muzak ' s hearing exhibit 129 ) accordingly , the court finds that muzak is not discriminating against wmni in violation of the wfdl . the essential and reasonable requirements of the new agreement wmni advances two arguments that the provisions of the mta program in the new agreement are not essential and reasonable . first , because muzak has not forced the other affiliates with unexpired agreements [ * * 12 ] to sign on , the mta must not be an essential program . ( wmni ' s post - hearing brief , p . 19 - 20 ) muzak and the ipma counter that the mta is a competitive necessity . among the many features of the mta is the ability to provide uniform service , achieve economies of scale , negotiate standardized rates , and a single service 822 f . supp . 1332 , * 1336 ; 1992 u . s . dist . lexis 21710 , * * 9 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Economies of Scale",
+                "Definition": "Cost advantages due to increased production, making it harder for new entrants to compete."
+            }
+        ]
+    },
+    {
+        "Case Index": 51,
+        "CSV File": "1015 (6)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 51?",
+        "Context": "the market in health care financing is competitive.... not only because customers can switch readily but also because new suppliers can enter quickly and existing ones can expand their sales quickly. more than 1, 000 firms are licensed to sell health insurance in indiana, and more than 500 sell this insurance currently.... \" entry barriers into the market for health care financing are extremely low. all that is needed to compete in indiana, for example, is sufficient capital to underwrite the policies and a license from the indiana insurance commissioner. \" [ * * 29 ] of the 500 firms now selling insurance, many operate nationwide and have ( or can attract ) plenty of capital against which to write policies - if the price is right.... id. at 1331 - 32 ( quoting 603 f. supp. 1077, 1080 ( s. d. ind. 1985 ) ). the court adopted the district court's finding that the defendants did not have the power to restrict output or raise prices in the market because they furnish \" a fungible product that other people can and do supply easily. \" id. at 1331 ; see also national benefit adm'rs, inc. v. blue cross, 1989 - 2 trade cas. ( cch )",
+        "Predicted Answer": "[SEP] the market in health care financing is competitive . . . . not only because customers can switch readily but also because new suppliers can enter quickly and existing ones can expand their sales quickly . more than 1 , 000 firms are licensed to sell health insurance in indiana , and more than 500 sell this insurance currently . . . . \" entry barriers into the market for health care financing are extremely low . all that is needed to compete in indiana , for example , is sufficient capital to underwrite the policies and a license from the indiana insurance commissioner . \" [ * * 29 ] of the 500 firms now selling insurance , many operate nationwide and have ( or can attract ) plenty of capital against which to write policies - if the price is right . . . . id . at 1331 - 32 ( quoting 603 f . supp . 1077 , 1080 ( s . d . ind . 1985 ) ) . the court adopted the district court ' s finding that the defendants did not have the power to restrict output or raise prices in the market because they furnish \" a fungible product that other people can and do supply easily . \" id . at 1331 ; see also national benefit adm ' rs , inc . v . blue cross , 1989 - 2 trade cas . ( cch ) [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market."
+            }
+        ]
+    },
+    {
+        "Case Index": 58,
+        "CSV File": "1015 (6)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 58?",
+        "Context": "predatory pricing scheme. farmland contends that the judge failed to use the proper standard in evaluating the issue of predation and that the evidence was insufficient under the appropriate standard. we agree with farmland that [ * * * 74 ] under the relevant criteria, the evidence was not sufficient to support a finding of \" predation \" as defined by federal courts in the context of antitrust law. since one of the requirements for liability under § 1 of the sherman act ( and n. j. s. a. 56 : 9 - 3 ) is [ * 193 ] that the object of, and conduct pursuant to, the conspiracy be illegal, this deficiency in ideal's proof provides an additional ground for denial of antitrust liability. predatory pricing schemes are generally analyzed under § 2 of the sherman act ( conspiracies to monopolize ), or § 2 ( a ) of the clayton act, as amended by the robinson - patman act, 15 u. s. c. a. § 13 ( a ) ( price discrimination ). brooke group v. brown & williamson, supra, 509 u. s. at, 113 s. ct. at 2586 - 87, 125 l. ed. 2d at 184 - 85. although new",
+        "Predicted Answer": "[SEP] predatory pricing scheme . farmland contends that the judge failed to use the proper standard in evaluating the issue of predation and that the evidence was insufficient under the appropriate standard . we agree with farmland that [ * * * 74 ] under the relevant criteria , the evidence was not sufficient to support a finding of \" predation \" as defined by federal courts in the context of antitrust law . since one of the requirements for liability under § 1 of the sherman act ( and n . j . s . a . 56 : 9 - 3 ) is [ * 193 ] that the object of , and conduct pursuant to , the conspiracy be illegal , this deficiency in ideal ' s proof provides an additional ground for denial of antitrust liability . predatory pricing schemes are generally analyzed under § 2 of the sherman act ( conspiracies to monopolize ) , or § 2 ( a ) of the clayton act , as amended by the robinson - patman act , 15 u . s . c . a . § 13 ( a ) ( price discrimination ) . brooke group v . brown & williamson , supra , 509 u . s . at , 113 s . ct . at 2586 - 87 , 125 l . ed . 2d at 184 - 85 . although new [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 47,
+        "CSV File": "1015 (9)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 47?",
+        "Context": "##ing are a form of antitrust injury because predatory pricing has the requisite anticompetitive effect against competitors. when defendants engage in predatory pricing or other anticompetitive acts in an attempt to gain a monopoly, the competitor who is being driven out of the market is the party with standing. antitrust & trade law >... > private actions > standing > general overview business & corporate law > cooperatives > general overview civil procedure >... > justiciability > standing > general overview hn8 [ ] private actions, standing a competitor of an alleged attempted monopolist has standing where it is either driven out of business or suffers reduced profits because of the alleged anticompetitive acts of the attempted monopolist. 102 f. 3d 1494, * 1494 ; 1996 u. s. app. lexis 34400, * * 1",
+        "Predicted Answer": "[SEP] # # ing are a form of antitrust injury because predatory pricing has the requisite anticompetitive effect against competitors . when defendants engage in predatory pricing or other anticompetitive acts in an attempt to gain a monopoly , the competitor who is being driven out of the market is the party with standing . antitrust & trade law > . . . > private actions > standing > general overview business & corporate law > cooperatives > general overview civil procedure > . . . > justiciability > standing > general overview hn8 [ ] private actions , standing a competitor of an alleged attempted monopolist has standing where it is either driven out of business or suffers reduced profits because of the alleged anticompetitive acts of the attempted monopolist . 102 f . 3d 1494 , * 1494 ; 1996 u . s . app . lexis 34400 , * * 1 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 13,
+        "CSV File": "1026 (10)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 13?",
+        "Context": "##d 405, 413 ( 3d cir. 1997 ) ( quoting spectrum sports, inc. v. mcquillan, 506 u. s. 447, 456, 113 s. ct. 884, 122 l. ed. 2d 247 ( 1993 ) ). our supreme court has held that there are \" two prerequisites to recovery \" under a § 2 sherman act claim regarding predatory pricing : ( 1 ) \" plaintiff must prove that the prices complained of are below an appropriate measure of its rival's costs [, ] \" or in other words, \" below - cost prices [, ] \" and ( 2 ) plaintiff must demonstrate that the",
+        "Predicted Answer": "[SEP] # # d 405 , 413 ( 3d cir . 1997 ) ( quoting spectrum sports , inc . v . mcquillan , 506 u . s . 447 , 456 , 113 s . ct . 884 , 122 l . ed . 2d 247 ( 1993 ) ) . our supreme court has held that there are \" two prerequisites to recovery \" under a § 2 sherman act claim regarding predatory pricing : ( 1 ) \" plaintiff must prove that the prices complained of are below an appropriate measure of its rival ' s costs [ , ] \" or in other words , \" below - cost prices [ , ] \" and ( 2 ) plaintiff must demonstrate that the [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 94,
+        "CSV File": "1026 (6)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 94?",
+        "Context": "[ * * 106 ] hn27 [ ] in order to recover damages for a claim under § 2 ( a ) of the robinson - patman act, a plaintiff must satisfy, among other [ * 423 ] things, two elements, commonly known as the \" injury to competition \" or \" competitive injury \" requirement, and \" antitrust injury. \" competitive injury is one element necessary to make out a prima facie case. \" antitrust injury \" is not part of the prima facie case. hn28 [ ] there are two types of \" competitive injuries \" generally alleged under section 2 ( a ), primary line \" and \" secondary line. \" primary line injury occurs when there is harm to the seller's competition through predatory pricing. secondary line injury occurs when there is a harm to the buyer's competition. see, e. g., brooke group ltd. v. brown & williamson tobacco group, 509 u. s. 209, 221, 113 s. ct. 2578, 125 l. ed. 2d 168 ( 1993 ). secondary line injury, which plaintiffs claim to have suffered, results from price discrimination between favored and disfavored purchasers. see hasbrouck, 496 u. s. at 558",
+        "Predicted Answer": "[SEP] [ * * 106 ] hn27 [ ] in order to recover damages for a claim under § 2 ( a ) of the robinson - patman act , a plaintiff must satisfy , among other [ * 423 ] things , two elements , commonly known as the \" injury to competition \" or \" competitive injury \" requirement , and \" antitrust injury . \" competitive injury is one element necessary to make out a prima facie case . \" antitrust injury \" is not part of the prima facie case . hn28 [ ] there are two types of \" competitive injuries \" generally alleged under section 2 ( a ) , primary line \" and \" secondary line . \" primary line injury occurs when there is harm to the seller ' s competition through predatory pricing . secondary line injury occurs when there is a harm to the buyer ' s competition . see , e . g . , brooke group ltd . v . brown & williamson tobacco group ,",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 9,
+        "CSV File": "1026 (8)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 9?",
+        "Context": "& predatory practices > predatory pricing antitrust & trade law >... > trade practices & unfair competition > state regulation > scope hn19 [ ] state regulation, claims rsa 358 - a : 2 ( xiv ) ( supp. 2006 ) specifically states that unfair method of competition or unfair or deceptive act or practice shall include, but not be limited to the pricing of goods or services in a manner that tends to create or maintain a monopoly, or otherwise harm competition. thus, the new hampshire legislature has made no effort to force this type of antitrust activity into an unfair method category for purposes of the new hampshire consumer",
+        "Predicted Answer": "[SEP] & predatory practices > predatory pricing antitrust & trade law > . . . > trade practices & unfair competition > state regulation > scope hn19 [ ] state regulation , claims rsa 358 - a : 2 ( xiv ) ( supp . 2006 ) specifically states that unfair method of competition or unfair or deceptive act or practice shall include , but not be limited to the pricing of goods or services in a manner that tends to create or maintain a monopoly , or otherwise harm competition . thus , the new hampshire legislature has made no effort to force this type of antitrust activity into an unfair method category for purposes of the new hampshire consumer [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 50,
+        "CSV File": "914 (4)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 50?",
+        "Context": "##ing monopoly power, which includes allegations regarding the market power held by the antitrust defendant. i. product market conexant alleges that 3com has a 50 % share of the \" product market. \" see answer p 81. hn19 [ ] the ninth circuit has indicated that market share is insufficient to show market power and has found that courts should also evaluate the presence of entry barriers and the inability of competitors to expand output. see rebel oil co., inc., v. given the court's finding that the conduct alleged by conexant does not state any anti - competitive conduct by 3com before the itu, the court does not reach the issue of noerr - pennington immunity.",
+        "Predicted Answer": "[SEP] # # ing monopoly power , which includes allegations regarding the market power held by the antitrust defendant . i . product market conexant alleges that 3com has a 50 % share of the \" product market . \" see answer p 81 . hn19 [ ] the ninth circuit has indicated that market share is insufficient to show market power and has found that courts should also evaluate the presence of entry barriers and the inability of competitors to expand output . see rebel oil co . , inc . , v . given the court ' s finding that the conduct alleged by conexant does not state any anti - competitive conduct by 3com before the itu , the court does not reach the issue of noerr - pennington immunity . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market."
+            }
+        ]
+    },
+    {
+        "Case Index": 76,
+        "CSV File": "914 (5)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 76?",
+        "Context": "proscribed effects on united states commerce. this principle was stressed by the supreme court in matsushita : respondents also argue that the check prices, the five company rule, and the price fixing in japan are all part of one large conspiracy that includes monopolization of the american market through predatory pricing. the argument is mistaken. however one decides to describe the contours of the asserted conspiracy - - whether there is one conspiracy or several - - respondents must show that the conspiracy caused them an injury for which the antitrust laws provide relief. 241 f. 3d 420, * 427 ; 2001 u. s. app. lexis 1522, * * 20",
+        "Predicted Answer": "[SEP] proscribed effects on united states commerce . this principle was stressed by the supreme court in matsushita : respondents also argue that the check prices , the five company rule , and the price fixing in japan are all part of one large conspiracy that includes monopolization of the american market through predatory pricing . the argument is mistaken . however one decides to describe the contours of the asserted conspiracy - - whether there is one conspiracy or several - - respondents must show that the conspiracy caused them an injury for which the antitrust laws provide relief . 241 f . 3d 420 , * 427 ; 2001 u . s . app . lexis 1522 , * * 20 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 7,
+        "CSV File": "914 (6)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 7?",
+        "Context": "* * 160 ] absence of any basis for concluding that the salaries paid to the physicians are so \" excessive \" that they reflect predatory conduct under the antitrust laws. first, as noted above, in the context of the overall economic picture, the hiring of the physicians did not produce any losses. there is no evidence wesley will not recover its marginal costs in employing the physicians. similarly, judge lungstrum, citing tenth circuit decisions such as pacific engineering has concluded : \" it is clear, however, that hn16 [ ] the tenth circuit leans heavily in favor of using marginal or average variable cost in evaluating predatory pricing claims. \" bushnell corp. v. itt corp., 175 f. r. d. 584, 588 ( d. kan. 1997 ). the court concludes that the plaintiff's claims of predatory pricing must be tested against american's average variable costs. average variable cost, as a measure of predatory pricing, enjoys not only the weight of authority, it is 140 f. supp. 2d 1141, * 1198 ; 2001 u. s. dist. lexis 5689, * * 157",
+        "Predicted Answer": "[SEP] * * 160 ] absence of any basis for concluding that the salaries paid to the physicians are so \" excessive \" that they reflect predatory conduct under the antitrust laws . first , as noted above , in the context of the overall economic picture , the hiring of the physicians did not produce any losses . there is no evidence wesley will not recover its marginal costs in employing the physicians . similarly , judge lungstrum , citing tenth circuit decisions such as pacific engineering has concluded : \" it is clear , however , that hn16 [ ] the tenth circuit leans heavily in favor of using marginal or average variable cost in evaluating predatory pricing claims . \" bushnell corp . v . itt corp . , 175 f . r . d . 584 , 588 ( d . kan . 1997 ) . the court concludes that the plaintiff ' s claims of predatory pricing must be tested against american ' s average variable costs . average variable cost , as a measure of predatory pricing , enjoys not only the weight of authority , it is 140 f . supp . 2d 1141 , * 1198 ; 2001 u . s . dist . lexis 5689 , * * 157 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 7,
+        "CSV File": "914 (6)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 7?",
+        "Context": "inc. v. philadelphia newspapers, inc., 854 f. supp. 367, 376 ( e. d. pa. 1994 ) [ * * 209 ] aff'd, 51 f. 3d 1191 ( 3d cir. 1995 ). in that case, the court was also presented with the theory that the alleged predator had engaged in below - cost pricing in one market ( advertising circulars ), and that it sought to recoup its losses through its reputation in another market ( run - of - press advertisements ). the court rightly rejected such a contention. see also rockbit indus. u. s. a., inc. v. baker hughes, inc., 802 f. supp. 1544, 1552 ( s. d. tex. 1991 ) ( granting summary judgment on predatory pricing claim based on theory of predatory pricing in one market ( secondary drilling bits ) and recoupment in another ( premium drilling bits ). independently, the court also rejects the government's reputational recoupment argument since it is simply unsupported by the facts. 24 140 f. supp. 2d 1141, * 1214 ; 2001 u. s. dist. lexis 5689, * * 206",
+        "Predicted Answer": "[SEP] inc . v . philadelphia newspapers , inc . , 854 f . supp . 367 , 376 ( e . d . pa . 1994 ) [ * * 209 ] aff ' d , 51 f . 3d 1191 ( 3d cir . 1995 ) . in that case , the court was also presented with the theory that the alleged predator had engaged in below - cost pricing in one market ( advertising circulars ) , and that it sought to recoup its losses through its reputation in another market ( run - of - press advertisements ) . the court rightly rejected such a contention . see also rockbit indus . u . s . a . , inc . v . baker hughes , inc . , 802 f . supp . 1544 , 1552 ( s . d . tex . 1991 ) ( granting summary judgment on predatory pricing claim based on theory of predatory pricing in one market ( secondary drilling bits ) and recoupment in another ( premium drilling bits ) . independently , the court also rejects the government ' s reputational recoupment argument since it is simply unsupported by the facts . 24 140 f . supp . 2d 1141 , * 1214 ; 2001 u . s . dist . lexis 5689 , * * 206 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 15,
+        "CSV File": "914 (7)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 15?",
+        "Context": "10th cir. 1995 ). this court recently summarized some of the principles relating to claims of attempted monopolization by predatory pricing in united states v. amr [ * 1228 ] corp., 140 f. supp. 2d 1141 ( d. kan. 2001 ). the court noted : in brooke group [ ltd. v. brown & williamson tobacco corp., 509 u. s. 209, 125 l. ed. 2d 168, 113 s. ct. 2578 ( 1993 ), the court clearly recognized the validity, in appropriate actions, of antitrust liability for predatory pricing. at the same time, however, and in light of the combined requirements of below - cost pricing and proof of recoupment, the court noted \" the general implausibility of predatory [ * * 52 ] pricing \" in the average case. brooke, 509 u. s. at 227, 113 s. ct. 2578 ( citing matsushita elec. indus. co. v. zenith radio corp., 475 u. s. 574, 588 - 90, 106 s. ct. 1348, 89 l. ed. 2d 538 ( 1986 ) ). in matsushita, the court stressed that \" cutting prices in",
+        "Predicted Answer": "[SEP] 10th cir . 1995 ) . this court recently summarized some of the principles relating to claims of attempted monopolization by predatory pricing in united states v . amr [ * 1228 ] corp . , 140 f . supp . 2d 1141 ( d . kan . 2001 ) . the court noted : in brooke group [ ltd . v . brown & williamson tobacco corp . , 509 u . s . 209 ,",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 17,
+        "CSV File": "914 (8)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 17?",
+        "Context": "throughout his career. these qualifications render him capable under fed. r. evid. 702 to offer opinion evidence on general financial matters of newspaper business, including projected profits. the defendants focus their challenge on shaffer's methodology in reaching his lost - profits opinion. as with [ * * 28 ] the \" predatory pricing \" opinion, the defendants identify alleged flaws which, they argue, lead to inaccurate assessments of damages. this court, however, finds no specific flaw in shaffer's methodology that renders his [ * 541 ] analysis of lost profits unreliable as a matter of law. shaffer's opinion cannot be excluded simply because the defendants'expert has reached a different conclusion or applied different methods for assessing damages. certainly, the defendants may argue and present evidence showing that theirs is a more accurate statement of damages, but, at this time, the court is not persuaded to exercise its discretion and to exclude the testimony in its entirety. conclusion for the reasons stated above, it is hereby ordered that the defendants'motion to exclude the expert testimony of james b. shaffer be, and it hereby is, granted in part and denied in part as stated above. date : august 13, 2002 frederic n. smalkin chief",
+        "Predicted Answer": "[SEP] throughout his career . these qualifications render him capable under fed . r . evid . 702 to offer opinion evidence on general financial matters of newspaper business , including projected profits . the defendants focus their challenge on shaffer ' s methodology in reaching his lost - profits opinion . as with [ * * 28 ] the \" predatory pricing \" opinion , the defendants identify alleged flaws which , they argue , lead to inaccurate assessments of damages . this court , however , finds no specific flaw in shaffer ' s methodology that renders his [ * 541 ] analysis of lost profits unreliable as a matter of law . shaffer ' s opinion cannot be excluded simply because the defendants ' expert has reached a different conclusion or applied different methods for assessing damages . certainly , the defendants may argue and present evidence showing that theirs is a more accurate statement of damages , but , at this time , the court is not persuaded to exercise its discretion and to exclude the testimony in its entirety . conclusion for the reasons stated above , it is hereby ordered that the defendants ' motion to exclude the expert testimony of james b . shaffer be , and it hereby is , granted in part and denied in part as stated above . date : august 13 ,",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 71,
+        "CSV File": "914 (9)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 71?",
+        "Context": "opinion [ * 1111 ] lucero, circuit judge. this case involves the nature of permissible competitive practices in the airline industry under the antitrust laws of this country, centered around the hub - and - spoke system of american airlines. the united states brought this suit against amr corporation, american airlines, inc., and american eagle holding corporation ( \" american \" ), alleging monopolization and attempted monopolization through predatory pricing in violation of § 2 of the sherman act, 15 u. s. c. § 2. in essence, the government alleges that american engaged in multiple episodes of price predation in four city - pair airline markets, all connected to american's hub at dallas / fort worth international airport ( \" dfw \" ), with the ultimate purpose of using the reputation for predatory pricing it earned in those four markets to defend a monopoly at its dfw hub. 1 at its root, the government's complaint alleges that american : ( 1 ) priced its product on the routes in question below cost ; and ( 2 ) intended to recoup these losses by charging supracompetitive [ * * 3 ] prices either on the four core routes themselves, or on those routes where it",
+        "Predicted Answer": "[SEP] opinion [ * 1111 ] lucero , circuit judge . this case involves the nature of permissible competitive practices in the airline industry under the antitrust laws of this country , centered around the hub - and - spoke system of american airlines . the united states brought this suit against amr corporation , american airlines , inc . , and american eagle holding corporation ( \" american \" ) , alleging monopolization and attempted monopolization through predatory pricing in violation of § 2 of the sherman act , 15 u . s . c . § 2 . in essence , the government alleges that american engaged in multiple episodes of price predation in four city - pair airline markets , all connected to american ' s hub at dallas / fort worth international airport ( \" dfw \" ) , with the ultimate purpose of using the reputation for predatory pricing it earned in those four markets to defend a monopoly at its dfw hub . 1 at its root , the government ' s complaint alleges that american : ( 1 ) priced its product on the routes in question below cost ; and ( 2 ) intended to recoup these losses by charging supracompetitive [ * * 3 ] prices either on the four core routes themselves , or on those routes where it [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": 80,
+        "CSV File": "914 (9)_opinion.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 80?",
+        "Context": "practice. it is. nor is the issue whether evidence can ever be presented to satisfy the standards for proving a true instance of predatory pricing. such evidence can be marshaled in circumstances where predation has occurred. 14 [ * * * * 25 ] rather, conley's quarrel is over how predatory pricing is defined and the criteria courts must use to assess whether a particular business practice violates the prohibition against predatory pricing. brooke group sets forth a [ * * 148 ] rational and reasoned method for accomplishing this assessment. other articulations of the prerequisites for recoupment [ * * * * 24 ] under",
+        "Predicted Answer": "[SEP] practice . it is . nor is the issue whether evidence can ever be presented to satisfy the standards for proving a true instance of predatory pricing . such evidence can be marshaled in circumstances where predation has occurred . 14 [ * * * * 25 ] rather , conley ' s quarrel is over how predatory pricing is defined and the criteria courts must use to assess whether a particular business practice violates the prohibition against predatory pricing . brooke group sets forth a [ * * 148 ] rational and reasoned method for accomplishing this assessment . other articulations of the prerequisites for recoupment [ * * * * 24 ] under [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    }
+]
