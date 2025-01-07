@@ -3,10 +3,20 @@
 - [Introduction](#introduction)
 - [Key Functions and Topics](#key-functions-and-topics)
   - [Core Terms](#core-terms)
+      - [Highlights](#highlights)
+      - [How to Use](#how-to-use)
   - [Footnotes (FN)](#footnotes-fn)
+      - [Highlights](#highlights)
+      - [How to Use](#how-to-use)
   - [Headnotes (HN)](#headnotes-hn)
+      - [Highlights](#highlights)
+      - [How to Use](#how-to-use)
   - [Opinion](#opinion)
+      - [Highlights](#highlights)
+      - [How to Use](#how-to-use)
   - [Opinion by (Opn_Windows)](#opinion-by-opn_windows)
+      - [Highlights](#highlights)
+      - [How to Use](#how-to-use)
   - [Fine-tune Models](#fine-tune-models)
     - [Training Setup](#training-setup)
     - [Evaluation Metrics](#evaluation-metrics)
@@ -15,13 +25,13 @@
     - [Inference Pipeline](#inference-pipeline)
     - [Knowledge Graph Integration](#knowledge-graph-integration)
     - [Performance Analysis](#performance-analysis)
-- [Highlights](#highlights)
-- [How to Use](#how-to-use)
+      - [Highlights](#highlights)
+      - [How to Use](#how-to-use)
   - [Single File Extraction](#single-file-extraction)
   - [Batch Processing](#batch-processing)
   - [Merging CSV Files](#merging-csv-files)
-- [Summary](#summary)
-- [Code Implementation](#code-implementation)
+      - [Summary](#summary)
+      - [Code Implementation](#code-implementation)
 
 
 
@@ -929,109 +939,1041 @@ merge_opinion_by_csv(
 ---
 
 ## Code Implementation
+### 導入HuggingFace Model
+```python
+from transformers import BertTokenizer, BertForQuestionAnswering
 
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+# 加載預訓練的 BERT 模型和分詞器
+model_name = "bert-large-uncased-whole-word-masking-finetuned-squad"
+tokenizer = BertTokenizer.from_pretrained(model_name)
+model = BertForQuestionAnswering.from_pretrained(model_name)
+```
 
-def inference_pipeline(model_name, input_texts, max_length=128, temperature=1.0, top_k=50):
-    """
-    執行推理管線，使用 LLM 模型生成答案。
+```
+### 合併DataFrame
+```python
+import os
+import pandas as pd
 
-    :param model_name: 模型名稱或路徑
-    :param input_texts: 待處理的文本列表
-    :param max_length: 生成文本的最大長度
-    :param temperature: 生成過程中的隨機性控制參數
-    :param top_k: 生成過程中考慮的最可能候選數
-    :return: 生成的答案列表
-    """
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+# 指定資料夾路徑
+folder_path = r'C:\Users\User\Dropbox\textmining1\Data2_Opinion_low'  # 替換成您的資料夾路徑
+
+# 遍歷資料夾中的所有 CSV 文件
+csv_files = [f for f in os.listdir(folder_path) if f.endswith('_opinion.csv')]
+
+# 用來儲存所有 CSV 的列表
+dataframes = []
+
+# 讀取每個 CSV 文件並加載到 DataFrame 中
+for csv_file in csv_files:
+    file_path = os.path.join(folder_path, csv_file)
+    df = pd.read_csv(file_path)  # 讀取 CSV
+    dataframes.append(df)  # 將 DataFrame 添加到列表中
+
+# 如果需要，將所有 DataFrame 合併成一個大的 DataFrame
+final_df = pd.concat(dataframes, ignore_index=True)
+
+
+# 顯示合併後的 DataFrame
+print(final_df)
+
+```
+### 導入必要的庫和設置
+```python
+# 1. Import necessary libraries
+import os
+import pandas as pd
+from transformers import BertTokenizer
+from sklearn.model_selection import train_test_split
+from datasets import Dataset
+from tqdm.notebook import tqdm  # 用於顯示進度條
+
+# 2. Load tokenizer
+tokenizer = BertTokenizer.from_pretrained('nlpaueb/legal-bert-base-uncased')
+# 加載模型並將其移動到 GPU (如果有)
+model = BertForQuestionAnswering.from_pretrained('nlpaueb/legal-bert-base-uncased')
+model.to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
+
+```
+### 讀取所有 CSV 文件並合併
+```python
+# 3. Set folder path and read CSV files
+folder_path = "file_path.csv"  # 替換成您的資料夾路徑
+
+# Get all CSV files in the folder
+csv_files = [f for f in os.listdir(folder_path) if f.endswith('_opinion.csv')]
+
+# Initialize list to store dataframes
+dataframes = []
+
+# Read each CSV file and append it to the list
+for csv_file in tqdm(csv_files, desc="Reading CSV files"):
+    file_path = os.path.join(folder_path, csv_file)
+    df = pd.read_csv(file_path)  # Read CSV
+    dataframes.append(df)  # Add DataFrame to the list
+
+# Merge all dataframes into one large dataframe
+final_df = pd.concat(dataframes, ignore_index=True)
+
+# Display merged dataframe
+print(final_df.head())
+
+```
+### 裁剪文本並創建問答對
+```python
+# 4. Function to split text into chunks (max_length 512 tokens)
+def split_text_into_chunks(text, max_length=256):
+    # Tokenize the text, do not truncate yet
+    tokens = tokenizer.encode(text, truncation=False)
     
-    results = []
-    for text in input_texts:
-        inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True, max_length=max_length)
-        outputs = model.generate(inputs['input_ids'], max_length=max_length, temperature=temperature, top_k=top_k)
-        result = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        results.append(result)
-    return results
+    chunks = []
+    
+    # Split the tokens into chunks of size max_length
+    while len(tokens) > max_length:
+        chunk = tokens[:max_length]  # First chunk of max_length tokens
+        chunks.append(chunk)         # Append the chunk to the list
+        tokens = tokens[max_length:] # Remaining tokens to be processed
+    
+    # If there are leftover tokens, process them
+    if len(tokens) > 0:
+        chunks.append(tokens)
+    
+    # Ensure that each chunk is strictly max_length or less
+    chunks = [chunk[:max_length] for chunk in chunks]  # Ensure no chunk exceeds max_length
+    
+    return chunks
 
-# 使用範例
-model_name = "t5-base"
-input_texts = ["What is the capital of France?", "Explain quantum entanglement."]
-results = inference_pipeline(model_name, input_texts)
-print(results)
+```
+```python
+# 5. Create Q&A pairs and split the text
+train_data = []
+for _, row in tqdm(final_df.iterrows(), total=final_df.shape[0], desc="Processing text"):
+    case_index = row['Case Index']
+    paragraph = row['Paragraph']
+    
+    # Split paragraph into chunks
+    paragraph_chunks = split_text_into_chunks(paragraph)
+    
+    for chunk in paragraph_chunks:
+        # Decode tokens back to text
+        context = tokenizer.decode(chunk, skip_special_tokens=True)
+        
+        # Create question and answer pair
+        question = f"What is the judge's opinion regarding entry barriers in case {case_index}?"
+        train_data.append({"question": question, "context": context, "answer": context})
+        
+        # If prosecutor's argument is involved
+        question_prosecutor = f"What is the prosecutor's argument regarding entry barriers in case {case_index}?"
+        train_data.append({"question": question_prosecutor, "context": context, "answer": context})
 
+```
+### 檢查裁切文本長度
+#### 檢查段落的長度
+```python
+# 假設您已經有一個處理過的 DataFrame `final_df` 和 `tokenizer`
+def check_token_lengths(final_df, tokenizer, max_length=512):
+    for _, row in df.iterrows():
+        paragraph = row['Paragraph']
+        
+        # Tokenize the paragraph to check the length
+        inputs = tokenizer(paragraph, truncation=True, padding='max_length', max_length=max_length, return_tensors='pt')
+        
+        # Print the length of tokens after tokenization
+        print(f"Original length: {len(paragraph)} characters")
+        print(f"Tokenized length: {len(inputs['input_ids'][0])} tokens")
+        print(f"Tokenized text (first 50 tokens): {inputs['input_ids'][0][:50]}")  # Display first 50 tokens
+        
+# 執行檢查
+check_token_lengths(final_df, tokenizer)
+
+```
+
+#### 確保文本正確裁剪
+```python
+def split_text_into_chunks(text, max_length=256):
+    tokens = tokenizer.encode(text, truncation=False)  # 不進行裁剪，先取得所有tokens
+    print(f"Total tokens before splitting: {len(tokens)}")
+    chunks = []
+    
+    # If the text exceeds max_length, split it
+    while len(tokens) > max_length:
+        chunk = tokens[:max_length]
+        chunks.append(chunk)
+        tokens = tokens[max_length:]
+    
+    # Add any remaining tokens
+    if len(tokens) > 0:
+        chunks.append(tokens)
+    
+    print(f"Number of chunks after splitting: {len(chunks)}")
+    print(f"Tokens in the first chunk: {len(chunks[0])}")
+    return chunks
+
+# Example of splitting a long paragraph
+example_paragraph = final_df.iloc[0]['Paragraph']  # Example paragraph from the dataset
+split_chunks = split_text_into_chunks(example_paragraph)
+
+```
+
+#### 驗證裁剪後的文本內容
+```python
+def check_split_chunks(chunks, tokenizer):
+    for i, chunk in enumerate(chunks):
+        text = tokenizer.decode(chunk, skip_special_tokens=True)  # Decode the chunk back to text
+        print(f"Chunk {i+1}: {text[:100]}...")  # Display first 100 characters of each chunk
+
+# Check chunks for a specific paragraph
+check_split_chunks(split_chunks, tokenizer)
+
+```
+
+### 分割訓練集和測試集
+```python
+# 6. Split the data into train and validation sets
+train_data, val_data = train_test_split(train_data, test_size=0.2, random_state=42)
+
+# Convert to Hugging Face Dataset format
+train_dataset = Dataset.from_dict({
+    "question": [entry["question"] for entry in train_data],
+    "context": [entry["context"] for entry in train_data],
+    "answer": [entry["answer"] for entry in train_data],
+})
+
+val_dataset = Dataset.from_dict({
+    "question": [entry["question"] for entry in val_data],
+    "context": [entry["context"] for entry in val_data],
+    "answer": [entry["answer"] for entry in val_data],
+})
+
+```
+```python
+from transformers import BertTokenizer  # 確保導入BertTokenizer
+import torch
+from datasets import Dataset
+
+# Initialize tokenizer
+tokenizer = BertTokenizer.from_pretrained('nlpaueb/legal-bert-base-uncased')
+
+# Function to split text into chunks (max_length 512 tokens)
+def split_text_into_chunks(text, max_length=256):
+    tokens = tokenizer.encode(text, truncation=False)  # Don't truncate yet, just get all tokens
+    chunks = []
+    
+    # Split the tokens into chunks of size max_length
+    while len(tokens) > max_length:
+        chunk = tokens[:max_length]
+        chunks.append(chunk)
+        tokens = tokens[max_length:]
+    
+    # Add any remaining tokens
+    if len(tokens) > 0:
+        chunks.append(tokens)
+    
+    print(f"Total tokens before splitting: {len(tokens)}")
+    print(f"Number of chunks after splitting: {len(chunks)}")
+    print(f"Tokens in the first chunk: {len(chunks[0])}")
+    return chunks
+
+# Example usage: Process a specific paragraph from the dataframe
+example_paragraph = "This is an example paragraph. It will be tokenized and split into chunks."
+split_chunks = split_text_into_chunks(example_paragraph)
+```
+
+### 進行tokenization -> 生成 start/end positions -> 將數據移到GPU
+```python
+def tokenize_and_find_answers(examples, tokenizer):
+    # Tokenizer 需要傳遞的資料
+    questions = examples['question']
+    contexts = examples['context']
+    
+    # 用 tokenizer 處理問題和上下文
+    inputs = tokenizer(questions, contexts, truncation=True, padding='max_length', max_length=512, return_tensors='pt')
+
+    # 處理每個上下文中的範例
+    start_positions = []
+    end_positions = []
+    
+    for i, context in enumerate(examples['context']):
+        answer = examples['answer'][i]
+        
+        # 找到答案在上下文中的位置
+        start_position = context.find(answer)
+        end_position = start_position + len(answer)
+
+        # 調整位置來符合 tokenized 輸入
+        start_token_pos = len(tokenizer.encode(context[:start_position], truncation=True, padding='max_length', max_length=512)) - 1
+        end_token_pos = len(tokenizer.encode(context[:end_position], truncation=True, padding='max_length', max_length=512)) - 1
+
+        start_positions.append(start_token_pos)
+        end_positions.append(end_token_pos)
+
+    # 使用 torch.tensor 將位置轉為 PyTorch 張量
+    inputs['start_positions'] = torch.tensor(start_positions)
+    inputs['end_positions'] = torch.tensor(end_positions)
+
+    return inputs
+
+```
+```python
+from transformers import BertTokenizer
+import torch
+
+# Load tokenizer once
+tokenizer = BertTokenizer.from_pretrained('nlpaueb/legal-bert-base-uncased')
+
+# Use device (GPU if available)
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+def tokenize_and_find_answers(examples, tokenizer):
+    # Extract questions and contexts from the batch (which are lists)
+    questions = examples['question']
+    contexts = examples['context']
+    
+    # Tokenize the batch of questions and contexts
+    inputs = tokenizer(questions, contexts, truncation=True, padding='max_length', max_length=512, return_tensors='pt')
+    
+    # Initialize lists to store start and end positions
+    start_positions = []
+    end_positions = []
+    
+    # For each example in the batch, calculate the start and end positions of the answer
+    for i in range(len(contexts)):
+        context = contexts[i]
+        answer = examples['answer'][i]
+        
+        # Find the start and end position of the answer within the context
+        start_position = context.find(answer)
+        end_position = start_position + len(answer)
+        
+        # Adjust positions for the tokenized input
+        start_token_pos = len(tokenizer.encode(context[:start_position], truncation=True, padding='max_length', max_length=512)) - 1
+        end_token_pos = len(tokenizer.encode(context[:end_position], truncation=True, padding='max_length', max_length=512)) - 1
+        
+        start_positions.append(start_token_pos)
+        end_positions.append(end_token_pos)
+    
+    # Convert the positions to tensors and add them to the inputs
+    inputs['start_positions'] = torch.tensor(start_positions).to(device)
+    inputs['end_positions'] = torch.tensor(end_positions).to(device)
+
+    return inputs
+
+# 進行批次處理，這次確保處理的是批次資料
+train_dataset = train_dataset.map(
+    tokenize_and_find_answers, 
+    remove_columns=["question", "context", "answer"], 
+    num_proc=1,  # Parallel processing
+    batched=True,  # Process in batches
+    fn_kwargs={'tokenizer': tokenizer}  # Pass tokenizer explicitly
+)
+
+val_dataset = val_dataset.map(
+    tokenize_and_find_answers, 
+    remove_columns=["question", "context", "answer"], 
+    num_proc=1,  # Parallel processing
+    batched=True,  # Process in batches
+    fn_kwargs={'tokenizer': tokenizer}  # Pass tokenizer explicitly
+)
+```
+
+### 開始訓練
+```python
+from transformers import BertForQuestionAnswering, Trainer, TrainingArguments
+
+# 載入模型
+model = BertForQuestionAnswering.from_pretrained('nlpaueb/legal-bert-base-uncased')
+
+# 設置訓練參數
+training_args = TrainingArguments(
+    output_dir="./results",
+    evaluation_strategy="epoch",
+    learning_rate=2e-5,
+    fp16=True,
+    per_device_train_batch_size=16,
+    per_device_eval_batch_size=16,
+    num_train_epochs=3,
+    weight_decay=0.01,
+    logging_dir="./logs",
+)
+
+# 設置 Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=val_dataset,
+)
+ 
+# 開始訓練
+trainer.train()
+
+```
+#### 評估
+```python
+trainer.evaluate()
+```
+### 進行推理
+```python
+
+```
+#### 加載新的Validation Data進行測試並切割判例段落防止Token length太長
+```python
+import os
+import pandas as pd
+from tqdm import tqdm
+from transformers import BertTokenizer
+
+# 設置文件夾路徑
+folder_path = 'Data2_Opinion_valid'
+
+# 初始化分詞器
+tokenizer = BertTokenizer.from_pretrained('nlpaueb/legal-bert-base-uncased')
+
+def preprocess_and_split_with_overlap(text, max_length=256, stride=128):
+    """
+    使用滑動窗口切割長文本，保留一定的上下文重疊。
+    
+    Args:
+        text (str): 待切割的文本。
+        max_length (int): 每個段落的最大 token 長度。
+        stride (int): 滑動窗口的步長，重疊部分長度 = max_length - stride。
+        
+    Returns:
+        list: 切割後的文本段列表。
+    """
+    tokens = tokenizer.encode(text, truncation=False)  # 不截斷，獲取所有 tokens
+    chunks = []
+    start = 0
+    while start < len(tokens):
+        end = min(start + max_length, len(tokens))
+        chunk = tokens[start:end]  # 當前窗口的 tokens
+        chunks.append(chunk)
+        if end == len(tokens):  # 最後一段退出
+            break
+        start += stride  # 滑動窗口開始位置
+    # 將 tokens 解碼回文本
+    return [tokenizer.decode(chunk, skip_special_tokens=True) for chunk in chunks]
+
+# 初始化列表存放處理後的數據
+processed_data = []
+
+# 讀取文件夾中的 CSV 文件
+csv_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
+
+# 遍歷 CSV 文件並顯示進度條
+for csv_file in tqdm(csv_files, desc="Processing CSV Files"):
+    file_path = os.path.join(folder_path, csv_file)
+    df = pd.read_csv(file_path)
+    
+    # 遍歷 DataFrame 中的每行並顯示進度條
+    for _, row in tqdm(df.iterrows(), total=df.shape[0], desc=f"Processing {csv_file}", leave=False):
+        case_index = row['Case Index']  # 替換成您的列名
+        paragraph = row['Paragraph']    # 替換成您的列名
+        
+        # 對段落進行處理和滑動窗口切割
+        chunks = preprocess_and_split_with_overlap(paragraph)
+        
+        for i, chunk in enumerate(chunks):
+            processed_data.append({
+                'CSV File': csv_file,  # 添加 CSV 文件名稱
+                'Case Index': case_index,
+                'Chunk ID': i,
+                'Chunk Text': chunk
+            })
+
+# 將處理後的數據轉為 DataFrame 並保存
+processed_df = pd.DataFrame(processed_data)
+processed_df.to_csv('Processed_Opinion.csv', index=False)
+
+print("處理完成，已保存為 'Processed_Opinion.csv'")
+
+```
+#### 加載模型、知識圖譜, 定義檢索知識圖譜函數、RAG測試Pipeline、預測函數
+```python
+import pandas as pd
 import json
+from tqdm import tqdm
+from transformers import BertForQuestionAnswering, BertTokenizer
+import torch
 
-def integrate_knowledge_graph(answer, knowledge_graph_path):
+# 加載微調後的模型
+model = BertForQuestionAnswering.from_pretrained("./fine_tuned_model")
+tokenizer = BertTokenizer.from_pretrained("./fine_tuned_model")
+
+# 加載知識圖譜
+with open("definition.json", "r", encoding="utf-8-sig") as f:
+    knowledge_graph = json.load(f)
+
+# 建立名稱到定義的映射
+name_to_definition = {item["Name"]: item["Definition"] for item in knowledge_graph}
+
+print(f"Loaded knowledge graph with {len(knowledge_graph)} entries.")
+
+# 定義檢索知識圖譜的函數
+
+def retrieve_from_knowledge_graph(answer, knowledge_graph):
     """
-    將知識圖譜中的概念與模型生成的答案進行匹配。
-
-    :param answer: 模型生成的答案
-    :param knowledge_graph_path: 知識圖譜文件路徑 (JSON 格式)
-    :return: 匹配到的相關知識點
+    根據模型的答案在知識圖譜中進行檢索。
     """
-    with open(knowledge_graph_path, 'r') as file:
-        knowledge_graph = json.load(file)
+    related_definitions = []
+    for entry in knowledge_graph:
+        if entry["Name"].lower() in answer.lower():
+            related_definitions.append(entry)
+    
+    return related_definitions if related_definitions else [{"Name": "No Match", "Definition": "No related definition found."}]
 
-    matched_concepts = []
-    for concept, definition in knowledge_graph.items():
-        if concept.lower() in answer.lower():
-            matched_concepts.append((concept, definition))
-    return matched_concepts
+# 定義 RAG 測試管線
 
-# 使用範例
-knowledge_graph_path = "knowledge_graph.json"
-answer = "Quantum entanglement involves two particles sharing a state."
-matched_knowledge = integrate_knowledge_graph(answer, knowledge_graph_path)
-print(matched_knowledge)
-
-from rouge import Rouge
-from nltk.translate.bleu_score import sentence_bleu
-
-def evaluate_performance(predictions, references):
+def rag_test_pipeline(row, model, tokenizer, knowledge_graph):
     """
-    評估模型生成結果的性能，使用 BLEU 和 ROUGE 指標。
-
-    :param predictions: 模型生成的答案列表
-    :param references: 真實答案的列表
-    :return: 包含 BLEU 和 ROUGE 的評估結果
+    單條測試管線，適配切割後的資料。
     """
-    # 計算 BLEU
-    bleu_scores = [sentence_bleu([ref.split()], pred.split()) for pred, ref in zip(predictions, references)]
-
-    # 計算 ROUGE
-    rouge = Rouge()
-    rouge_scores = rouge.get_scores(predictions, references, avg=True)
-
+    csv_file = row['CSV File']  # 新增：來源文件名稱
+    case_index = row['Case Index']
+    paragraph = row['Chunk Text']
+    
+    # 定義測試問題
+    question = f"What is the judge's opinion regarding entry barriers in case {case_index}?"
+    
+    # 預測答案
+    inputs = tokenizer.encode_plus(question, paragraph, return_tensors="pt", max_length=512, truncation=True)
+    outputs = model(**inputs)
+    
+    answer_start = torch.argmax(outputs.start_logits)
+    answer_end = torch.argmax(outputs.end_logits) + 1
+    input_ids = inputs["input_ids"].tolist()[0]
+    
+    answer = tokenizer.convert_tokens_to_string(
+        tokenizer.convert_ids_to_tokens(input_ids[answer_start:answer_end])
+    )
+    
+    # 檢索知識圖譜
+    related_definitions = retrieve_from_knowledge_graph(answer, knowledge_graph)
+    
     return {
-        "BLEU": sum(bleu_scores) / len(bleu_scores),
-        "ROUGE": rouge_scores
+        "CSV File": csv_file,  # 新增：來源文件名稱
+        "Case Index": case_index,
+        "Question": question,
+        "Predicted Answer": answer,
+        "Knowledge Graph Result": related_definitions
     }
 
-# 使用範例
-predictions = ["Paris is the capital of France.", "Quantum entanglement is a physics phenomenon."]
-references = ["The capital of France is Paris.", "Quantum entanglement describes a physics phenomenon."]
-evaluation_results = evaluate_performance(predictions, references)
-print(evaluation_results)
+# 批量處理的預測函數
 
-# 模型推理
-input_texts = ["What is quantum entanglement?", "What is the capital of Germany?"]
-predictions = inference_pipeline(model_name, input_texts)
+def batch_predict(model, tokenizer, questions, contexts, batch_size=16):
+    """
+    批量處理問題和上下文，進行預測
+    """
+    predictions = []
+    for i in tqdm(range(0, len(questions), batch_size), desc="Predicting"):
+        batch_questions = questions[i:i + batch_size]
+        batch_contexts = contexts[i:i + batch_size]
+        
+        # 編碼輸入
+        inputs = tokenizer(batch_questions, batch_contexts, return_tensors="pt", 
+                           padding=True, truncation=True, max_length=512)
+        inputs = {key: val.to(device) for key, val in inputs.items()}  # 移動到 GPU
+        
+        # 模型推理
+        with torch.no_grad():
+            outputs = model(**inputs)
+        
+        # 提取答案位置
+        for j in range(len(batch_questions)):
+            start = torch.argmax(outputs.start_logits[j]).item()
+            end = torch.argmax(outputs.end_logits[j]).item() + 1
+            input_ids = inputs["input_ids"][j].tolist()
+            prediction = tokenizer.convert_tokens_to_string(
+                tokenizer.convert_ids_to_tokens(input_ids[start:end])
+            )
+            predictions.append(prediction)
+    
+    return predictions
 
-# 知識圖譜集成
-knowledge_graph_path = "knowledge_graph.json"
-for prediction in predictions:
-    matched_concepts = integrate_knowledge_graph(prediction, knowledge_graph_path)
-    print(f"Prediction: {prediction}")
-    print(f"Matched Knowledge: {matched_concepts}")
+```
+#### 加載處理過的驗證數據並執行測試
+```python
+# 加載處理後的數據
+valid_data = pd.read_csv("Processed_Opinion.csv")
 
-# 性能評估
-references = ["Quantum entanglement describes a relationship between particles.", "Berlin is the capital of Germany."]
-evaluation = evaluate_performance(predictions, references)
-print("Evaluation Results:", evaluation)
+# 提取問題和上下文，並加入文件名
+questions = [f"What is the judge's opinion regarding entry barriers in case {case}?" 
+             for case in valid_data["Case Index"]]
+contexts = valid_data["Chunk Text"].tolist()
+csv_files = valid_data["CSV File"].tolist()  # 使用 'CSV File' 列
 
+print(f"Loaded {len(questions)} samples for validation.")
 
+# 移動模型到 GPU
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
 
+# 執行批量預測
+predicted_answers = batch_predict(model, tokenizer, questions, contexts)
 
+## 知識圖譜檢索
+def generate_results_with_csv(valid_data, questions, contexts, csv_files, predicted_answers, knowledge_graph):
+    """
+    將驗證數據和模型預測結果封裝成包含 Case Index 和 CSV 文件名的結果列表。
+    """
+    results = []
+    for case_index, csv_file, question, context, prediction in zip(valid_data["Case Index"], csv_files, questions, contexts, predicted_answers):
+        related_definitions = retrieve_from_knowledge_graph(prediction, knowledge_graph)
+        results.append({
+            "Case Index": case_index,
+            "CSV File": csv_file,  # 包含 CSV 文件名
+            "Question": question,
+            "Context": context,
+            "Predicted Answer": prediction,
+            "Knowledge Graph Result": related_definitions
+        })
+    return results
 
+# 調用函數生成 results
+results = generate_results_with_csv(valid_data, questions, contexts, csv_files, predicted_answers, knowledge_graph)
 
+```
+```python
+# 將結果保存為 JSON 文件
+import json
+with open("RAG_Test_Results_With_CSV_File.json", "w", encoding="utf-8") as f:
+    json.dump(results, f, ensure_ascii=False, indent=4)
+
+print("Results saved to 'RAG_Test_Results_With_CSV_File.json'")
+
+```
+#### 查看Match的數據
+```python
+# 載入保存的結果
+import json
+
+with open("RAG_Test_Results_With_CSV_File.json", "r", encoding="utf-8") as f:
+    results = json.load(f)
+
+# 過濾有匹配的結果
+matched_results = [
+    result for result in results if result["Knowledge Graph Result"][0]["Name"] != "No Match"
+]
+
+# 列出有匹配的結果
+print(f"Found {len(matched_results)} matched results.")
+for result in matched_results:
+    print("CSV File", result["CSV File"])   
+    print(f"Case Index: {result['Case Index']}")  # 包含 Case Index
+    print(f"Question: {result['Question']}")
+    print(f"Context: {result['Context'][:500]}...")
+    print(f"Predicted Answer: {result['Predicted Answer']}")
+    print(f"Knowledge Graph Result: {result['Knowledge Graph Result']}")
+    print("=" * 50)
+
+```
+## 引用Finetune模型直接推理
+```python
+import os
+import pandas as pd
+from tqdm import tqdm
+from transformers import BertTokenizer
+
+# 設置文件夾路徑
+folder_path = 'Data1_Opinion'
+
+# 初始化分詞器
+tokenizer = BertTokenizer.from_pretrained('nlpaueb/legal-bert-base-uncased')
+
+def preprocess_and_split_with_overlap(text, max_length=256, stride=128):
+    """
+    使用滑動窗口切割長文本，保留一定的上下文重疊。
+    
+    Args:
+        text (str): 待切割的文本。
+        max_length (int): 每個段落的最大 token 長度。
+        stride (int): 滑動窗口的步長，重疊部分長度 = max_length - stride。
+        
+    Returns:
+        list: 切割後的文本段列表。
+    """
+    tokens = tokenizer.encode(text, truncation=False)  # 不截斷，獲取所有 tokens
+    chunks = []
+    start = 0
+    while start < len(tokens):
+        end = min(start + max_length, len(tokens))
+        chunk = tokens[start:end]  # 當前窗口的 tokens
+        chunks.append(chunk)
+        if end == len(tokens):  # 最後一段退出
+            break
+        start += stride  # 滑動窗口開始位置
+    # 將 tokens 解碼回文本
+    return [tokenizer.decode(chunk, skip_special_tokens=True) for chunk in chunks]
+
+# 初始化列表存放處理後的數據
+processed_data = []
+
+# 讀取文件夾中的 CSV 文件
+csv_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
+
+# 遍歷 CSV 文件並顯示進度條
+for csv_file in tqdm(csv_files, desc="Processing CSV Files"):
+    file_path = os.path.join(folder_path, csv_file)
+    df = pd.read_csv(file_path)
+    
+    # 遍歷 DataFrame 中的每行並顯示進度條
+    for _, row in tqdm(df.iterrows(), total=df.shape[0], desc=f"Processing {csv_file}", leave=False):
+        case_index = row['Case Index']  # 替換成您的列名
+        paragraph = row['Paragraph']    # 替換成您的列名
+        
+        # 對段落進行處理和滑動窗口切割
+        chunks = preprocess_and_split_with_overlap(paragraph)
+        
+        for i, chunk in enumerate(chunks):
+            processed_data.append({
+                'CSV File': csv_file,  # 添加 CSV 文件名稱
+                'Case Index': case_index,
+                'Chunk ID': i,
+                'Chunk Text': chunk
+            })
+
+# 將處理後的數據轉為 DataFrame 並保存
+processed_df = pd.DataFrame(processed_data)
+processed_df.to_csv('Processed_Opinion_Data1.csv', index=False)
+
+print("處理完成，已保存為 'Processed_Opinion_Data1.csv'")
+
+```
+
+```python
+import pandas as pd
+import json
+from tqdm import tqdm
+from transformers import BertForQuestionAnswering, BertTokenizer
+import torch
+
+# 加載微調後的模型
+model = BertForQuestionAnswering.from_pretrained("./fine_tuned_model")
+tokenizer = BertTokenizer.from_pretrained("./fine_tuned_model")
+
+# 加載知識圖譜
+with open("definition.json", "r", encoding="utf-8-sig") as f:
+    knowledge_graph = json.load(f)
+
+# 建立名稱到定義的映射
+name_to_definition = {item["Name"]: item["Definition"] for item in knowledge_graph}
+
+print(f"Loaded knowledge graph with {len(knowledge_graph)} entries.")
+
+# 定義檢索知識圖譜的函數
+
+def retrieve_from_knowledge_graph(answer, knowledge_graph):
+    """
+    根據模型的答案在知識圖譜中進行檢索。
+    """
+    related_definitions = []
+    for entry in knowledge_graph:
+        if entry["Name"].lower() in answer.lower():
+            related_definitions.append(entry)
+    
+    return related_definitions if related_definitions else [{"Name": "No Match", "Definition": "No related definition found."}]
+
+# 定義 RAG 測試管線
+
+def rag_test_pipeline(row, model, tokenizer, knowledge_graph):
+    """
+    單條測試管線，適配切割後的資料。
+    """
+    csv_file = row['CSV File']  # 新增：來源文件名稱
+    case_index = row['Case Index']
+    paragraph = row['Chunk Text']
+    
+    # 定義測試問題
+    question = f"What is the judge's opinion regarding entry barriers in case {case_index}?"
+    
+    # 預測答案
+    inputs = tokenizer.encode_plus(question, paragraph, return_tensors="pt", max_length=512, truncation=True)
+    outputs = model(**inputs)
+    
+    answer_start = torch.argmax(outputs.start_logits)
+    answer_end = torch.argmax(outputs.end_logits) + 1
+    input_ids = inputs["input_ids"].tolist()[0]
+    
+    answer = tokenizer.convert_tokens_to_string(
+        tokenizer.convert_ids_to_tokens(input_ids[answer_start:answer_end])
+    )
+    
+    # 檢索知識圖譜
+    related_definitions = retrieve_from_knowledge_graph(answer, knowledge_graph)
+    
+    return {
+        "CSV File": csv_file,  # 新增：來源文件名稱
+        "Case Index": case_index,
+        "Question": question,
+        "Predicted Answer": answer,
+        "Knowledge Graph Result": related_definitions
+    }
+
+# 批量處理的預測函數
+
+def batch_predict(model, tokenizer, questions, contexts, batch_size=16):
+    """
+    批量處理問題和上下文，進行預測
+    """
+    predictions = []
+    for i in tqdm(range(0, len(questions), batch_size), desc="Predicting"):
+        batch_questions = questions[i:i + batch_size]
+        batch_contexts = contexts[i:i + batch_size]
+        
+        # 編碼輸入
+        inputs = tokenizer(batch_questions, batch_contexts, return_tensors="pt", 
+                           padding=True, truncation=True, max_length=512)
+        inputs = {key: val.to(device) for key, val in inputs.items()}  # 移動到 GPU
+        
+        # 模型推理
+        with torch.no_grad():
+            outputs = model(**inputs)
+        
+        # 提取答案位置
+        for j in range(len(batch_questions)):
+            start = torch.argmax(outputs.start_logits[j]).item()
+            end = torch.argmax(outputs.end_logits[j]).item() + 1
+            input_ids = inputs["input_ids"][j].tolist()
+            prediction = tokenizer.convert_tokens_to_string(
+                tokenizer.convert_ids_to_tokens(input_ids[start:end])
+            )
+            predictions.append(prediction)
+    
+    return predictions
+
+# 加載處理後的數據
+valid_data = pd.read_csv("Processed_Opinion_Data1.csv")
+
+# 提取問題和上下文，並加入文件名
+questions = [f"What is the judge's opinion regarding entry barriers in case {case}?" 
+             for case in valid_data["Case Index"]]
+contexts = valid_data["Chunk Text"].tolist()
+csv_files = valid_data["CSV File"].tolist()  # 使用 'CSV File' 列
+
+print(f"Loaded {len(questions)} samples for validation.")
+
+# 移動模型到 GPU
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+
+# 執行批量預測
+predicted_answers = batch_predict(model, tokenizer, questions, contexts)
+
+## 知識圖譜檢索
+def generate_results_with_csv(valid_data, questions, contexts, csv_files, predicted_answers, knowledge_graph):
+    """
+    將驗證數據和模型預測結果封裝成包含 Case Index 和 CSV 文件名的結果列表。
+    """
+    results = []
+    for case_index, csv_file, question, context, prediction in zip(valid_data["Case Index"], csv_files, questions, contexts, predicted_answers):
+        related_definitions = retrieve_from_knowledge_graph(prediction, knowledge_graph)
+        results.append({
+            "Case Index": case_index,
+            "CSV File": csv_file,  # 包含 CSV 文件名
+            "Question": question,
+            "Context": context,
+            "Predicted Answer": prediction,
+            "Knowledge Graph Result": related_definitions
+        })
+    return results
+
+# 調用函數生成 results
+results = generate_results_with_csv(valid_data, questions, contexts, csv_files, predicted_answers, knowledge_graph)
+
+```
+
+```python
+# 將結果保存為 JSON 文件
+import json
+with open("RAG_Test_Results_With_CSV_File_Data1.json", "w", encoding="utf-8") as f:
+    json.dump(results, f, ensure_ascii=False, indent=4)
+
+print("Results saved to 'RAG_Test_Results_With_CSV_File_Data1.json'")
+
+# 查看部分結果
+for result in results[:5]:
+    print("CSV File", result["CSV File"])
+    print("Case Index:", result["Case Index"])  # 新增 Case Index 的輸出
+    print("Question:", result["Question"])
+    print("Predicted Answer:", result["Predicted Answer"])
+    print("Knowledge Graph Result:", result["Knowledge Graph Result"])
+    print("=" * 50)
+
+```
+#### 顯示Match數據
+```python
+# 載入保存的結果
+import json
+
+with open("RAG_Test_Results_With_CSV_File_Data1.json", "r", encoding="utf-8") as f:
+    results = json.load(f)
+
+# 過濾有匹配的結果
+matched_results = [
+    result for result in results if result["Knowledge Graph Result"][0]["Name"] != "No Match"
+]
+
+# 列出有匹配的結果
+print(f"Found {len(matched_results)} matched results.")
+for result in matched_results:
+    print("CSV File", result["CSV File"])   
+    print(f"Case Index: {result['Case Index']}")  # 包含 Case Index
+    print(f"Question: {result['Question']}")
+    print(f"Context: {result['Context'][:500]}...")
+    print(f"Predicted Answer: {result['Predicted Answer']}")
+    print(f"Knowledge Graph Result: {result['Knowledge Graph Result']}")
+    print("=" * 50)
+
+```
+## 所有DATA檢索與擴展知識圖譜
+```python
+import os
+import pandas as pd
+import json
+from tqdm import tqdm
+from transformers import BertForQuestionAnswering, BertTokenizer
+import torch
+
+# 加載微調後的模型
+model = BertForQuestionAnswering.from_pretrained("./fine_tuned_model")
+tokenizer = BertTokenizer.from_pretrained("./fine_tuned_model")
+
+# 加載知識圖譜
+with open("definition_moreinfo.json", "r", encoding="utf-8-sig") as f:
+    knowledge_graph = json.load(f)
+
+# 建立名稱到定義的映射
+name_to_definition = {item["Name"]: item["Definition"] for item in knowledge_graph}
+
+print(f"Loaded knowledge graph with {len(knowledge_graph)} entries.")
+
+# 定義檢索知識圖譜的函數
+def retrieve_from_knowledge_graph(answer, knowledge_graph):
+    related_definitions = []
+    for entry in knowledge_graph:
+        # 獲取名稱和同義詞
+        synonyms = entry.get("Synonyms", [])
+        terms_to_match = [entry["Name"]] + synonyms
+
+        # 名稱或同義詞匹配
+        if any(term.lower() in answer.lower() for term in terms_to_match):
+            related_definitions.append(entry)
+            continue
+
+        # 定義關鍵詞匹配
+        if entry["Definition"].lower() in answer.lower():
+            related_definitions.append(entry)
+
+    return related_definitions if related_definitions else [{"Name": "No Match", "Definition": "No related definition found."}]
+
+# 定義批量處理函數，新增檢索結合
+def batch_predict_with_retrieval(model, tokenizer, questions, contexts, knowledge_graph, batch_size=16):
+    predictions = []
+    for i in tqdm(range(0, len(questions), batch_size), desc="Predicting"):
+        batch_questions = []
+        batch_contexts = contexts[i:i + batch_size]
+
+        # 檢索知識並組合問題
+        for question, context in zip(questions[i:i + batch_size], batch_contexts):
+            # 模擬初步回答以檢索知識
+            retrieved_knowledge = retrieve_from_knowledge_graph(context, knowledge_graph)
+            retrieved_text = " ".join([item["Definition"] for item in retrieved_knowledge if item["Name"] != "No Match"])
+            full_question = f"{retrieved_text} {question}"
+            batch_questions.append(full_question)
+
+        # 編碼輸入
+        inputs = tokenizer(batch_questions, batch_contexts, return_tensors="pt", 
+                           padding=True, truncation=True, max_length=512)
+        inputs = {key: val.to(device) for key, val in inputs.items()}  # 移動到 GPU
+
+        with torch.no_grad():
+            outputs = model(**inputs)
+
+        # 解碼回答
+        for j in range(len(batch_questions)):
+            start = torch.argmax(outputs.start_logits[j]).item()
+            end = torch.argmax(outputs.end_logits[j]).item() + 1
+            input_ids = inputs["input_ids"][j].tolist()
+            prediction = tokenizer.convert_tokens_to_string(
+                tokenizer.convert_ids_to_tokens(input_ids[start:end])
+            )
+            predictions.append(prediction)
+    return predictions
+
+# 遞迴處理所有處理過的 CSV 文件
+folder_path = "Processed_Data_Opinion"
+all_results = []
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+
+for file in tqdm(os.listdir(folder_path), desc="Processing Files"):
+    if file.endswith(".csv"):
+        file_path = os.path.join(folder_path, file)
+        valid_data = pd.read_csv(file_path)
+
+        questions = [f"What is the judge's opinion regarding entry barriers in case {case}?" 
+                     for case in valid_data["Case Index"]]
+        contexts = valid_data["Chunk Text"].tolist()
+        csv_files = [file] * len(questions)  # 文件名對應每個樣本
+
+        predicted_answers = batch_predict_with_retrieval(model, tokenizer, questions, contexts, knowledge_graph)
+
+        for case_index, csv_file, question, context, prediction in zip(valid_data["Case Index"], csv_files, questions, contexts, predicted_answers):
+            related_definitions = retrieve_from_knowledge_graph(prediction, knowledge_graph)
+            all_results.append({
+                "Case Index": case_index,
+                "CSV File": csv_file,
+                "Question": question,
+                "Context": context,
+                "Predicted Answer": prediction,
+                "Knowledge Graph Result": related_definitions
+            })
+
+# 保存所有結果
+with open("All_RAG_Results.json", "w", encoding="utf-8") as f:
+    json.dump(all_results, f, ensure_ascii=False, indent=4)
+
+print("All results saved to 'All_RAG_Results.json'")
+
+```
+```python
+import json
+
+# 載入所有結果
+with open("All_RAG_Results.json", "r", encoding="utf-8") as f:
+    results = json.load(f)
+
+# 過濾有匹配的結果
+matched_results = [
+    result for result in results if any(res["Name"] != "No Match" for res in result["Knowledge Graph Result"])
+]
+
+# 列出匹配的結果數量
+print(f"Found {len(matched_results)} matched results.")
+
+# 保存匹配結果到新文件
+output_file = "Matched_ALL_DATA.json"
+with open(output_file, "w", encoding="utf-8") as f:
+    json.dump(matched_results, f, ensure_ascii=False, indent=4)
+
+# 顯示部分匹配結果
+if matched_results:
+    print("\nDisplaying the first 5 matched results:")
+    for result in matched_results[:5]:  # 只顯示前5個匹配結果
+        print("=" * 50)
+        print(f"CSV File: {result['CSV File']}")
+        print(f"Case Index: {result['Case Index']}")
+        print(f"Question: {result['Question']}")
+        print(f"Context: {result['Context'][:300]}...")  # 限制輸出長度
+        print(f"Predicted Answer: {result['Predicted Answer']}")
+        print("Knowledge Graph Result:")
+        for kg_result in result["Knowledge Graph Result"]:
+            print(f"  - Name: {kg_result['Name']}")
+            print(f"    Definition: {kg_result['Definition']}")
+        print("=" * 50)
+else:
+    print("No matched results found.")
+
+print(f"Matched results saved to '{output_file}'")
+
+```
