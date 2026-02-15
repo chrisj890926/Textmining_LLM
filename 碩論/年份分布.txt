@@ -1,0 +1,109 @@
+幫我整理, 我要畫年份分布:         
+
+"Case Index": a5 25, 1963           
+"Case Index": a7 30, 1970
+
+     "Case Index": b10 47, 1984
+        "Case Index": b10 75, 1984
+        "Case Index": b10 89, 1984
+        "Case Index": b2 4, 1975
+        "Case Index": b3 54, 1979
+        "Case Index": b4 32, 1980
+        "Case Index": b6 53, 1980-1982
+        "Case Index": b6 66, 1981 
+        "Case Index": b7 65, 1982
+        "Case Index": b7 83, 1982
+        "Case Index": b9 58, 1983
+        "Case Index": c1 30, 1991
+        "Case Index": c10 30, 1990
+        "Case Index": c10 30, 1990
+        "Case Index": c10 46, 1990
+        "Case Index": c10 70, 1990
+        "Case Index": c4 32, 1986
+        "Case Index": c9 17, 1989
+        "Case Index": c9 39, 1988-1989
+        "Case Index": c9 84, 1989
+        "Case Index": c9 93, 1990
+        "Case Index": f2 47, 1992
+        "Case Index": f2 80, 1992
+        "Case Index": f3 3, 1992
+        "Case Index": f3 16, 1992
+        "Case Index": f3 41, 1992
+        "Case Index": f4 94, 1993
+        "Case Index": f5 14, 1994
+        "Case Index": f6 58, 1994-1995
+        "Case Index": f7 50, 1995
+        "Case Index": f9 64, 1997
+        "Case Index": f9 93, 1997
+        "Case Index": g3 67, 2005
+        "Case Index": e2 78, 1999
+        "Case Index": e3 58, 1999
+        "Case Index": e5 24, 2000
+        "Case Index": e5 50, 2000
+        "Case Index": e5 100, 2001
+        "Case Index": e7 57, 2002
+        "Case Index": e7 82, 2002
+        "Case Index": h10 20, 2012
+        "Case Index": h10 48, 2012
+        "Case Index": h10 98, 2013
+        "Case Index": h3 38, 2009
+        "Case Index": h6 44, 2011
+        "Case Index": h8 70, 2012
+        "Case Index": h9 5, 2012
+        "Case Index": h9 88, 2012
+        "Case Index": i2 31, 2017
+        "Case Index": i3 3, 2017
+        "Case Index": i4 25, 2018
+        "Case Index": i4 34, 2018
+        "Case Index": i6 60, 2019
+        "Case Index": i3 73, 2018
+        "Case Index": j5 84, 2015
+        "Case Index": j7 43, 2015
+        "Case Index": j9 36, 2016
+        "Case Index": j9 79, 2016
+        "Case Index": k2 5, 2021
+
+Core Terms : c5 19, 1986
+HN:
+c1 59, 1991
+c5 9, 1986
+c5 29, 1986
+d6 ,1977
+d17 ,2018
+e8 2, 2002
+e8 73, 2002
+f4 98, 1993
+f9, 66, 1997 
+f10, 1, 1997
+f10, 43, 1997
+g3, 17, 2004
+g10, 8, 2008
+h1, 42, 2013
+h8, 29, 2011
+i1, 50, 2021
+i2, 33, 2017
+i10 68, 2021
+j8 97, 2016
+j9 32, 2016
+
+FN:
+b1 13, 1984
+b4  66, 1980
+b6  53, 1980
+b8  81, 1982
+c1     1  , 1990
+c9 25, 1989
+e1 2, 2004
+e3 1999
+e4 2000
+e5 , 2001
+e7, 2002
+e8, 2002
+e10, 2004
+f3, 1992
+g3 99, 2006
+g10 79, 2008
+h3 56, 2009
+h4  39, 2010
+i7 91, 2019
+i8 46, 2020

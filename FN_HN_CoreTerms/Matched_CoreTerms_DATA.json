@@ -1,0 +1,15 @@
+[
+    {
+        "PDF": "c5  ",
+        "Page": 308,
+        "Question": "What is the judge's opinion regarding entry barriers in case from c5  , page 308?",
+        "Context": "newspaper, prices, independent dealer, monopoly power, plaintiffs ', home delivery, monopolize, vertical integration, circulation, coercion, monopoly, conspiracy, antitrust, dealers, sales, sherman act, customers, delivery, retail, defendants ', wholesalers, adherence, attempt to monopolize, relevant market, specific intent, probability, summary judgment, publisher",
+        "Predicted Answer": "[SEP] newspaper , prices , independent dealer , monopoly power , plaintiffs ' , home delivery , monopolize , vertical integration , circulation , coercion , monopoly , conspiracy , antitrust , dealers , sales , sherman act , customers , delivery , retail , defendants ' , wholesalers , adherence , attempt to monopolize , relevant market , specific intent , probability , summary judgment , publisher [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Vertical Integration",
+                "Definition": "Control over supply chain that limits competitors' access to resources or distribution."
+            }
+        ]
+    }
+]

@@ -1,0 +1,282 @@
+[
+    {
+        "PDF": "c1",
+        "Category": "HN10",
+        "Question": "What is the judge's opinion regarding entry barriers in case from c1 in category HN10?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "c6",
+        "Category": "Headnotes",
+        "Question": "What is the judge's opinion regarding entry barriers in case from c6 in category Headnotes?",
+        "Context": "predatory pricing - - > headnote :",
+        "Predicted Answer": "[SEP] predatory pricing - - > headnote : [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "c6",
+        "Category": "HN7",
+        "Question": "What is the judge's opinion regarding entry barriers in case from c6 in category HN7?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "d6",
+        "Category": "Headnotes",
+        "Question": "What is the judge's opinion regarding entry barriers in case from d6 in category Headnotes?",
+        "Context": "pleadings § 6 > predatory pricing conspiracy - - irrelevant",
+        "Predicted Answer": "[SEP] pleadings § 6 > predatory pricing conspiracy - - irrelevant [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "d17",
+        "Category": "LEdHN[28]",
+        "Question": "What is the judge's opinion regarding entry barriers in case from d17 in category LEdHN[28]?",
+        "Context": "trade practices § 9 > entry barriers - - prohibition - -",
+        "Predicted Answer": "[SEP] trade practices § 9 > entry barriers - - prohibition - - [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "PDF": "e7",
+        "Category": "HN2",
+        "Question": "What is the judge's opinion regarding entry barriers in case from e7 in category HN2?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "e8",
+        "Category": "HN4",
+        "Question": "What is the judge's opinion regarding entry barriers in case from e8 in category HN4?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "e8",
+        "Category": "HN4",
+        "Question": "What is the judge's opinion regarding entry barriers in case from e8 in category HN4?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "f4",
+        "Category": "HN3",
+        "Question": "What is the judge's opinion regarding entry barriers in case from f4 in category HN3?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "f9",
+        "Category": "HN24",
+        "Question": "What is the judge's opinion regarding entry barriers in case from f9 in category HN24?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "f10",
+        "Category": "HN4",
+        "Question": "What is the judge's opinion regarding entry barriers in case from f10 in category HN4?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "f10",
+        "Category": "HN4",
+        "Question": "What is the judge's opinion regarding entry barriers in case from f10 in category HN4?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "g3",
+        "Category": "HN6",
+        "Question": "What is the judge's opinion regarding entry barriers in case from g3 in category HN6?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "g10",
+        "Category": "LexisNexis® Headnotes",
+        "Question": "What is the judge's opinion regarding entry barriers in case from g10 in category LexisNexis® Headnotes?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "h1",
+        "Category": "HN20",
+        "Question": "What is the judge's opinion regarding entry barriers in case from h1 in category HN20?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "h9",
+        "Category": "HN19",
+        "Question": "What is the judge's opinion regarding entry barriers in case from h9 in category HN19?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "i1",
+        "Category": "HN49",
+        "Question": "What is the judge's opinion regarding entry barriers in case from i1 in category HN49?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "i2",
+        "Category": "LexisNexis® Headnotes",
+        "Question": "What is the judge's opinion regarding entry barriers in case from i2 in category LexisNexis® Headnotes?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "i10",
+        "Category": "HN17",
+        "Question": "What is the judge's opinion regarding entry barriers in case from i10 in category HN17?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "j8",
+        "Category": "HN16",
+        "Question": "What is the judge's opinion regarding entry barriers in case from j8 in category HN16?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "j9",
+        "Category": "HN22",
+        "Question": "What is the judge's opinion regarding entry barriers in case from j9 in category HN22?",
+        "Context": "antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > predatory pricing",
+        "Predicted Answer": "[SEP] antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > predatory pricing [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    }
+]

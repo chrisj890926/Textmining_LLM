@@ -1,0 +1,54 @@
+﻿[
+  {
+    "Name": "Entry Barriers",
+    "Definition": "Factors that deter or prevent new competitors from entering a market."
+  },
+  {
+    "Name": "Natural Barriers",
+    "Definition": "Barriers due to market characteristics or geographical constraints."
+  },
+  {
+    "Name": "Artificial Barriers",
+    "Definition": "Barriers created by firms or legal structures to restrict entry."
+  },
+  {
+    "Name": "Strategic Barriers",
+    "Definition": "Barriers created intentionally by existing firms to deter competition."
+  },
+  {
+    "Name": "Economies of Scale",
+    "Definition": "Cost advantages due to increased production, making it harder for new entrants to compete."
+  },
+  {
+    "Name": "High Initial Capital Requirements",
+    "Definition": "Significant upfront investments required to enter a market."
+  },
+  {
+    "Name": "Geographic Constraints",
+    "Definition": "Barriers arising from location-specific factors such as access to resources."
+  },
+  {
+    "Name": "Patent Protection",
+    "Definition": "Legal barriers that prevent competitors from using patented technologies or processes."
+  },
+  {
+    "Name": "Brand Loyalty",
+    "Definition": "Consumer preference for existing brands, reducing new entrants' market share."
+  },
+  {
+    "Name": "Government Regulations",
+    "Definition": "Legal or administrative restrictions that limit market entry."
+  },
+  {
+    "Name": "Predatory Pricing",
+    "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+  },
+  {
+    "Name": "Network Effects",
+    "Definition": "The value of a product increases as more people use it, deterring new competitors."
+  },
+  {
+    "Name": "Vertical Integration",
+    "Definition": "Control over supply chain that limits competitors' access to resources or distribution."
+  }
+]

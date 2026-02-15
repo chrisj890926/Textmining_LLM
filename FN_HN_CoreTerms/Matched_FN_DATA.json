@@ -1,0 +1,314 @@
+[
+    {
+        "PDF": "b1",
+        "Page": 233,
+        "Label": "38",
+        "Question": "What is the judge's opinion regarding entry barriers in case from b1, page 233?",
+        "Context": "and, a fortiori, as the district court concluded, spcc has failed to prove that at & t engaged in predatory pricing under the areeda - turner test.",
+        "Predicted Answer": "[SEP] and , a fortiori , as the district court concluded , spcc has failed to prove that at & t engaged in predatory pricing under the areeda - turner test . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "b5",
+        "Page": 979,
+        "Label": "24",
+        "Question": "What is the judge's opinion regarding entry barriers in case from b5, page 979?",
+        "Context": ". the court has also discussed whether there was below marginal cost pricing of any product, aside from the question of whether that product had sufficient market importance to even support a claim of predatory pricing, and aside from the question of whether the rebates should be disregarded. were the only issue before the court whether, ignoring the rebates, the fly - drives were sold at below marginal or average variable cost, the court would find that there are disputed questions of fact on this issue.",
+        "Predicted Answer": "[SEP] . the court has also discussed whether there was below marginal cost pricing of any product , aside from the question of whether that product had sufficient market importance to even support a claim of predatory pricing , and aside from the question of whether the rebates should be disregarded . were the only issue before the court whether , ignoring the rebates , the fly - drives were sold at below marginal or average variable cost , the court would find that there are disputed questions of fact on this issue . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "b7",
+        "Page": 825,
+        "Label": "13",
+        "Question": "What is the judge's opinion regarding entry barriers in case from b7, page 825?",
+        "Context": "two commentators recently proposed a means of selecting rules directed against predatory conduct on a basis similar to this one. jaskow & klevorick, a framework for analyzing predatory pricing policy, 89 yale l. j. 213 ( 1979 ).",
+        "Predicted Answer": "[SEP] two commentators recently proposed a means of selecting rules directed against predatory conduct on a basis similar to this one . jaskow & klevorick , a framework for analyzing predatory pricing policy , 89 yale l . j . 213 ( 1979 ) . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "b9",
+        "Page": 1252,
+        "Label": "3",
+        "Question": "What is the judge's opinion regarding entry barriers in case from b9, page 1252?",
+        "Context": "it has been suggested that one of the factors to consider in determining the consequences of vertical integration is the degree of competition between the two levels. note, refusals to deal by vertically integrated monopolists, 87 harv. l. rev. 1720, 1726 ( 1974 ). that is, the higher the degree of competition between the two levels, the lesser the benefit to be anticipated by vertical integration. given the minimum degree of competition, or potential competition, between the star and the independent carriers, one might expect little by way of adverse effect of forward integration.",
+        "Predicted Answer": "[SEP] it has been suggested that one of the factors to consider in determining the consequences of vertical integration is the degree of competition between the two levels . note , refusals to deal by vertically integrated monopolists , 87 harv . l . rev . 1720 , 1726 ( 1974 ) . that is , the higher the degree of competition between the two levels , the lesser the benefit to be anticipated by vertical integration . given the minimum degree of competition , or potential competition , between the star and the independent carriers , one might expect little by way of adverse effect of forward integration . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Vertical Integration",
+                "Definition": "Control over supply chain that limits competitors' access to resources or distribution."
+            }
+        ]
+    },
+    {
+        "PDF": "c1",
+        "Page": 26,
+        "Label": "8",
+        "Question": "What is the judge's opinion regarding entry barriers in case from c1, page 26?",
+        "Context": "belcher attempts to distinguish atlantic richfield on the ground that it concerned a claim of a vertical maximum price fixing conspiracy, whereas the instant case concerns an alleged horizontal maximum price fixing scheme. this distinction is irrelevant to the question of antitrust injury. atlantic richfield clearly states that \" in the context of pricing practices, only predatory pricing has the requisite anticompetitive effect. \" 495 u. s. at, 110 s. ct. at 1892, 109 l. ed. 2d at 347.",
+        "Predicted Answer": "[SEP] belcher attempts to distinguish atlantic richfield on the ground that it concerned a claim of a vertical maximum price fixing conspiracy , whereas the instant case concerns an alleged horizontal maximum price fixing scheme . this distinction is irrelevant to the question of antitrust injury . atlantic richfield clearly states that \" in the context of pricing practices , only predatory pricing has the requisite anticompetitive effect . \" 495 u . s . at , 110 s . ct . at 1892 , 109 l . ed . 2d at 347 . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "c9",
+        "Page": 376,
+        "Label": "17",
+        "Question": "What is the judge's opinion regarding entry barriers in case from c9, page 376?",
+        "Context": "e. g., williamson, predatory pricing : a strategic and welfare analysis, 87 yale l. j. 284 ( 1977 ). areeda and turner's redefinition of average variable cost also blunts this criticism. see supra n. 16.",
+        "Predicted Answer": "[SEP] e . g . , williamson , predatory pricing : a strategic and welfare analysis , 87 yale l . j . 284 ( 1977 ) . areeda and turner ' s redefinition of average variable cost also blunts this criticism . see supra n . 16 . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "e1",
+        "Page": 75,
+        "Label": "137",
+        "Question": "What is the judge's opinion regarding entry barriers in case from e1, page 75?",
+        "Context": "as professors areeda and hovenkamp explain : the essential facility doctrine concerns vertical integration - - in particular, the duty of a vertically integrated monopolist to share some input in a vertically related market, which we call market # 1, with someone operating in an upstream or downstream market, which we shall call market # 2. if the facility is truly \" essential, \" then the # 1 monopoly facility also establishes a # 2 monopoly. iiia areeda & hovenkamp, supra, p 771a, at 172 ( rev. ed. 1996 ).",
+        "Predicted Answer": "[SEP] as professors areeda and hovenkamp explain : the essential facility doctrine concerns vertical integration - - in particular , the duty of a vertically integrated monopolist to share some input in a vertically related market , which we call market # 1 , with someone operating in an upstream or downstream market , which we shall call market # 2 . if the facility is truly \" essential , \" then the # 1 monopoly facility also establishes a # 2 monopoly . iiia areeda & hovenkamp , supra , p 771a , at 172 ( rev . ed . 1996 ) . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Vertical Integration",
+                "Definition": "Control over supply chain that limits competitors' access to resources or distribution."
+            }
+        ]
+    },
+    {
+        "PDF": "e3",
+        "Page": 174,
+        "Label": "26",
+        "Question": "What is the judge's opinion regarding entry barriers in case from e3, page 174?",
+        "Context": "morgan v. ponder, 892 f. 2d 1355, 1359 - 60 ( 8th cir. 1989 ) ( \" objective cost analysis is the crucial component in a prima facia case of predatory pricing ; \" prices above average total cost are per se legal ; \" as our cases have made clear, evidence of statements [ of subjective intent ] will not relieve a plaintiff of the burden of proving predation through a separate showing of predatory conduct. \" ).",
+        "Predicted Answer": "[SEP] morgan v . ponder , 892 f . 2d 1355 , 1359 - 60 ( 8th cir . 1989 ) ( \" objective cost analysis is the crucial component in a prima facia case of predatory pricing ; \" prices above average total cost are per se legal ; \" as our cases have made clear , evidence of statements [ of subjective intent ] will not relieve a plaintiff of the burden of proving predation through a separate showing of predatory conduct . \" ) . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "e4",
+        "Page": 1371,
+        "Label": "17",
+        "Question": "What is the judge's opinion regarding entry barriers in case from e4, page 1371?",
+        "Context": "the indiana grocery court indicated that the rule would not apply when predatory pricing was present. 684 f. supp. at 583. predatory pricing is \" pricing below some appropriate measure of cost. \" matsushita, 475 u. s. at 584 - 85 n. 8. in the present case, there is no allegation that the maximum price which the defendants allegedly sought to have the plaintiff charge was a predatory price. indeed, it was the price charged by allopathic practitioners for emgs.",
+        "Predicted Answer": "[SEP] the indiana grocery court indicated that the rule would not apply when predatory pricing was present . 684 f . supp . at 583 . predatory pricing is \" pricing below some appropriate measure of cost . \" matsushita , 475 u . s . at 584 - 85 n . 8 . in the present case , there is no allegation that the maximum price which the defendants allegedly sought to have the plaintiff charge was a predatory price . indeed , it was the price charged by allopathic practitioners for emgs . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "e5",
+        "Page": 1098,
+        "Label": "4",
+        "Question": "What is the judge's opinion regarding entry barriers in case from e5, page 1098?",
+        "Context": "the main sources of entry barriers are : ( 1 ) legal license ; ( 2 ) control over an essential or superior resource ; ( 3 ) entrenched buyer preferences for established brands or company reputations ; and ( 4 ) capital market evaluations imposing higher capital costs on new entrants. economies of scale may also be considered an entry barrier in some situations. 2 areeda & turner, antitrust law par. 409b at 299 - 300 ( 1978 ). l. a. land points to no evidence which fits in any of these categories.",
+        "Predicted Answer": "[SEP] the main sources of entry barriers are : ( 1 ) legal license ; ( 2 ) control over an essential or superior resource ; ( 3 ) entrenched buyer preferences for established brands or company reputations ; and ( 4 ) capital market evaluations imposing higher capital costs on new entrants . economies of scale may also be considered an entry barrier in some situations . 2 areeda & turner , antitrust law par . 409b at 299 - 300 ( 1978 ) . l . a . land points to no evidence which fits in any of these categories . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            },
+            {
+                "Name": "Economies of Scale",
+                "Definition": "Cost advantages due to increased production, making it harder for new entrants to compete."
+            }
+        ]
+    },
+    {
+        "PDF": "e7",
+        "Page": 1134,
+        "Label": "10",
+        "Question": "What is the judge's opinion regarding entry barriers in case from e7, page 1134?",
+        "Context": "if the other substantive elements of an attempt to monopolize claim are satisfied. id. at 168. we are reluctant to apply such bright - line rules regarding market share in deciding whether a defendant has market power to restrict output or raise prices. courts should be \" wary of the numbers game of market percentage \" when considering attempt - to - monopolize claims. dimmitt agri industries, 679 f. 2d at 533. as professors areeda and turner admit, their refined rules may be \" illusory \" guides to deciding market power. areeda & turner par. 835c, at 350. the far wiser approach, which this circuit has observed if not explicitly adopted, is illustrated by ball memorial hosp., 784 f. 2d at 1335 ( 7th cir. ) and ryko mfg., 823 f. 2d at 1232 ( 8th cir. ), where hn22 [ ] the issue of market power was decided by carefully analyzing certain telltale factors in the relevant market : market share, entry barriers and the capacity of existing competitors to expand output. we see no reason to depart from this mode of analysis.",
+        "Predicted Answer": "[SEP] if the other substantive elements of an attempt to monopolize claim are satisfied . id . at 168 . we are reluctant to apply such bright - line rules regarding market share in deciding whether a defendant has market power to restrict output or raise prices . courts should be \" wary of the numbers game of market percentage \" when considering attempt - to - monopolize claims . dimmitt agri industries , 679 f . 2d at 533 . as professors areeda and turner admit , their refined rules may be \" illusory \" guides to deciding market power . areeda & turner par . 835c , at 350 . the far wiser approach , which this circuit has observed if not explicitly adopted , is illustrated by ball memorial hosp . , 784 f . 2d at 1335 ( 7th cir . ) and ryko mfg . , 823 f . 2d at 1232 ( 8th cir . ) , where hn22 [ ] the issue of market power was decided by carefully analyzing certain telltale factors in the relevant market : market share , entry barriers and the capacity of existing competitors to expand output . we see no reason to depart from this mode of analysis . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "PDF": "e8",
+        "Page": 390,
+        "Label": "4",
+        "Question": "What is the judge's opinion regarding entry barriers in case from e8, page 390?",
+        "Context": "\" operational synergies \" is a term used in the newspaper industry to refer to the economies of scale that can be achieved by combining functions or departments, including accounting, administration, press rooms, and composing departments.",
+        "Predicted Answer": "[SEP] \" operational synergies \" is a term used in the newspaper industry to refer to the economies of scale that can be achieved by combining functions or departments , including accounting , administration , press rooms , and composing departments . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Economies of Scale",
+                "Definition": "Cost advantages due to increased production, making it harder for new entrants to compete."
+            }
+        ]
+    },
+    {
+        "PDF": "e10",
+        "Page": 1225,
+        "Label": "8",
+        "Question": "What is the judge's opinion regarding entry barriers in case from e10, page 1225?",
+        "Context": "in its complaint, plaintiff also included allegations regarding vertical integration. plaintiff informed the court at oral argument it does not wish to pursue this claim.",
+        "Predicted Answer": "[SEP] in its complaint , plaintiff also included allegations regarding vertical integration . plaintiff informed the court at oral argument it does not wish to pursue this claim . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Vertical Integration",
+                "Definition": "Control over supply chain that limits competitors' access to resources or distribution."
+            }
+        ]
+    },
+    {
+        "PDF": "f3",
+        "Page": 286,
+        "Label": "15",
+        "Question": "What is the judge's opinion regarding entry barriers in case from f3, page 286?",
+        "Context": "merger gave a firm the structural power to engage in predatory pricing. a damages action challenging such a merger would fail as long as predation were merely possible or even likely. as a result, the statute of limitation would not run on such a damage claim. however, once unlawful predation began and the plaintiff could show the merger facilitated the predation, then the statute of limitation would not bar a challenge to the merger itself... \" ). whether the distinctive use is referred to as a continuing violation or different holding and use, the idea is the same.",
+        "Predicted Answer": "[SEP] merger gave a firm the structural power to engage in predatory pricing . a damages action challenging such a merger would fail as long as predation were merely possible or even likely . as a result , the statute of limitation would not run on such a damage claim . however , once unlawful predation began and the plaintiff could show the merger facilitated the predation , then the statute of limitation would not bar a challenge to the merger itself . . . \" ) . whether the distinctive use is referred to as a continuing violation or different holding and use , the idea is the same . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "g3",
+        "Page": 921,
+        "Label": "16",
+        "Question": "What is the judge's opinion regarding entry barriers in case from g3, page 921?",
+        "Context": "in matsushita, american producers alleged their japanese competitors ( the defendants ) maintained a monopoly over the japanese domestic television market and were using the profits derived in japan to fund a predatory pricing scheme in america. the supreme court refused to find an antitrust violation. the court stated : nor does the possibility that [ the defendants ] have obtained supracompetitive profits in the japanese market change this calculation. whether or not [ the defendants ] have the means to sustain substantial losses in this country over a long period of time, they have no motive to sustain such losses absent some strong likelihood that the alleged conspiracy in this country will eventually pay off.",
+        "Predicted Answer": "[SEP] in matsushita , american producers alleged their japanese competitors ( the defendants ) maintained a monopoly over the japanese domestic television market and were using the profits derived in japan to fund a predatory pricing scheme in america . the supreme court refused to find an antitrust violation . the court stated : nor does the possibility that [ the defendants ] have obtained supracompetitive profits in the japanese market change this calculation . whether or not [ the defendants ] have the means to sustain substantial losses in this country over a long period of time , they have no motive to sustain such losses absent some strong likelihood that the alleged conspiracy in this country will eventually pay off . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "g3",
+        "Page": 1598,
+        "Label": "10",
+        "Question": "What is the judge's opinion regarding entry barriers in case from g3, page 1598?",
+        "Context": "matsushita seemed to raise the possibility that there might be a special summary judgment standard for antitrust cases in general, or predatory pricing cases in particular. however, the supreme court later made clear in eastman kodak co. v. image technical serv's., ind., 504 u. s. 451, 468 - 69, 112 s. ct. 2072, 2083, 119 l. ed. 2d 265 ( 1992 ), that there was no special standard. see also advo v. philadelphia newspapers, inc., 51 f. 3d 1191, 1195 ( 3d cir. 1995 ).",
+        "Predicted Answer": "[SEP] matsushita seemed to raise the possibility that there might be a special summary judgment standard for antitrust cases in general , or predatory pricing cases in particular . however , the supreme court later made clear in eastman kodak co . v . image technical serv ' s . , ind . , 504 u . s . 451 , 468 - 69 , 112 s . ct . 2072 , 2083 , 119 l . ed . 2d 265 ( 1992 ) , that there was no special standard . see also advo v . philadelphia newspapers , inc . , 51 f . 3d 1191 , 1195 ( 3d cir . 1995 ) . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "g9",
+        "Page": 1232,
+        "Label": "12",
+        "Question": "What is the judge's opinion regarding entry barriers in case from g9, page 1232?",
+        "Context": "past losses. brooke group, ltd. v. brown & williamson tobacco corp., 509 u. s. 209, 222 - 24, 125 l. ed. 2d 168, 113 s. ct. 2578 ( 1993 ) ; richter concrete corp. v. hilltop concrete corp., 691 f. 2d 818, 823 ( 6th cir. 1982 ). where the defendant's prices are below the \" average variable costs \" of producing the product, a prima facie case of predatory pricing is established and the burden shifts to the defendant to show that the pricing was justified. d. e. rogers assoc., inc., 718 f. 2d 1431, 1436 ( 6th cir. 1983 ). where the pricing is above \" average variable costs \" but below the defendant's \" total costs \" it is presumed that the pricing scheme is not predatory and the plaintiff may not prevail absent detailed and convincing economic",
+        "Predicted Answer": "[SEP] past losses . brooke group , ltd . v . brown & williamson tobacco corp . , 509 u . s . 209 , 222 - 24 , 125 l . ed . 2d 168 , 113 s . ct . 2578 ( 1993 ) ; richter concrete corp . v . hilltop concrete corp . , 691 f . 2d 818 , 823 ( 6th cir . 1982 ) . where the defendant ' s prices are below the \" average variable costs \" of producing the product , a prima facie case of predatory pricing is established and the burden shifts to the defendant to show that the pricing was justified . d . e . rogers assoc . , inc . , 718 f . 2d 1431 , 1436 ( 6th cir . 1983 ) . where the pricing is above \" average variable costs \" but below the defendant ' s \" total costs \" it is presumed that the pricing scheme is not predatory and the plaintiff may not prevail absent detailed and convincing economic [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "h2",
+        "Page": 818,
+        "Label": "2",
+        "Question": "What is the judge's opinion regarding entry barriers in case from h2, page 818?",
+        "Context": "in matsushita, [ * * 41 ] the supreme court concluded that the alleged conspirators would have had little motive to enter into the alleged conspiracy, which was economically implausible because it involved an inherently speculative and rarely successful predatory pricing scheme, intended to charged lower - than - competitive prices to drive out competitors ; it involved not merely a single company, but 21 companies ; each conspirator would have had a strong incentive to cheat during the conspiracy, and cheating would have been fatal to the conspiracy ; and even after 20 years, the conspiracy had not yet succeeded, as the conspirators had not yet gained significant market share, even though such a conspiracy requires a long period of success to recoup losses sustained during the period of predatory pricing. see matsushita, 475 u. s. at 589 - 93. the present case certainly does not involve such an unlikely conspiracy.",
+        "Predicted Answer": "[SEP] in matsushita , [ * * 41 ] the supreme court concluded that the alleged conspirators would have had little motive to enter into the alleged conspiracy , which was economically implausible because it involved an inherently speculative and rarely successful predatory pricing scheme , intended to charged lower - than - competitive prices to drive out competitors ; it involved not merely a single company , but 21 companies ; each conspirator would have had a strong incentive to cheat during the conspiracy , and cheating would have been fatal to the conspiracy ; and even after 20 years , the conspiracy had not yet succeeded , as the conspirators had not yet gained significant market share , even though such a conspiracy requires a long period of success to recoup losses sustained during the period of predatory pricing . see matsushita , 475 u . s . at 589 - 93 . the present case certainly does not involve such an unlikely conspiracy . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "h3",
+        "Page": 786,
+        "Label": "12",
+        "Question": "What is the judge's opinion regarding entry barriers in case from h3, page 786?",
+        "Context": "there is no allegation of predatory pricing here.",
+        "Predicted Answer": "[SEP] there is no allegation of predatory pricing here . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "PDF": "i6",
+        "Page": 1460,
+        "Label": "190",
+        "Question": "What is the judge's opinion regarding entry barriers in case from i6, page 1460?",
+        "Context": "id. at ja6776 ( elhauge report ) ( economies of scale ).",
+        "Predicted Answer": "[SEP] id . at ja6776 ( elhauge report ) ( economies of scale ) . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Economies of Scale",
+                "Definition": "Cost advantages due to increased production, making it harder for new entrants to compete."
+            }
+        ]
+    },
+    {
+        "PDF": "i7",
+        "Page": 940,
+        "Label": "60",
+        "Question": "What is the judge's opinion regarding entry barriers in case from i7, page 940?",
+        "Context": "bolton, brodley and riordan \" predatory pricing : strategic theory and legal policy \" ( 2000 ) 88 geo law journal 2239 at 2244.",
+        "Predicted Answer": "[SEP] bolton , brodley and riordan \" predatory pricing : strategic theory and legal policy \" ( 2000 ) 88 geo law journal 2239 at 2244 . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    }
+]

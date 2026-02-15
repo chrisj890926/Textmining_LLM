@@ -1,17 +1,24 @@
-# 排除模型檔案
-*.pth
-*.pt
-*.safetensors
-*.json
-*.csv
+# Python venv (always ignore)
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
 
-# 排除 Torch 庫 DLL 檔案
-.venv/Lib/site-packages/torch/lib/*.dll
+# OS
+desktop.ini
+.DS_Store
 
-# 排除大型數據
-Data_Clean/**/*
-Processed_Data_Opinion/**/*
-results/**/*
+# --- >50MB large files (project specific) ---
+# Model artifacts
+fine_tuned_model/*.safetensors
 
-# 排除大型 PDF
-*.pdf
+# Large Excel
+Data_Clean/美國反壟斷整合資料.xlsx
+Data_Clean/CSV/Merged.xlsx
+
+# Large RAG outputs
+FN_HN_CoreTerms/RAG_*_Results.json
+FN_HN_CoreTerms/Processed_FN_Data.csv
+
+# Large merged CSV
+Data_Clean/CSV/merge_CSV/merge_FN.csv

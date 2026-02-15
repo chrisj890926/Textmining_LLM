@@ -1,0 +1,1042 @@
+[
+
+    {
+        "Case Index": "a5, 25, 1963",
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 25?",
+        "Context": "s is $ 6, 000, 000. appellees offered testimony that the merger would enable certain economies of scale, specifically, that it would enable the formation of a more elaborate foreign department than either bank is presently able to maintain. but this attempted justification, which was not mentioned by the district court in its opinion and has not been developed with any fullness before this court, we consider abandoned. the exclusion of banks from the ftc's jurisdiction appears to have been motivated by the fact that banks were already subject to extensive federal administrative controls. see t. c. hurst & son v. federal trade comm'n, 268 f. 874, 877 ( d. c. e. d. va. 1920 ). 374 u. s. 321, * 334 ; 83 s. ct. 1715, * * 1726 ; 10 l. ed. 2d 915, * * * 928 ; 1963 u. s. lexis 2413, * * * * 23",
+        "Predicted Answer": "[SEP] s is $ 6 , 000 , 000 . appellees offered testimony that the merger would enable certain economies of scale , specifically , that it would enable the formation of a more elaborate foreign department than either bank is presently able to maintain . but this attempted justification , which was not mentioned by the district court in its opinion and has not been developed with any fullness before this court , we consider abandoned . the exclusion of banks from the ftc ' s jurisdiction appears to have been motivated by the fact that banks were already subject to extensive federal administrative controls . see t . c . hurst & son v . federal trade comm ' n , 268 f . 874 , 877 ( d . c . e . d . va . 1920 ) . 374 u . s . 321 , * 334 ; 83 s . ct . 1715 , * * 1726 ; 10 l . ed . 2d 915 , * * * 928 ; 1963 u . s . lexis 2413 , * * * * 23 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Economies of Scale",
+                "Definition": "Cost advantages due to increased production, making it harder for new entrants to compete."
+            }
+        ]
+    },
+    {
+        "Case Index": "a7 30 1970",
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 30?",
+        "Context": "difference at all between what plaintiff alleged previously and what it alleges now. only the form of the complaint and amount of requested relief have changed. as indicated above, in the control proceedings leading to the approval of the acquisition the commission considered the deposit receipts arrangement and concluded that it was not a partial consummation of the written contract, a determination that \" necessarily included a finding that there was no agreement, formal or informal, to purchase the receipts. \" 287 f. supp. at 383. it found that the deposit receipts arrangement erected no additional barrier to competition. it found that the i. c. c. was not misled by false testimony. it found that transcon did not acquire pre - approval control over queen. these are the \" precise ingredients \" [ * * 44 ] of investors'complaint here. true, neither the commission nor the courts specifically stated that defendants lacked an anticompetitive purpose when they agreed upon the acquisition, or that the defendants did not make false and misleading statements to the",
+        "Predicted Answer": "[SEP] difference at all between what plaintiff alleged previously and what it alleges now . only the form of the complaint and amount of requested relief have changed . as indicated above , in the control proceedings leading to the approval of the acquisition the commission considered the deposit receipts arrangement and concluded that it was not a partial consummation of the written contract , a determination that \" necessarily included a finding that there was no agreement , formal or informal , to purchase the receipts . \" 287 f . supp . at 383 . it found that the deposit receipts arrangement erected no additional barrier to competition . it found that the i . c . c . was not misled by false testimony . it found that transcon did not acquire pre - approval control over queen . these are the \" precise ingredients \" [ * * 44 ] of investors ' complaint here . true , neither the commission nor the courts specifically stated that defendants lacked an anticompetitive purpose when they agreed upon the acquisition , or that the defendants did not make false and misleading statements to the [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": "b10 ,47, 1984",
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 47?",
+        "Context": "( 10th cir. 1981 ), cert. dismissed, 456 u. s. 1001, 102 s. ct. 2287, 73 l. ed. 2d 1296 ( 1982 ) ; home box office, inc. v. fcc, 185 u. s. app. d. c. 142, 567 f. 2d 9, 43 - 51 ( d. c. cir. ), cert. denied, 434 u. s. 829, 98 s. ct. 111, 54 l. ed. 2d 89 ( 1977 ) ; midwest video corp. v. fcc, 571 f. 2d 1025, 1052 - 57 ( 8th cir. 1978 ) ( dictum ), aff'd on other grounds, 440 u. s. 689, 99 s. ct. 1435, 59 l. ed. 2d 692 ( 1979 ). the problem lies in determining just what government regulations are permissible. the supreme court has repeatedly emphasized that hn9 [ ] \" each medium of expression, of course, must be assessed for first amendment purposes by standards suited to it, \" southeastern promotions, ltd. v. conrad, [ 420 u. s. 546, 557, 95 s. ct. 1239, 1246,",
+        "Predicted Answer": "[SEP] ( 10th cir . 1981 ) , cert . dismissed , 456 u . s . 1001 , 102 s . ct . 2287 , 73 l . ed . 2d 1296 ( 1982 ) ; home box office , inc . v . fcc , 185 u . s . app . d . c . 142 , 567 f . 2d 9 , 43 - 51 ( d . c . cir . ) , cert . denied , 434 u . s . 829 , 98 s . ct . 111 , 54 l . ed . 2d 89 ( 1977 ) ; midwest video corp . v . fcc , 571 f . 2d 1025 , 1052 - 57 ( 8th cir . 1978 ) ( dictum ) , aff ' d on other grounds , 440 u . s . 689 , 99 s . ct . 1435 , 59 l . ed . 2d 692 ( 1979 ) . the problem lies in determining just what government regulations are permissible . the supreme court has repeatedly emphasized that hn9 [ ] \" each medium of expression , of course , must be assessed for first amendment purposes by standards suited to it , \" southeastern promotions , ltd . v . conrad ,",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Government Regulations",
+                "Definition": "Legal or administrative restrictions that limit market entry."
+            }
+        ]
+    },
+    {
+        "Case Index": "b10, 75, 1984",
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 75?",
+        "Context": "- elasticity of demand in this industry, its ability to control prices, its ability to exclude competition, the presence of barriers to entry, or the existence of monopoly profits. see generally, ii p. areeda & d. turner, antitrust law pp507 - 16 ( 1978 ) ; united states v. e. i. du pont de nemours & co., 351 u. s. 377, 394 - 404 ( 1956 ) ; american tobacco co. v. united states, 328 u. s. 781, 808 - 14 ( 1946 ) ; grinnell, 384 u. s. at 571 - 76 ; united states v. aluminum co. ( alcoa ), 148 f. 2d 416 ( 2nd cir. 1945 ). plaintiff stressed that snowshoe was perhaps the premier ski resort in the mid - atlantic region, due to the particular natural characteristics associated with the mountain. ( brigham testimony ; ladd [ * 7 ] testimony ). there was also 1984 u. s. dist. lexis 17592, * 2",
+        "Predicted Answer": "[SEP] - elasticity of demand in this industry , its ability to control prices , its ability to exclude competition , the presence of barriers to entry , or the existence of monopoly profits . see generally , ii p . areeda & d . turner , antitrust law pp507 - 16 ( 1978 ) ; united states v . e . i . du pont de nemours & co . , 351 u . s . 377 , 394 - 404 ( 1956 ) ; american tobacco co . v . united states , 328 u . s . 781 , 808 - 14 ( 1946 ) ; grinnell , 384 u . s . at 571 - 76 ; united states v . aluminum co . ( alcoa ) , 148 f . 2d 416 ( 2nd cir . 1945 ) . plaintiff stressed that snowshoe was perhaps the premier ski resort in the mid - atlantic region , due to the particular natural characteristics associated with the mountain . ( brigham testimony ; ladd [ * 7 ] testimony ) . there was also 1984 u . s . dist . lexis 17592 , * 2 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": "b10, 89, 1984",
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 89?",
+        "Context": "s. 1030, 101 s. ct. 1740, 68 l. ed. 2d 226 ( 1982 ) ( about 50 %, coupled with evidence of low number of actual competitors and high barriers to market entry ) ; heatransfer corp. v. volkswagenwerk a. g., 553 f. 2d 964, 981 ( 5th cir. 1977 ), cert. denied, 434 u. s. 1087, 98 s. ct. 1282, 55 l. ed. 2d 792 ( 1978 ) ( 71 % - 76 % ) ; woods exploration & producing co. v. aluminum co. of america, 438 f. 2d 1286, 1307 ( 5th cir. 1971 ) ; cert. denied, 404 u. s. 1047, 92 s. ct. 701, 30 l. ed. 2d 736 ( 1973 ) ( 90 % ) ; north texas producers ass'n v. metzger dairies, inc., 348 f. 2d 189, 194 ( 5th cir. 1965 ), cert. denied, 382 u. s. 977, 86 s. ct. 545, 15 l. ed. 2d 468 ( 1966 ) ( 85 % - 90 % ) ;",
+        "Predicted Answer": "[SEP] s . 1030 , 101 s . ct . 1740 , 68 l . ed . 2d 226 ( 1982 ) ( about 50 % , coupled with evidence of low number of actual competitors and high barriers to market entry ) ; heatransfer corp . v . volkswagenwerk a . g . , 553 f . 2d 964 , 981 ( 5th cir . 1977 ) , cert . denied , 434 u . s . 1087 , 98 s . ct . 1282 , 55 l . ed . 2d 792 ( 1978 ) ( 71 % - 76 % ) ; woods exploration & producing co . v . aluminum co . of america , 438 f . 2d 1286 , 1307 ( 5th cir . 1971 ) ; cert . denied , 404 u . s . 1047 , 92 s . ct . 701 , 30 l . ed . 2d 736 ( 1973 ) ( 90 % ) ; north texas producers ass ' n v . metzger dairies , inc . ,",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": "b2 4, 1975",
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 4?",
+        "Context": "or makes possible * * * [ and ] the purpose or intent with which the combination was conceived. when a combination through its actual operation results in an unreasonable restraint, intent or purpose may be inferred. \" 28 some of the factors to be considered in determining the sherman 1 legality of a vertical integration are \" the percentage of business controlled, the strength of the remaining competition, whether the action springs from business requirements or purpose to monopolize, the probable [ * * 41 ] development of the industry, consumer demands, and other characteristics of the market. * * * the relative effect of percentage command of a market varies with the setting in which that factor is placed. \" 29 speaking specifically to in - house purchasing, in a passage important to this case, the court noted that hn16 [ ] a \" subsidiary will in all probability deal only with its parent for goods the parent can furnish. that fact, however, does not make the acquisition invalid. when other elements of sherman act violations are present, the fact of corporate relationship is material and can be considered in the determination of whether restraint or attempt to restrain exists.",
+        "Predicted Answer": "[SEP] or makes possible * * * [ and ] the purpose or intent with which the combination was conceived . when a combination through its actual operation results in an unreasonable restraint , intent or purpose may be inferred . \" 28 some of the factors to be considered in determining the sherman 1 legality of a vertical integration are \" the percentage of business controlled , the strength of the remaining competition , whether the action springs from business requirements or purpose to monopolize , the probable [ * * 41 ] development of the industry , consumer demands , and other characteristics of the market . * * * the relative effect of percentage command of a market varies with the setting in which that factor is placed . \" 29 speaking specifically to in - house purchasing , in a passage important to this case , the court noted that hn16 [ ] a \" subsidiary will in all probability deal only with its parent for goods the parent can furnish . that fact , however , does not make the acquisition invalid . when other elements of sherman act violations are present , the fact of corporate relationship is material and can be considered in the determination of whether restraint or attempt to restrain exists . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Vertical Integration",
+                "Definition": "Control over supply chain that limits competitors' access to resources or distribution."
+            }
+        ]
+    },
+    {
+        "Case Index": b3 54, 1979
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 54?",
+        "Context": "in their incipiency \" ) ( emphasis added ). a showing of some probable anticompetitive impact is still essential ( e. g., promotion of a trend toward integration ; reduction in number of potential market competitors ; entrenchment of a large supplier or purchaser ; increase in barriers to entry ). 10 instead of a per se approach, brown shoe mandates that hn5 [ ] when a merger is challenged under § 7 it \" becomes necessary to undertake an examination of various economic and historical factors in order to determine whether the [ * * 20 ] arrangement under review is the type congress sought to proscribe. \" 370 u. s. at 329, 82 s. ct. at 1526. in brown shoe the court described some of the factors to be considered in \" predicting the probable future conduct of the parties and thus the probable effects of the merger. \" hn6 [ ] most important among the factors are the nature and economic purpose of the arrangement, the likelihood and size of any market foreclosure, the extent of concentration of sellers and buyers in the industry, the capital cost required to enter the market, the market share needed by a buyer or seller to achieve a profitable level of production ( sometimes referred to as \" scale economy \" ), the existence",
+        "Predicted Answer": "[SEP] in their incipiency \" ) ( emphasis added ) . a showing of some probable anticompetitive impact is still essential ( e . g . , promotion of a trend toward integration ; reduction in number of potential market competitors ; entrenchment of a large supplier or purchaser ; increase in barriers to entry ) . 10 instead of a per se approach , brown shoe mandates that hn5 [ ] when a merger is challenged under § 7 it \" becomes necessary to undertake an examination of various economic and historical factors in order to determine whether the [ * * 20 ] arrangement under review is the type congress sought to proscribe . \" 370 u . s . at 329 , 82 s . ct . at 1526 . in brown shoe the court described some of the factors to be considered in \" predicting the probable future conduct of the parties and thus the probable effects of the merger . \" hn6 [ ] most important among the factors are the nature and economic purpose of the arrangement , the likelihood and size of any market foreclosure , the extent of concentration of sellers and buyers in the industry , the capital cost required to enter the market , the market share needed by a buyer or seller to achieve a profitable level of production ( sometimes referred to as \" scale economy \" ) , the existence [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": b4 32, 1980
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 32?",
+        "Context": "its trade secrets. for example, [ * * 66 ] ampex submits the deposition statement of data general's president expressing doubt that anyone could design a data general - compatible cpu without infringing its claimed trade secrets. 80 in light of the several material facts which remain subject to genuine dispute, and mindful of the supreme court's emphasis upon particularized proof of actual economic power, the court finds that the record with respect to this issue is not sufficiently conclusive to support summary adjudication. the jury will determine whether data general's claims of trade secrets protection confer upon it economic power in the cpu market. ampex also claims that economic barriers render data general's cpus unique for purposes of establishing economic power. first, ampex argues that a data general cpu is the only kind that data general permits to be used in conjunction with its software. 81 as noted in section iv, a, 1, supra, data general concedes as much. 82 however, [ * * 67 ] the record concerning this issue lacks undisputed facts sufficient to establish the requisite economic power. ampex apparently seeks to prove a derivative form of uniqueness based on the following assumptions : ( 1 ) data general's software is uniquely desirable insofar as competitors cannot economically offer similar",
+        "Predicted Answer": "[SEP] its trade secrets . for example , [ * * 66 ] ampex submits the deposition statement of data general ' s president expressing doubt that anyone could design a data general - compatible cpu without infringing its claimed trade secrets . 80 in light of the several material facts which remain subject to genuine dispute , and mindful of the supreme court ' s emphasis upon particularized proof of actual economic power , the court finds that the record with respect to this issue is not sufficiently conclusive to support summary adjudication . the jury will determine whether data general ' s claims of trade secrets protection confer upon it economic power in the cpu market . ampex also claims that economic barriers render data general ' s cpus unique for purposes of establishing economic power . first , ampex argues that a data general cpu is the only kind that data general permits to be used in conjunction with its software . 81 as noted in section iv , a , 1 , supra , data general concedes as much . 82 however , [ * * 67 ] the record concerning this issue lacks undisputed facts sufficient to establish the requisite economic power . ampex apparently seeks to prove a derivative form of uniqueness based on the following assumptions : ( 1 ) data general ' s software is uniquely desirable insofar as competitors cannot economically offer similar [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": b6 53, 1980-1982
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 53?",
+        "Context": "is material under the rule announced by the majority today. since the district court treated average variable cost as the \" evidentiary surrogate \" of marginal cost, inglis tried ( and failed ) to show that continental sold below its average variable costs of producing private label white bread. there is no reason why inglis should be given a second opportunity to make this showing. the judgment n. o. v. on the attempt - to - monopolize cause should, i feel, be affirmed. my more basic disagreement with the majority's opinion concerns its implicit holding that mere proof of pricing below average variable cost supports inferences of both specific intent to monopolize and dangerous probability of success. the majority states that probable success may be inferred from evidence of conduct alone, if the conduct is the sort from which specific intent may also be inferred. since proof of pricing below average variable cost states a prima facie case of predatory pricing, the majority permits the double inference from evidence of that conduct alone. 668 f. 2d 1014, * 1058 ; 1981 u. s. app. lexis 18689, * * 111",
+        "Predicted Answer": "[SEP] is material under the rule announced by the majority today . since the district court treated average variable cost as the \" evidentiary surrogate \" of marginal cost , inglis tried ( and failed ) to show that continental sold below its average variable costs of producing private label white bread . there is no reason why inglis should be given a second opportunity to make this showing . the judgment n . o . v . on the attempt - to - monopolize cause should , i feel , be affirmed . my more basic disagreement with the majority ' s opinion concerns its implicit holding that mere proof of pricing below average variable cost supports inferences of both specific intent to monopolize and dangerous probability of success . the majority states that probable success may be inferred from evidence of conduct alone , if the conduct is the sort from which specific intent may also be inferred . since proof of pricing below average variable cost states a prima facie case of predatory pricing , the majority permits the double inference from evidence of that conduct alone . 668 f . 2d 1014 , * 1058 ; 1981 u . s . app . lexis 18689 , * * 111 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": b6 66, 1981 
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 66?",
+        "Context": "define predatory intent. the legislative history of the clayton act indicates that predatory intent is an intent to destroy a rival with the ultimate purpose of acquiring a monopoly in a particular locality. see h. r. rep. no. 627, 63d cong., 2d sess. 8 ( 1914 ) ; s. rep. no. 698, 63d cong., 2d sess. 2 - 4 ( 1914 ). 8 [ * 348 ] more recent definitions of predatory intent focus on sacrificing present revenues with the purpose of achieving monopoly profits in the future. hn7 [ ] the ninth circuit has defined predatory pricing as pricing that indicates that a defendant was \" foregoing present profits in order [ * * 20 ] to create a market position in which it could charge enough to obtain supranormal profits and recoup its present losses. \" hanson v. shell oil co., 541 f. 2d 1352, 1358 ( 9th cir. 1976 ), cert. denied, 429 u. s. 1074, 97 s. ct. 813, 50 l. ed. 2d 792 ( 1977 ). see also janich bros., inc. v. american distilling co., 570 f",
+        "Predicted Answer": "[SEP] define predatory intent . the legislative history of the clayton act indicates that predatory intent is an intent to destroy a rival with the ultimate purpose of acquiring a monopoly in a particular locality . see h . r . rep . no . 627 , 63d cong . , 2d sess . 8 ( 1914 ) ; s . rep . no . 698 , 63d cong . , 2d sess . 2 - 4 ( 1914 ) . 8 [ * 348 ] more recent definitions of predatory intent focus on sacrificing present revenues with the purpose of achieving monopoly profits in the future . hn7 [ ] the ninth circuit has defined predatory pricing as pricing that indicates that a defendant was \" foregoing present profits in order [ * * 20 ] to create a market position in which it could charge enough to obtain supranormal profits and recoup its present losses . \" hanson v . shell oil co . , 541 f . 2d 1352 , 1358 ( 9th cir . 1976 ) , cert . denied , 429 u . s . 1074 , 97 s . ct . 813 , 50 l . ed . 2d 792 ( 1977 ) . see also janich bros . , inc . v . american distilling co . , 570 f [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": b7 65, 1982
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 65?",
+        "Context": "competitors in an industry, increase or decrease in defendant's market share, past and probable development in the industry, entry barriers and consumer demands. 3 von kalinowski, supra § 8. 02 ( 3 ), at 8 - 36 ( 1979 ). in light of these legal principles, the court now considers plaintiffs'[ * * 139 ] attempt to monopolize claim. a two - fold analysis recently used by the sixth circuit court of appeals in united states v. dairymen, supra will be employed. first, i will examine whether defendant's business practices constitute anticompetitive conduct indicative of a specific intent to monopolize. then the dangerous probability of success element will be assessed. a. anticompetitive conduct and specific intent to monopolize. the terms of the ahsc - vha purchasing agreement and defendant's conduct in [ * 1002 ] implementing this agreement are integral parts of a single business practice. therefore the court will analyze both the agreement and its implementation in assessing the issue of defendant's specific intent to monopolize.",
+        "Predicted Answer": "[SEP] competitors in an industry , increase or decrease in defendant ' s market share , past and probable development in the industry , entry barriers and consumer demands . 3 von kalinowski , supra § 8 . 02 ( 3 ) , at 8 - 36 ( 1979 ) . in light of these legal principles , the court now considers plaintiffs ' [ * * 139 ] attempt to monopolize claim . a two - fold analysis recently used by the sixth circuit court of appeals in united states v . dairymen , supra will be employed . first , i will examine whether defendant ' s business practices constitute anticompetitive conduct indicative of a specific intent to monopolize . then the dangerous probability of success element will be assessed . a . anticompetitive conduct and specific intent to monopolize . the terms of the ahsc - vha purchasing agreement and defendant ' s conduct in [ * 1002 ] implementing this agreement are integral parts of a single business practice . therefore the court will analyze both the agreement and its implementation in assessing the issue of defendant ' s specific intent to monopolize . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": b7 83, 1982
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 83?",
+        "Context": "' s prices were below its marginal or average variable cost was a failure [ * * * 22 ] as a matter of law to present a prima facie case under section 2. \" 541 f. 2d at 1359 ( emphasis added ). in the present case, there is not only an absence of evidence of homeguard's marginal or average variable costs, there is no evidence of homeguard's costs of any kind. plaintiff has thus failed to establish, as a matter of law, that homeguard was engaged in predatory pricing in violation of i. c. § 48 - 102. while there was testimony that some of the bid prices upon which homeguard was successful in obtaining work were below the cost of materials and labor of some testifying plaintiffs, there was no evidence or finding that plaintiffs'costs were the same as defendant's costs. without such a showing, evidence of plaintiffs'costs was irrelevant to a claim of predatory pricing by the defendant. since there is no evidence to support a finding that",
+        "Predicted Answer": "[SEP] ' s prices were below its marginal or average variable cost was a failure [ * * * 22 ] as a matter of law to present a prima facie case under section 2 . \" 541 f . 2d at 1359 ( emphasis added ) . in the present case , there is not only an absence of evidence of homeguard ' s marginal or average variable costs , there is no evidence of homeguard ' s costs of any kind . plaintiff has thus failed to establish , as a matter of law , that homeguard was engaged in predatory pricing in violation of i . c . § 48 - 102 . while there was testimony that some of the bid prices upon which homeguard was successful in obtaining work were below the cost of materials and labor of some testifying plaintiffs , there was no evidence or finding that plaintiffs ' costs were the same as defendant ' s costs . without such a showing , evidence of plaintiffs ' costs was irrelevant to a claim of predatory pricing by the defendant . since there is no evidence to support a finding that [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": b9 58, 1983
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 58?",
+        "Context": "- herald to smother the sun newspapers as a competitor. as to the rates of the golden courier, there does not appear to be any form of predatory pricing. typically, such pricing involves sales below costs in order to drive a rival out of business. see iii areeda & turner, antitrust law p710 et seq. ( 1978 ). the plaintiff did not present sufficient evidence to demonstrate [ * 54 ] that the prices for the golden courier were below cost. john brown testified that the golden courier \" 50 - 50 \" program was cost - feasible because of a standardized print layout for each advertiser plus smaller, lightweight paper. the \" 50 - 50 \" program was the only serious challenge 1983 u. s. dist. lexis 16258, * 50",
+        "Predicted Answer": "[SEP] - herald to smother the sun newspapers as a competitor . as to the rates of the golden courier , there does not appear to be any form of predatory pricing . typically , such pricing involves sales below costs in order to drive a rival out of business . see iii areeda & turner , antitrust law p710 et seq . ( 1978 ) . the plaintiff did not present sufficient evidence to demonstrate [ * 54 ] that the prices for the golden courier were below cost . john brown testified that the golden courier \" 50 - 50 \" program was cost - feasible because of a standardized print layout for each advertiser plus smaller , lightweight paper . the \" 50 - 50 \" program was the only serious challenge 1983 u . s . dist . lexis 16258 , * 50 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": c1 30, 1991
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 30?",
+        "Context": "a predatory pricing scheme. see henry, 809 f. 2d at 1345. utah pie, we repeat, condemns predatory [ * * 62 ] intent because it reflects the presence of predatory conduct rather than because it is an evil in itself ; the matsushita approach to predatory pricing analysis, which suggests that other considerations are more reliable indicators of predatory pricing and are therefore preferred to predatory intent, amplifies and supplants the utah pie approach to predatory pricing under the robinson - patman act. we do not believe that a. a. poultry decides otherwise. 27 in discussing methods of proof of predatory price discrimination, utah pie refers not only to direct evidence of predatory intent but also to indirect evidence based on \" surrounding economic circumstances, which would include persistent unprofitable sales below cost and drastic price cuts themselves discriminatory. \" 386 u. s. at 696 n. 12. below - cost sales is considered by contemporary commentators and courts to be a valid indicator of predatory conduct, see a. a. poultry, 881 f. 2d at 1400 - 01 ; areeda & turner, predatory pricing and related practices under section 2 of the sherman act, 88 harv. l",
+        "Predicted Answer": "[SEP] a predatory pricing scheme . see henry , 809 f . 2d at 1345 . utah pie , we repeat , condemns predatory [ * * 62 ] intent because it reflects the presence of predatory conduct rather than because it is an evil in itself ; the matsushita approach to predatory pricing analysis , which suggests that other considerations are more reliable indicators of predatory pricing and are therefore preferred to predatory intent , amplifies and supplants the utah pie approach to predatory pricing under the robinson - patman act . we do not believe that a . a . poultry decides otherwise . 27 in discussing methods of proof of predatory price discrimination , utah pie refers not only to direct evidence of predatory intent but also to indirect evidence based on \" surrounding economic circumstances , which would include persistent unprofitable sales below cost and drastic price cuts themselves discriminatory . \" 386 u . s . at 696 n . 12 . below - cost sales is considered by contemporary commentators and courts to be a valid indicator of predatory conduct , see a . a . poultry , 881 f . 2d at 1400 - 01 ; areeda & turner , predatory pricing and related practices under section 2 of the sherman act , 88 harv . l [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": c10 30, 1990
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 30?",
+        "Context": "syufy acquired mann's, plitt's and cragin's theatres he temporarily diminished the number of competitors in the las vegas first - run film market. but this does not necessarily indicate foul play ; [ * * 11 ] hn5 [ ] many legitimate market arrangements diminish the number of competitors. it would be odd if they did not, as the nature of competition is to make winners and losers. 5 if there are no significant barriers to entry, however, eliminating competitors will not enable the survivors to reap a monopoly profit ; any attempt to raise prices above the",
+        "Predicted Answer": "[SEP] syufy acquired mann ' s , plitt ' s and cragin ' s theatres he temporarily diminished the number of competitors in the las vegas first - run film market . but this does not necessarily indicate foul play ; [ * * 11 ] hn5 [ ] many legitimate market arrangements diminish the number of competitors . it would be odd if they did not , as the nature of competition is to make winners and losers . 5 if there are no significant barriers to entry , however , eliminating competitors will not enable the survivors to reap a monopoly profit ; any attempt to raise prices above the [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": c10 30, 1990
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 30?",
+        "Context": "see, e. g., mci commun. corp. v. at & t, 708 f. 2d 1081, 1107 - 08 ( 7th cir. ), cert. denied, 464 u. s. 891, 104 s. ct. 234, 78 l. ed. 2d 226 ( 1983 ) ; 3 p. areeda & d. turner, supra n. 5, p. 608e, at 22 ( \" it is absurd to classify such behavior as unlawfully'exclusionary.'\" ) ; l. sullivan, supra n. 5, at 103 ( \" the hand formulation... fails to clearly identify the differences between guilty and innocent conduct. \" ). it has is unlikely to arise in dynamic industries marked by a rapidly expanding volume of demand and low barriers to entry. \" metro mobile cts, inc. v. newvector commun., inc., 892 f. 2d 62, 63 ( 9th cir. 1989 ). more fundamentally, the government's static model, which assumes that there is only so much demand for a particular product, is alien to modern economic theory, as well as common sense, which teach us that things change. the demand for movie tickets",
+        "Predicted Answer": "[SEP] see , e . g . , mci commun . corp . v . at & t , 708 f . 2d 1081 , 1107 - 08 ( 7th cir . ) , cert . denied , 464 u . s . 891 , 104 s . ct . 234 , 78 l . ed . 2d 226 ( 1983 ) ; 3 p . areeda & d . turner , supra n . 5 , p . 608e , at 22 ( \" it is absurd to classify such behavior as unlawfully ' exclusionary . ' \" ) ; l . sullivan , supra n . 5 , at 103 ( \" the hand formulation . . . fails to clearly identify the differences between guilty and innocent conduct . \" ) . it has is unlikely to arise in dynamic industries marked by a rapidly expanding volume of demand and low barriers to entry . \" metro mobile cts , inc . v . newvector commun . , inc . ,",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": c10 46, 1990
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 46?",
+        "Context": "##1 [ ] we review de novo the district court's grant of summary judgment to the defendants. richards v. neilsen freight lines, 810 f. 2d 898, 902 ( 9th cir. 1987 ). determining whether the grant of summary judgment was proper in this case involves a careful application of the standards set down by the supreme court in matsushita elec. indus. co. v. zenith radio corp., 475 u. s. 574, 106 s. ct. 1348, 89 l. ed. 2d 538 ( 1986 ). because the parties sharply disagree over the proper interpretation of matsushita, and because the issue is crucial to a proper resolution of this case, we think it appropriate to review in some detail the nature of the standards established in matsushita. a. the matsushita decision in matsushita, plaintiffs zenith and national union electric corp. ( \" zenith \" ) sued several japanese companies that manufacture consumer electronic products. zenith alleged [ * * 10 ] that the japanese companies had engaged in a predatory pricing conspiracy aimed at driving american firms from the u. s. consumer electronic products market. after several years of discovery, the defendants moved for summary judgment. the [ * 438 ] district",
+        "Predicted Answer": "[SEP] # # 1 [ ] we review de novo the district court ' s grant of summary judgment to the defendants . richards v . neilsen freight lines , 810 f . 2d 898 , 902 ( 9th cir . 1987 ) . determining whether the grant of summary judgment was proper in this case involves a careful application of the standards set down by the supreme court in matsushita elec . indus . co . v . zenith radio corp . , 475 u . s . 574 , 106 s . ct . 1348 , 89 l . ed . 2d 538 ( 1986 ) . because the parties sharply disagree over the proper interpretation of matsushita , and because the issue is crucial to a proper resolution of this case , we think it appropriate to review in some detail the nature of the standards established in matsushita . a . the matsushita decision in matsushita , plaintiffs zenith and national union electric corp . ( \" zenith \" ) sued several japanese companies that manufacture consumer electronic products . zenith alleged [ * * 10 ] that the japanese companies had engaged in a predatory pricing conspiracy aimed at driving american firms from the u . s . consumer electronic products market . after several years of discovery , the defendants moved for summary judgment . the [ * 438 ] district [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": c10 70, 1990
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 70?",
+        "Context": "97 & n. 12, 698, 701, and run the local competitor out of business. the national manufacturers could afford to do this due to profits obtained on the sale of dessert pies in other areas of the once a price is shown to be below the relevant costs its effect may be substantially to lessen competition, and it is condemned precisely because it has the potential to destroy competition and, if continued, the dangerous probability of doing so. if the price does not violate the relevant predatory pricing standard, it cannot tend to lessen competition or to have the dangerous probability of doing so. p. areeda & h. hovenkamp, antitrust law 720, at 618 ( supp. 1989 ).",
+        "Predicted Answer": "[SEP] 97 & n . 12 , 698 , 701 , and run the local competitor out of business . the national manufacturers could afford to do this due to profits obtained on the sale of dessert pies in other areas of the once a price is shown to be below the relevant costs its effect may be substantially to lessen competition , and it is condemned precisely because it has the potential to destroy competition and , if continued , the dangerous probability of doing so . if the price does not violate the relevant predatory pricing standard , it cannot tend to lessen competition or to have the dangerous probability of doing so . p . areeda & h . hovenkamp , antitrust law 720 , at 618 ( supp . 1989 ) . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": c4 32, 1986
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 32?",
+        "Context": "; the district court pointed out that insurers need only a license and capital, and that firms such as aetna and prudential have both. there are no barriers to entry - - other firms may duplicate the blues'product at the same cost the blues incur in furnishing their coverage. see george j. stigler, the organization of industry 67 - 70 ( 1968 ) ( defining barriers to entry as differentials in the long - term costs of production ) ; cf. harold demsetz, barriers to entry, 72 am. econ. rev. 47 ( 1982 ) ( showing that not all barriers, as so defined, injure effective competition ). the blues and other nonprofits may have an [ * * 123 ] edge because of the lower tax indiana places on premiums paid to them, but this sort of advantage is not pertinent here. other mutual insurance carriers ( including prudential ) can get the same tax break. a ppo plan does not exploit the tax advantage as compared with any other plan the blues could offer. the tax benefits may or may not be desirable as a matter of state policy, but this is no concern of antitrust law. the blues do not own any assets that block or delay entry. the insurance industry is not",
+        "Predicted Answer": "[SEP] ; the district court pointed out that insurers need only a license and capital , and that firms such as aetna and prudential have both . there are no barriers to entry - - other firms may duplicate the blues ' product at the same cost the blues incur in furnishing their coverage . see george j . stigler , the organization of industry 67 - 70 ( 1968 ) ( defining barriers to entry as differentials in the long - term costs of production ) ; cf . harold demsetz , barriers to entry , 72 am . econ . rev . 47 ( 1982 ) ( showing that not all barriers , as so defined , injure effective competition ) . the blues and other nonprofits may have an [ * * 123 ] edge because of the lower tax indiana places on premiums paid to them , but this sort of advantage is not pertinent here . other mutual insurance carriers ( including prudential ) can get the same tax break . a ppo plan does not exploit the tax advantage as compared with any other plan the blues could offer . the tax benefits may or may not be desirable as a matter of state policy , but this is no concern of antitrust law . the blues do not own any assets that block or delay entry . the insurance industry is not [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": c9 17, 1989
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 17?",
+        "Context": ". 2d 247 ( 1965 ), as requiring a \" clear and convincing \" standard for the type of conduct involved there, fraudulent procurement of a patent as a basis for an antitrust claim. 601 f. 2d at 996, 202 u. s. p. q. at 351. the handgards court saw in that standard [ * * 11 ] a barrier \" to prevent frustration of patent laws by the long reach of antitrust laws, \" which \" suggests our proper course, \" i. e., \" to erect such barriers to antitrust suits as are necessary to provide reasonable protection for the honest patentee who brings an infringement action \" to protect his patent. the barrier identified by handgards is 714 f. supp. 1262, * 1266 ; 1989 u. s. dist. lexis 6856, * * 7 ; 11 u. s. p. q. 2d ( bna ) 1497, * * * 1499",
+        "Predicted Answer": "[SEP] . 2d 247 ( 1965 ) , as requiring a \" clear and convincing \" standard for the type of conduct involved there , fraudulent procurement of a patent as a basis for an antitrust claim . 601 f . 2d at 996 , 202 u . s . p . q . at 351 . the handgards court saw in that standard [ * * 11 ] a barrier \" to prevent frustration of patent laws by the long reach of antitrust laws , \" which \" suggests our proper course , \" i . e . , \" to erect such barriers to antitrust suits as are necessary to provide reasonable protection for the honest patentee who brings an infringement action \" to protect his patent . the barrier identified by handgards is 714 f . supp . 1262 , * 1266 ; 1989 u . s . dist . lexis 6856 , * * 7 ; 11 u . s . p . q . 2d ( bna ) 1497 , * * * 1499 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": c9 39, 1988-1989
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 39?",
+        "Context": "##n1 [ ] makes it unlawful \" to discriminate in price between different purchasers of commodities of like grade and quality \", unless certain exclusions and defenses apply, \" where the effect of such discrimination [ * * 10 ] may be substantially to lessen competition or tend to create a monopoly \". when the discrimination has primary - line effects - - that is, in the same industry as the person granting the discriminatory prices - - the claim has much in common with a contention that the defendant engaged in predatory pricing in violation of § 2 of the sherman act, 15 u. s. c. § 2. in either case, the gravamen is that the aggressor sold goods for too little money, hoping to cripple or discipline rivals so that it might sell its wares for a monopoly price later, recouping the losses and adding a hefty profit, to the detriment of consumers. under a system of notice pleading, a party may prevail by establishing that its legal rights have been violated, whether or not it names the right statute. because this case was litigated as if the complaint had named § 2 of the sherman act in addition to § 2 ( a ) of the clayton act, [ * 1400 ]",
+        "Predicted Answer": "[SEP] # # n1 [ ] makes it unlawful \" to discriminate in price between different purchasers of commodities of like grade and quality \" , unless certain exclusions and defenses apply , \" where the effect of such discrimination [ * * 10 ] may be substantially to lessen competition or tend to create a monopoly \" . when the discrimination has primary - line effects - - that is , in the same industry as the person granting the discriminatory prices - - the claim has much in common with a contention that the defendant engaged in predatory pricing in violation of § 2 of the sherman act , 15 u . s . c . § 2 . in either case , the gravamen is that the aggressor sold goods for too little money , hoping to cripple or discipline rivals so that it might sell its wares for a monopoly price later , recouping the losses and adding a hefty profit , to the detriment of consumers . under a system of notice pleading , a party may prevail by establishing that its legal rights have been violated , whether or not it names the right statute . because this case was litigated as if the complaint had named § 2 of the sherman act in addition to § 2 ( a ) of the clayton act , [ * 1400 ] [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": c9 84, 1989
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 84?",
+        "Context": ". \" plaintiffs argue this statement and defendants'bidding practices show predatory pricing in legal advertising. plaintiffs'also allege predatory pricing in the sale of merchant advertising. this allegation centers on the rate the ponders offered ag market to induce it to switch its weekly two - page ad from the ozark shopper to the prospector. in october 1981, the prospector quoted ag market a weekly price of $ 269 - - substantially below the $ 400 price [ * * 8 ] ag market was paying the ozark shopper at that time. ag market switched over. after it did, other 892 f. 2d 1355, * 1357 ; 1989 u. s. app. lexis 19570, * * 3",
+        "Predicted Answer": "[SEP] . \" plaintiffs argue this statement and defendants ' bidding practices show predatory pricing in legal advertising . plaintiffs ' also allege predatory pricing in the sale of merchant advertising . this allegation centers on the rate the ponders offered ag market to induce it to switch its weekly two - page ad from the ozark shopper to the prospector . in october 1981 , the prospector quoted ag market a weekly price of $ 269 - - substantially below the $ 400 price [ * * 8 ] ag market was paying the ozark shopper at that time . ag market switched over . after it did , other 892 f . 2d 1355 , * 1357 ; 1989 u . s . app . lexis 19570 , * * 3 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": c9 93, 1990
+        "CSV File": "Processed_Opinion_Data1.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 93?",
+        "Context": "complaint, aas alleges that bci ( 1 ) attempted to monopolize a portion of the educational supplies market in violation of section 2 of the sherman act, 15 u. s. c. § 2, and the illinois antitrust act, ill. rev. stat. ch. 38, § 60 - 3 ; ( 2 ) practiced discriminatory and predatory pricing in violation of the robinson - patman act, 15 u. s. c. § 13 ( a ) ; ( 3 ) engaged in unfair and deceptive practices in violation of the illinois consumer fraud and deceptive business practices act, ill. rev. stat. ch. 121 1 / 2, para. 262 ; and ( 4 ) disparaged the services of aas in violation of the illinois deceptive trade practices act, ill. rev. stat. ch. 121 1 / 2, para. 311, and the ohio deceptive trade [ * 2 ] practices statute, ohio rev. code § 4165. 02 ( h ). as relief, aas is seeking an injunction and treble damages on its antitrust claims. the matter is before the court on bci's motion for summary judgment pursuant to fed. r. civ. p. 56. i. the appropriate summary judgment standard the parties disagree about the",
+        "Predicted Answer": "[SEP] complaint , aas alleges that bci ( 1 ) attempted to monopolize a portion of the educational supplies market in violation of section 2 of the sherman act , 15 u . s . c . § 2 , and the illinois antitrust act , ill . rev . stat . ch . 38 , § 60 - 3 ; ( 2 ) practiced discriminatory and predatory pricing in violation of the robinson - patman act , 15 u . s . c . § 13 ( a ) ; ( 3 ) engaged in unfair and deceptive practices in violation of the illinois consumer fraud and deceptive business practices act , ill . rev . stat . ch . 121 1 / 2 , para . 262 ; and ( 4 ) disparaged the services of aas in violation of the illinois deceptive trade practices act , ill . rev . stat . ch . 121 1 / 2 , para . 311 , and the ohio deceptive trade [ * 2 ] practices statute , ohio rev . code § 4165 . 02 ( h ) . as relief , aas is seeking an injunction and treble damages on its antitrust claims . the matter is before the court on bci ' s motion for summary judgment pursuant to fed . r . civ . p . 56 . i . the appropriate summary judgment standard the parties disagree about the [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": f2 47, 1992
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 47?",
+        "Context": "##y practices the subjective intent of a seller should not be a factor in determining whether its prices are predatory. antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > general overview hn16 [ ] actual monopolization, anticompetitive & predatory practices the objective economic approach to predation is still the law of this circuit. where barriers to entry are not pronounced predatory pricing is not established unless the defendant has set his prices below his average variable cost. antitrust & trade law >... > actual monopolization > anticompetitive & predatory practices > general overview 826 s. w. 2d 576, * 576 ; 1992 tex. lexis 20, * * 1",
+        "Predicted Answer": "[SEP] # # y practices the subjective intent of a seller should not be a factor in determining whether its prices are predatory . antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > general overview hn16 [ ] actual monopolization , anticompetitive & predatory practices the objective economic approach to predation is still the law of this circuit . where barriers to entry are not pronounced predatory pricing is not established unless the defendant has set his prices below his average variable cost . antitrust & trade law > . . . > actual monopolization > anticompetitive & predatory practices > general overview 826 s . w . 2d 576 , * 576 ; 1992 tex . lexis 20 , * * 1 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            },
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": f2 80, 1992
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 80?",
+        "Context": "society has been shown ; the tying makes the cost of milled cane higher and acts to insulate the mills from the effects of competition. the tie in and its anti - competitive impact outweigh whatever benefit it might create. therefore, application of these criteria to the case at hand is straight forward ; the tie provision must fall. therefore, the defendants have market power and can obtain additional market power in the defined geographic area for land. second, there is clear evidence the defendants have acquired market power over the mills. this market power allows defendants opportunity to drive out existing mills and erect barriers to entry into the market by controlling the one absolutely necessary factor in sugar cane mill operation, i. e., the source of cane. third, there is a sound economic reason for treating sugar cane land distinct from mill services. and in balance, without the tying agreement the defendants at present have no power within the mill market. they control no cane, produce no cane, 792 f. supp. 1436, * 1453 ; 1992 u. s. dist. lexis 14257, * * 54",
+        "Predicted Answer": "[SEP] society has been shown ; the tying makes the cost of milled cane higher and acts to insulate the mills from the effects of competition . the tie in and its anti - competitive impact outweigh whatever benefit it might create . therefore , application of these criteria to the case at hand is straight forward ; the tie provision must fall . therefore , the defendants have market power and can obtain additional market power in the defined geographic area for land . second , there is clear evidence the defendants have acquired market power over the mills . this market power allows defendants opportunity to drive out existing mills and erect barriers to entry into the market by controlling the one absolutely necessary factor in sugar cane mill operation , i . e . , the source of cane . third , there is a sound economic reason for treating sugar cane land distinct from mill services . and in balance , without the tying agreement the defendants at present have no power within the mill market . they control no cane , produce no cane , 792 f . supp . 1436 , * 1453 ; 1992 u . s . dist . lexis 14257 , * * 54 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": f3 3, 1992
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 3?",
+        "Context": "##y consumers with a choice between two lemon - lime sodas ( seven - up and sprite ) instead of three. ar 1697, 1700 - 1701, 1705, 1716, 1930 - 3. there was also a likelihood that the distribution of other minor brands of carbonated soft drinks previously distributed by seven - up brooklyn, such as rc cola, would be adversely affected. ar 1685, 1829 - 1, 1830 - 1. the record also provides support for the view that the acquisition of the seven - up bottling franchise by the pepsi bottler would increase the barriers to entry to new bottlers, because seven - up would be unavailable to bottlers seeking to build up the requisite market share to compete effectively with coke and pepsi products. ar 52 - 53, 1372, 1704, 1706 - 1708. whether an acquisition would increase barriers to \" potential competition from firms not presently active in the relevant product and geographic markets \" is, of course, highly relevant in assessing an acquisition's probable anticompetitive effects. united states v. waste management, inc., 743 f. 2d 976, 982 - 83 ( 2nd cir. 1984 ). in short, the [ * * 51 ] record supports, if it does",
+        "Predicted Answer": "[SEP] # # y consumers with a choice between two lemon - lime sodas ( seven - up and sprite ) instead of three . ar 1697 , 1700 - 1701 , 1705 , 1716 , 1930 - 3 . there was also a likelihood that the distribution of other minor brands of carbonated soft drinks previously distributed by seven - up brooklyn , such as rc cola , would be adversely affected . ar 1685 , 1829 - 1 , 1830 - 1 . the record also provides support for the view that the acquisition of the seven - up bottling franchise by the pepsi bottler would increase the barriers to entry to new bottlers , because seven - up would be unavailable to bottlers seeking to build up the requisite market share to compete effectively with coke and pepsi products . ar 52 - 53 , 1372 , 1704 , 1706 - 1708 . whether an acquisition would increase barriers to \" potential competition from firms not presently active in the relevant product and geographic markets \" is , of course , highly relevant in assessing an acquisition ' s probable anticompetitive effects . united states v . waste management , inc . , 743 f . 2d 976 , 982 - 83 ( 2nd cir . 1984 ) . in short , the [ * * 51 ] record supports , if it does [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": f3 16, 1992
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 16?",
+        "Context": "focus on is the fact that we are left with a singular claim, the essence of which is that arco formed a combination and conspiracy with its dealers to - in the language of the supreme court - to engage in resale price maintenance, to fix vertically the price at which the dealers would resell. ( emphasis added ). when the court asked usa's counsel whether he was required to show predatory pricing, mr. blecher replied : \" all i [ * * 34 ] have to show in my view is price - fixing. price - fixing is in and of itself illegal. \" ( emphasis added ). mr. blecher informed the court that he could not demonstrate on the evidence before the court that the price was predatory. mr. blecher argued that the court was not required to find that \" the fixed price is predatory in order to hold the defendant liable. \" as noted above, usa's concession in its opening [ * 1081 ] brief that it offered no proof of predatory pricing dispels any reasonable doubt regarding its decision to rely solely on the per se price - fixing violation as sufficient evidence of antitrust injury. the majority concludes that the district court \" wrongly dismissed usa's predatory pricing claims. \" majority opinion",
+        "Predicted Answer": "[SEP] focus on is the fact that we are left with a singular claim , the essence of which is that arco formed a combination and conspiracy with its dealers to - in the language of the supreme court - to engage in resale price maintenance , to fix vertically the price at which the dealers would resell . ( emphasis added ) . when the court asked usa ' s counsel whether he was required to show predatory pricing , mr . blecher replied : \" all i [ * * 34 ] have to show in my view is price - fixing . price - fixing is in and of itself illegal . \" ( emphasis added ) . mr . blecher informed the court that he could not demonstrate on the evidence before the court that the price was predatory . mr . blecher argued that the court was not required to find that \" the fixed price is predatory in order to hold the defendant liable . \" as noted above , usa ' s concession in its opening [ * 1081 ] brief that it offered no proof of predatory pricing dispels any reasonable doubt regarding its decision to rely solely on the per se price - fixing violation as sufficient evidence of antitrust injury . the majority concludes that the district court \" wrongly dismissed usa ' s predatory pricing claims . \" majority opinion [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": f3 41, 1992
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 41?",
+        "Context": "which turned out, according its own estimates, to be $ 14 above its average variable costs. however, the rules governing summary judgment required that leiper's testimony be taken as \" gospel, \" from which it necessarily followed that goodyear was deemed to have made a mistake. but the mere fact that leiper had a different opinion than goodyear's own accountants could not in any way suggest unlawful intent on goodyear's part. [ * * 7 ] when i expressed this thought at the conference, plaintiff's counsel replied that the professors areeda's and turner's seminal articley established that predatory intent was presumed from predatory pricing ( conference minutes, at 26 ). there is no indication of such a suggestion in the article. what the article does say is that anything below average variable cost would be \" conclusively \" presumed to be predatory ( areeda & turner at 733 ). this is the precise opposite of an implied intent. 2 plaintiff also urged that there existed arguments about intent it could have made but had decided not to advance ( conference minutes, at 27 ). one can only guess what these arguments might have been, but surely the court was not influenced by arguments that could",
+        "Predicted Answer": "[SEP] which turned out , according its own estimates , to be $ 14 above its average variable costs . however , the rules governing summary judgment required that leiper ' s testimony be taken as \" gospel , \" from which it necessarily followed that goodyear was deemed to have made a mistake . but the mere fact that leiper had a different opinion than goodyear ' s own accountants could not in any way suggest unlawful intent on goodyear ' s part . [ * * 7 ] when i expressed this thought at the conference , plaintiff ' s counsel replied that the professors areeda ' s and turner ' s seminal articley established that predatory intent was presumed from predatory pricing ( conference minutes , at 26 ) . there is no indication of such a suggestion in the article . what the article does say is that anything below average variable cost would be \" conclusively \" presumed to be predatory ( areeda & turner at 733 ) . this is the precise opposite of an implied intent . 2 plaintiff also urged that there existed arguments about intent it could have made but had decided not to advance ( conference minutes , at 27 ) . one can only guess what these arguments might have been , but surely the court was not influenced by arguments that could [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": f4 94, 1993
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 94?",
+        "Context": ", 112 s. ct. 973 ( 1992 ), citing aspen skiing co. v. aspen highlands skiing corp., 472 u. s. 585, 596 n. 19, 86 l. ed. 2d 467, 105 s. ct. 2847 ( 1985 ). the complaint contains no allegations addressing the element of market power. 13 not only is there no discussion of market shares or barriers to entry, but the complaint even describes a vigorously competitive market. complaint p 17. the complaint thus fails to state a proper claim of monopolization. 1993 u. s. dist. lexis 19907, * 20",
+        "Predicted Answer": "[SEP] , 112 s . ct . 973 ( 1992 ) , citing aspen skiing co . v . aspen highlands skiing corp . , 472 u . s . 585 , 596 n . 19 , 86 l . ed . 2d 467 , 105 s . ct . 2847 ( 1985 ) . the complaint contains no allegations addressing the element of market power . 13 not only is there no discussion of market shares or barriers to entry , but the complaint even describes a vigorously competitive market . complaint p 17 . the complaint thus fails to state a proper claim of monopolization . 1993 u . s . dist . lexis 19907 , * 20 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": f5 14, 1994
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 14?",
+        "Context": "u. s. 477, 489, 50 l. ed. 2d 701, 97 s. ct. 690 ( 1977 ), citing brown shoe co. v. united states, 370 u. s. 294, 320, 8 l. ed. 2d 510, 82 s. ct. 1502 ( 1962 ). this is a highly unusual antitrust case. predatory pricing, a generally ill - defined term, has been described as \" pricing below an appropriate measure of cost for the purpose of eliminating competitors in the short run and reducing competition in the long run. \" cargill, inc. v. monfort of colorado, inc., 479 u. s. 104, 117, 93 l. ed. 2d 427, 107 s. ct. 484 ( 1986 ). allegations of predatory pricing are often supported by analysis of a producer's average [ * * 32 ] total and variable costs. see, e. g., william inglis & sons baking co. v. itt continental baking co., inc., 668 f. 2d 1014, 1031 - 32 ( 9th cir. 1981 ), cert. denied, 459 u. s. 825, 74 l",
+        "Predicted Answer": "[SEP] u . s . 477 , 489 , 50 l . ed . 2d 701 , 97 s . ct . 690 ( 1977 ) , citing brown shoe co . v . united states , 370 u . s . 294 , 320 , 8 l . ed . 2d 510 , 82 s . ct . 1502 ( 1962 ) . this is a highly unusual antitrust case . predatory pricing , a generally ill - defined term , has been described as \" pricing below an appropriate measure of cost for the purpose of eliminating competitors in the short run and reducing competition in the long run . \" cargill , inc . v . monfort of colorado , inc . , 479 u . s . 104 , 117 , 93 l . ed . 2d 427 , 107 s . ct . 484 ( 1986 ) . allegations of predatory pricing are often supported by analysis of a producer ' s average [ * * 32 ] total and variable costs . see , e . g . , william inglis & sons baking co . v . itt continental baking co . ,",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": f6 58, 1994-1995
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 58?",
+        "Context": "- cost prices which are below the general market level or the costs of a firm's competitor do not inflict injury to competition cognizable under antitrust law. atlantic richfield co. v. usa petroleum co., 495 u. s. 328, 340, 110 s. ct. 1884, 1892, 109 l. ed. 2d 333, 347 - 48 ( 1990 ). in the present case, the judge evaluated the evidence with respect to whether farmland's prices were below a certain measure of cost. however, the judge failed to consider whether the market's conditions or structure [ * * * 79 ] made recoupment of farmland's losses feasible. ideal offered no proof in this regard. in matsushita, the supreme court made [ * * 931 ] clear that without such evidence, there can be no finding of predatory pricing, regardless of the ratio between price and cost. 475 u. s. at 589, 106 s. ct. at 1357, 89 l. ed. 2d at 554. see cargill, inc. v. monfort of colorado, inc., supra, 479 u. s. at 116, 107 s. ct. at 492, 93 l. ed. 2d at",
+        "Predicted Answer": "[SEP] - cost prices which are below the general market level or the costs of a firm ' s competitor do not inflict injury to competition cognizable under antitrust law . atlantic richfield co . v . usa petroleum co . , 495 u . s . 328 , 340 , 110 s . ct . 1884 , 1892 , 109 l . ed . 2d 333 , 347 - 48 ( 1990 ) . in the present case , the judge evaluated the evidence with respect to whether farmland ' s prices were below a certain measure of cost . however , the judge failed to consider whether the market ' s conditions or structure [ * * * 79 ] made recoupment of farmland ' s losses feasible . ideal offered no proof in this regard . in matsushita , the supreme court made [ * * 931 ] clear that without such evidence , there can be no finding of predatory pricing , regardless of the ratio between price and cost . 475 u . s . at 589 , 106 s . ct . at 1357 , 89 l . ed . 2d at 554 . see cargill , inc . v . monfort of colorado ,",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": f7 50, 1995
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 50?",
+        "Context": "thousand gallon volume. casey's directed stores losing sales to competition to reduce gas prices to regain the volume. casey's instructed stores selling at least thirty thousand gallons monthly simply to price competitively. these pricing directives did not target towns or markets of any particular population or geographic size. casey's gave a different set of instructions to stores that faced new competitors or unusual competitive situations. casey's goal was to achieve gasoline sales of thirty thousand gallons per month in each store. on december 4, 1990, the plaintiffs filed this three - count anti - competition lawsuit against casey's. count i alleged that casey's engaged in discriminatory pricing practices in violation of section 2 ( a ) of the [ * * 4 ] robinson - patman act, 15 u. s. c. § 13 ( a ). count ii alleged that casey's engaged in predatory pricing in violation of section 2 of the sherman act, 15 u. s. c. § 2. count iii alleged violation of the iowa unfair discrimination statute, iowa code ch. 551 ( 1989 ). the district court certified this case as a class action in 1993. the plaintiffs'theory underlying all three of its",
+        "Predicted Answer": "[SEP] thousand gallon volume . casey ' s directed stores losing sales to competition to reduce gas prices to regain the volume . casey ' s instructed stores selling at least thirty thousand gallons monthly simply to price competitively . these pricing directives did not target towns or markets of any particular population or geographic size . casey ' s gave a different set of instructions to stores that faced new competitors or unusual competitive situations . casey ' s goal was to achieve gasoline sales of thirty thousand gallons per month in each store . on december 4 , 1990 , the plaintiffs filed this three - count anti - competition lawsuit against casey ' s . count i alleged that casey ' s engaged in discriminatory pricing practices in violation of section 2 ( a ) of the [ * * 4 ] robinson - patman act , 15 u . s . c . § 13 ( a ) . count ii alleged that casey ' s engaged in predatory pricing in violation of section 2 of the sherman act , 15 u . s . c . § 2 . count iii alleged violation of the iowa unfair discrimination statute , iowa code ch . 551 ( 1989 ) . the district court certified this case as a class action in 1993 . the plaintiffs ' theory underlying all three of its [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": f9 64, 1997
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 64?",
+        "Context": "salaried staff anesthesiologists at kino and the university medical faculty at umc, and thus were not open to saa or aaa. the evidence also showed that the private anesthesiology industry recognized the remaining five private hospitals and the outpatient facilities as the relevant market. the jury was well within its province to determine that kino and umc were not part of the relevant market because there was no potential ability by either party to take that business away from the other. thus plaintiffs presented substantial evidence to demonstrate the first two criteria of market power. plaintiffs also presented substantial evidence to show that there were significant barriers to entry into the market for anesthesiology in tucson. no other entity other than saa and old pueblo associates ever achieved higher than a 5 % share of the relevant market. exclusive contracts with hmos and other third party payors, saa's [ * 13 ] control 1997 u. s. dist. lexis 16245, * 9",
+        "Predicted Answer": "[SEP] salaried staff anesthesiologists at kino and the university medical faculty at umc , and thus were not open to saa or aaa . the evidence also showed that the private anesthesiology industry recognized the remaining five private hospitals and the outpatient facilities as the relevant market . the jury was well within its province to determine that kino and umc were not part of the relevant market because there was no potential ability by either party to take that business away from the other . thus plaintiffs presented substantial evidence to demonstrate the first two criteria of market power . plaintiffs also presented substantial evidence to show that there were significant barriers to entry into the market for anesthesiology in tucson . no other entity other than saa and old pueblo associates ever achieved higher than a 5 % share of the relevant market . exclusive contracts with hmos and other third party payors , saa ' s [ * 13 ] control 1997 u . s . dist . lexis 16245 , * 9 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": f9 93, 1997
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 93?",
+        "Context": "hn7 [ ] where barriers to entry into the relevant market are low, a defendant's large market share may not accurately reflect market power. see united states v. waste management., inc. 743 f. 2d 976, 983 ( 2d cir. 1984 ) ; ball memorial, 784 f. 2d at 1335. in waste management, the government challenged the acquisition by waste management, inc. ( \" wmi \" ), a solid waste disposal company, of a competitor in the dallas area. if allowed, the merger would have resulted in wmi controlling 48. 8 % of a certain category of the waste disposal business in the dallas area, sufficient to constitute prima facie evidence that the merger was illegal. waste [ * * 23 ] management, 743 f. 2d at 976. declining to find that the merged company would possess market power, the second circuit recognized that \" entry into the relevant product and geographic market by new firms or by existing firms in the fort worth area is so easy that any anti - competitive effect of the merger [ * 904 ] before us would be eliminated more quickly by such competition than by litigation. \" id. at 983 ; see also antitrust law, volume iia, section 4c. hasbro,",
+        "Predicted Answer": "[SEP] hn7 [ ] where barriers to entry into the relevant market are low , a defendant ' s large market share may not accurately reflect market power . see united states v . waste management . , inc . 743 f . 2d 976 , 983 ( 2d cir . 1984 ) ; ball memorial , 784 f . 2d at 1335 . in waste management , the government challenged the acquisition by waste management , inc . ( \" wmi \" ) , a solid waste disposal company , of a competitor in the dallas area . if allowed , the merger would have resulted in wmi controlling 48 . 8 % of a certain category of the waste disposal business in the dallas area , sufficient to constitute prima facie evidence that the merger was illegal . waste [ * * 23 ] management , 743 f . 2d at 976 . declining to find that the merged company would possess market power , the second circuit recognized that \" entry into the relevant product and geographic market by new firms or by existing firms in the fort worth area is so easy that any anti - competitive effect of the merger [ * 904 ] before us would be eliminated more quickly by such competition than by litigation . \" id . at 983 ; see also antitrust law , volume iia , section 4c . hasbro , [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": g3 67, 2005
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 67?",
+        "Context": "w & s also complains that the advertising and common naming restrictions infringe on the franchisees'rights jointly to propose retail liquor sales through newspaper advertisements and the like. though loudly bruited, that complaint lacks force because w & s has not established standing to pursue it. hn22 [ ] a party ordinarily has no standing to assert the first amendment rights of third parties. see eulitt, 386 f. 3d at 351. while there is an isthmian exception that applies when some barrier or practical obstacle deters a third party from asserting its rights, see, e. g., powers v. ohio, 499 u. s. 400, 414 - 15, 113 l. ed. 2d 411, 111 s. ct. 1364 ( 1991 ) ( allowing criminal defendant to assert rights of jurors because they lack financial incentive to undertake the burden of litigation ), nothing in the record indicates that w & s's franchisees are unable or unlikely to protect their own rights. hn23 [ ] in some circumstances, out of concern that an overly broad statute might chill constitutionally protected speech, the supreme court has relaxed the prudential limitations on third - party [ * * 27 ] standing to permit a litigant to pursue a",
+        "Predicted Answer": "[SEP] w & s also complains that the advertising and common naming restrictions infringe on the franchisees ' rights jointly to propose retail liquor sales through newspaper advertisements and the like . though loudly bruited , that complaint lacks force because w & s has not established standing to pursue it . hn22 [ ] a party ordinarily has no standing to assert the first amendment rights of third parties . see eulitt , 386 f . 3d at 351 . while there is an isthmian exception that applies when some barrier or practical obstacle deters a third party from asserting its rights , see , e . g . , powers v . ohio , 499 u . s . 400 , 414 - 15 , 113 l . ed . 2d 411 , 111 s . ct . 1364 ( 1991 ) ( allowing criminal defendant to assert rights of jurors because they lack financial incentive to undertake the burden of litigation ) , nothing in the record indicates that w & s ' s franchisees are unable or unlikely to protect their own rights . hn23 [ ] in some circumstances , out of concern that an overly broad statute might chill constitutionally protected speech , the supreme court has relaxed the prudential limitations on third - party [ * * 27 ] standing to permit a litigant to pursue a [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": e2 78, 1999
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 78?",
+        "Context": "the ultimate consumer of the product at all times retained the power of choice. 12 we decline to find this unobjectionable conduct constitutes a barrier to market entry. moreover, while outside observers may indeed hesitate when viewing fmc's current success in wooing municipalities, the whole theory of predation postulates that fmc's behavior will significantly change once stearns is eliminated. when fmc is charging supracompetitive prices, its quality arguments will become less persuasive. a competitor could [ * * 41 ] either match the quality standards that fmc has convinced the municipalities to adopt and underbid, or show them that the quality differential that justified adoption of certain specifications at a lower price cannot serve to mandate the same result at the supracompetitive price. 13",
+        "Predicted Answer": "[SEP] the ultimate consumer of the product at all times retained the power of choice . 12 we decline to find this unobjectionable conduct constitutes a barrier to market entry . moreover , while outside observers may indeed hesitate when viewing fmc ' s current success in wooing municipalities , the whole theory of predation postulates that fmc ' s behavior will significantly change once stearns is eliminated . when fmc is charging supracompetitive prices , its quality arguments will become less persuasive . a competitor could [ * * 41 ] either match the quality standards that fmc has convinced the municipalities to adopt and underbid , or show them that the quality differential that justified adoption of certain specifications at a lower price cannot serve to mandate the same result at the supracompetitive price . 13 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": e3 58, 1999
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 58?",
+        "Context": "[ a ] basic fact of economic life : a high market share, though it may ordinarily raise an inference [ * * 9 ] of monopoly power, will not do so in a market with low entry barriers or other evidence of a defendant's inability to control prices or exclude competitors. \" syufy enters., 903 f. 2d at 664 ( quoting oahu gas serv., inc. v. pacific resources inc., 838 f. 2d 360, 366 ( 9th cir. 1988 ) ). there is simply no evidence before us that there are unnatural market barriers precluding robust competition in the relevant market. for the foregoing reasons, the decision of the district court is affirmed.",
+        "Predicted Answer": "[SEP] [ a ] basic fact of economic life : a high market share , though it may ordinarily raise an inference [ * * 9 ] of monopoly power , will not do so in a market with low entry barriers or other evidence of a defendant ' s inability to control prices or exclude competitors . \" syufy enters . , 903 f . 2d at 664 ( quoting oahu gas serv . , inc . v . pacific resources inc . , 838 f . 2d 360 , 366 ( 9th cir . 1988 ) ) . there is simply no evidence before us that there are unnatural market barriers precluding robust competition in the relevant market . for the foregoing reasons , the decision of the district court is affirmed . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": e5 24, 2000
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 24?",
+        "Context": "market.... \" ) thus, gunther's opinion that defendants have market power is contradicted by his analysis regarding barriers to entry. 3. gunther's methodology is contrary to the law a. relevant geographic market as the court determined in part ii ( b ) of this opinion, plaintiffs were required to prove a relevant geographic market to prevail on their robinson - patman claim, and under eleventh circuit law, the relevant geographic market must be established through the use of expert testimony. see colso, 133 f. 3d at 855 n. 4 ; american key, 762 f. 2d at 1578 - 79. as noted above, gunther improperly based his market definition solely on the fact that, as he understood it, plaintiffs did not sell propane gas outside the 20 - mile radius around susan moore. see american key, 762 f. 2d at 1581 ; see also bathke, 64 f. 3d at 345 - 46. the eleventh circuit has expressly rejected the notion that a plaintiff's service area qualifies as a geographic market for [ * 1243 ] antitrust purposes : hn17 [ ] \" the relevant market is the'area of effective competition'in which competitors generally are willing to compete for the [ * * 55",
+        "Predicted Answer": "[SEP] market . . . . \" ) thus , gunther ' s opinion that defendants have market power is contradicted by his analysis regarding barriers to entry . 3 . gunther ' s methodology is contrary to the law a . relevant geographic market as the court determined in part ii ( b ) of this opinion , plaintiffs were required to prove a relevant geographic market to prevail on their robinson - patman claim , and under eleventh circuit law , the relevant geographic market must be established through the use of expert testimony . see colso , 133 f . 3d at 855 n . 4 ; american key , 762 f . 2d at 1578 - 79 . as noted above , gunther improperly based his market definition solely on the fact that , as he understood it , plaintiffs did not sell propane gas outside the 20 - mile radius around susan moore . see american key , 762 f . 2d at 1581 ; see also bathke , 64 f . 3d at 345 - 46 . the eleventh circuit has expressly rejected the notion that a plaintiff ' s service area qualifies as a geographic market for [ * 1243 ] antitrust purposes : hn17 [ ] \" the relevant market is the ' area of effective competition ' in which competitors generally are willing to compete for the [ * * 55 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": e5 50, 2000
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 50?",
+        "Context": "to take away market share from the incumbent producers. national has admitted as much in a 1997 sec filing : the company believes that the smokeless tobacco market, including loose leaf chewing tobacco, and the ryo [ roll your own ] cigarette paper industry are each characterized by non - cyclical demand, brand loyalty, significant barriers to entry, minimal capital expenditure requirements, high profit margins, consistent price increases at the wholesale level as well as the ability to generate strong and consistent free cash flows. px 126 at 10. 14 the evidence also shows [ * * 63 ] substantial sunk costs in plant construction, product development, and marketing. swedish match spent approximately $ 25 million to construct its plant in 1973 and estimates its replacement cost at $ 70 million today. national estimates its replacement cost at $ 20 - 25 million. conwood estimates a new loose leaf manufacturing plant would cost around $ 20 million. the defendants also spend approximately $ 18 million each year on is sales force and approximately $ 5 - 7 million annually on brand promotion. competitors such as conwood spend approximately $ 15 - 20 for a brand that has gained a two to three percent market share and is only marginally profitable. new entrants therefore face a significant disincentive 131 f.",
+        "Predicted Answer": "[SEP] to take away market share from the incumbent producers . national has admitted as much in a 1997 sec filing : the company believes that the smokeless tobacco market , including loose leaf chewing tobacco , and the ryo [ roll your own ] cigarette paper industry are each characterized by non - cyclical demand , brand loyalty , significant barriers to entry , minimal capital expenditure requirements , high profit margins , consistent price increases at the wholesale level as well as the ability to generate strong and consistent free cash flows . px 126 at 10 . 14 the evidence also shows [ * * 63 ] substantial sunk costs in plant construction , product development , and marketing . swedish match spent approximately $ 25 million to construct its plant in 1973 and estimates its replacement cost at $ 70 million today . national estimates its replacement cost at $ 20 - 25 million . conwood estimates a new loose leaf manufacturing plant would cost around $ 20 million . the defendants also spend approximately $ 18 million each year on is sales force and approximately $ 5 - 7 million annually on brand promotion . competitors such as conwood spend approximately $ 15 - 20 for a brand that has gained a two to three percent market share and is only marginally profitable . new entrants therefore face a significant disincentive 131 f . [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            },
+            {
+                "Name": "Brand Loyalty",
+                "Definition": "Consumer preference for existing brands, reducing new entrants' market share."
+            }
+        ]
+    },
+    {
+        "Case Index": e5 100, 2001
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 100?",
+        "Context": "case for high entry barriers in this market, see metronet's memo in support at 21 - 22 and supporting documents, yet some barriers do remain. for example, qwest has strong brand name identification, which tends to breed consumer loyalty. also, certain types of new entrants ( those wishing to maintain their own switching facilities and merely interconnect physically with qwest's network ) must absorb substantial start - up costs that qwest has already incurred. these barriers will diminish in time as new firms build their infrastructure, gain a toehold in the market, advertise more widely, and gain wider recognition. thus, the current distribution of market share is unlikely to be stable ; a 95 % market share now could well evaporate in the coming years without antitrust involvement. therefore, it is unlikely that qwest can exclude competition. qwest is also unable to control prices in the local business phone service market. first, phone service is not the type of commodity that is susceptible to price increase through output reduction. 4 second, the fact of 2001 u. s. dist. lexis 7436, * 15",
+        "Predicted Answer": "[SEP] case for high entry barriers in this market , see metronet ' s memo in support at 21 - 22 and supporting documents , yet some barriers do remain . for example , qwest has strong brand name identification , which tends to breed consumer loyalty . also , certain types of new entrants ( those wishing to maintain their own switching facilities and merely interconnect physically with qwest ' s network ) must absorb substantial start - up costs that qwest has already incurred . these barriers will diminish in time as new firms build their infrastructure , gain a toehold in the market , advertise more widely , and gain wider recognition . thus , the current distribution of market share is unlikely to be stable ; a 95 % market share now could well evaporate in the coming years without antitrust involvement . therefore , it is unlikely that qwest can exclude competition . qwest is also unable to control prices in the local business phone service market . first , phone service is not the type of commodity that is susceptible to price increase through output reduction . 4 second , the fact of 2001 u . s . dist . lexis 7436 , * 15 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": e7 57, 2002
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 57?",
+        "Context": "* * 31 ] practice that harms both competitors and competition. in contrast to price cutting aimed simply at increasing market share, predatory pricing has as its aim the elimination of competition. predatory pricing is thus a practice \" inimical to the purposes of [ the antitrust ] laws. \" ( emphasis supplied ). the alleged predator, in the case before us, eds, must be charging a price that is below his cost of doing business, to wit, he must be sustaining a deliberate and calculated financial loss by charging a low price that his competitors cannot afford to match. brooke group ltd. v. brown and williamson, 509 u. s. 209, 222 - 23, 113 s. ct. 2578, 125 l. ed. 2d 168 ( 1993 ), spoke to this requirement. [ a ] plaintiff seeking to establish competitive injury resulting from a rival's low prices must prove that the prices complained of are below an appropriate measure of its rival's costs. the reasoning in both [ cargill inc. v. monfort of colorado and matsushita elec. [ * * 199 ] ind. co. v. zenith radio ] suggests that only below - cost",
+        "Predicted Answer": "[SEP] * * 31 ] practice that harms both competitors and competition . in contrast to price cutting aimed simply at increasing market share , predatory pricing has as its aim the elimination of competition . predatory pricing is thus a practice \" inimical to the purposes of [ the antitrust ] laws . \" ( emphasis supplied ) . the alleged predator , in the case before us , eds , must be charging a price that is below his cost of doing business , to wit , he must be sustaining a deliberate and calculated financial loss by charging a low price that his competitors cannot afford to match . brooke group ltd . v . brown and williamson , 509 u . s . 209 , 222 - 23 , 113 s . ct . 2578 , 125 l . ed . 2d 168 ( 1993 ) , spoke to this requirement . [ a ] plaintiff seeking to establish competitive injury resulting from a rival ' s low prices must prove that the prices complained of are below an appropriate measure of its rival ' s costs . the reasoning in both [ cargill inc . v . monfort of colorado and matsushita elec . [ * * 199 ] ind . co . v . zenith radio ] suggests that only below - cost [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": e7 82, 2002
+        "CSV File": "Processed_Opinion_Data2.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 82?",
+        "Context": "prove unnecessarily expensive'\" ) ( quoting justice breyer, post, at 8, dissenting ). petitioners'position here is fundamentally that the commission relied on cost disparities that, [ * * 32 ] far from being any indication that competitive supply would be wasteful, are simply disparities faced by virtually any new entrant in any sector of the economy, no matter how competitive the sector. see petitioners'br. at 28. indeed, the commission's order does reflect an open - ended notion of what kinds of cost disparity are relevant. [ * 427 ] for example, in the discussion of local switching, the commission notes that there are economies of scale in switches, local competition order, 15 fcc rcd at 3812 - 13, p 259, and that it is cheaper to buy a 20, 000 - line switch than four increments of 5000 lines each, 15 fcc rcd at 3813, p 260. the commission refers explicitly to a clec's probable inability to enjoy scale economies comparable to ilecs'\" particularly in the early stages of entry. \" 15 fcc rcd at 3814, p 261 ( emphasis added ). but average unit costs are necessarily higher at the outset for any new",
+        "Predicted Answer": "[SEP] prove unnecessarily expensive ' \" ) ( quoting justice breyer , post , at 8 , dissenting ) . petitioners ' position here is fundamentally that the commission relied on cost disparities that , [ * * 32 ] far from being any indication that competitive supply would be wasteful , are simply disparities faced by virtually any new entrant in any sector of the economy , no matter how competitive the sector . see petitioners ' br . at 28 . indeed , the commission ' s order does reflect an open - ended notion of what kinds of cost disparity are relevant . [ * 427 ] for example , in the discussion of local switching , the commission notes that there are economies of scale in switches , local competition order , 15 fcc rcd at 3812 - 13 , p 259 , and that it is cheaper to buy a 20 , 000 - line switch than four increments of 5000 lines each , 15 fcc rcd at 3813 , p 260 . the commission refers explicitly to a clec ' s probable inability to enjoy scale economies comparable to ilecs ' \" particularly in the early stages of entry . \" 15 fcc rcd at 3814 , p 261 ( emphasis added ) . but average unit costs are necessarily higher at the outset for any new [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Economies of Scale",
+                "Definition": "Cost advantages due to increased production, making it harder for new entrants to compete."
+            }
+        ]
+    },
+    {
+        "Case Index": h10 20, 2012
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 20?",
+        "Context": "a percentage of the available supply or outlets that entry \" or continued operation in \" the concentrated market is unreasonably constricted. \" race tires, 614 f. 3d at 76 ( quoting e. food servs., 357 f. 3d at 8 ) ; see dentsply, 399 f. 3d at 184 ( noting that the relevant market was \" marked by a low or no - growth potential \" and the defendant had long dominated the industry [ * * 68 ] with a 75 - 80 % market share ). here, the hd transmissions market had long been dominated by eaton. except for meritor's production of manual transmissions in the 1990s and the zf meritor joint venture, no significant external supplier has entered the market for the last twenty years. a jury could certainly infer that eaton's dominance over the oems created a barrier to entry that any potential rival manufacturer would have to confront. see concord boat, 207 f. 3d at 1059 ( hn34 [ ] \" if entry barriers to new firms are not significant, it may be difficult for even a monopoly company to control prices through some type of exclusive dealing arrangement because a new firm or firms",
+        "Predicted Answer": "[SEP] a percentage of the available supply or outlets that entry \" or continued operation in \" the concentrated market is unreasonably constricted . \" race tires , 614 f . 3d at 76 ( quoting e . food servs . , 357 f . 3d at 8 ) ; see dentsply , 399 f . 3d at 184 ( noting that the relevant market was \" marked by a low or no - growth potential \" and the defendant had long dominated the industry [ * * 68 ] with a 75 - 80 % market share ) . here , the hd transmissions market had long been dominated by eaton . except for meritor ' s production of manual transmissions in the 1990s and the zf meritor joint venture , no significant external supplier has entered the market for the last twenty years . a jury could certainly infer that eaton ' s dominance over the oems created a barrier to entry that any potential rival manufacturer would have to confront . see concord boat , 207 f . 3d at 1059 ( hn34 [ ] \" if entry barriers to new firms are not significant , it may be difficult for even a monopoly company to control prices through some type of exclusive dealing arrangement because a new firm or firms [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": h10 48, 2012
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 48?",
+        "Context": "- wheel games. the court in united states v. oracle corp., 331 f. supp. 2d 1098, 1116 ( n. d. cal. 2004 ), addressed that issue persuasively, explaining why monopolistic rents do not survive in a differentiated market lacking barriers to entry : like a seller in a perfect competitive market, however, sellers in a \" competitive \" differentiated products market do not obtain monopoly rents. in differentiated product markets with few barriers to entry, firms will introduce products that are increasingly [ * * 29 ] close, although not perfect substitutes, for the other products in the market. the introduction of additional products causes the demand curve faced by each seller to shift",
+        "Predicted Answer": "[SEP] - wheel games . the court in united states v . oracle corp . , 331 f . supp . 2d 1098 , 1116 ( n . d . cal . 2004 ) , addressed that issue persuasively , explaining why monopolistic rents do not survive in a differentiated market lacking barriers to entry : like a seller in a perfect competitive market , however , sellers in a \" competitive \" differentiated products market do not obtain monopoly rents . in differentiated product markets with few barriers to entry , firms will introduce products that are increasingly [ * * 29 ] close , although not perfect substitutes , for the other products in the market . the introduction of additional products causes the demand curve faced by each seller to shift [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": h10 98, 2013
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 98?",
+        "Context": "software, inc., 50 f. supp. 2d 318, 329 ( d. n. j. jan. 28, 1999 ) ( citing barr laboratories, inc. v. abbott laboratories, 978 f. 2d 98, 112 ( 1992 ) ) ; crossroads cogeneration corp. v. orange & rockland utils., inc., 159 f. 3d 129, 141 ( 3d cir. 1998 ) [ * 50 ] ( \" alleging market share alone is not sufficient to state a claim under the sherman act. monopolization... requires something more.... \" ). other relevant factors include \" the size and strength of competing firms, freedom of entry into the field, pricing trends and practices in the industry, ability of consumers to substitute comparable goods o [ r ] services from outside the market, and consumer demand factors. \" fineman, 980 f. 2d at 202 ; barr labs., 978 f. 2d at 112. proof of barriers to entry is required to indirectly prove market power because \" [ a ] dominant market share may not equate to market power if there are new market entrants waiting in the wings to compete for that market share. \" graco, 2012 w",
+        "Predicted Answer": "[SEP] software , inc . , 50 f . supp . 2d 318 , 329 ( d . n . j . jan . 28 , 1999 ) ( citing barr laboratories , inc . v . abbott laboratories , 978 f . 2d 98 , 112 ( 1992 ) ) ; crossroads cogeneration corp . v . orange & rockland utils . , inc . , 159 f . 3d 129 , 141 ( 3d cir . 1998 ) [ * 50 ] ( \" alleging market share alone is not sufficient to state a claim under the sherman act . monopolization . . . requires something more . . . . \" ) . other relevant factors include \" the size and strength of competing firms , freedom of entry into the field , pricing trends and practices in the industry , ability of consumers to substitute comparable goods o [ r ] services from outside the market , and consumer demand factors . \" fineman , 980 f . 2d at 202 ; barr labs . , 978 f . 2d at 112 . proof of barriers to entry is required to indirectly prove market power because \" [ a ] dominant market share may not equate to market power if there are new market entrants waiting in the wings to compete for that market share . \" graco , 2012 w [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": h3 38, 2009
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 38?",
+        "Context": "a result of that power would have nothing to do with the nature of its dealer agreements. hn6 [ ] where a manufacturer has monopoly power, prices can be increased with or without exclusive provisions in a dealership agreement. e & l consulting, 472 f. 3d at 30. if canine chooses to deal with one dealer at [ * * 17 ] the exclusion of another, it is merely an exercise of its contractual prerogative as a distributor and not an unlawful exercise of monopoly power. oreck, 579 f. 2d at 133 ; speed auto sales, inc. v. american motors corp., 477 f. supp. 1193, 1197 ( e. d. n. y. 1979 ). moreover, any increase in price by an alleged monopolist, would effect only the ultimate purchasers of canine's product, and not any of its distributors. \" a distributor no longer in the business of distributing goods is not injured by monopoly prices charged for those goods. \" s. w. b., 2008 u. s. dist. lexis 14892, 2008 wl 540091 * 4. plaintiff's allegations regarding predatory pricing, which do nothing more than invoke the term \" predatory pricing, \" with",
+        "Predicted Answer": "[SEP] a result of that power would have nothing to do with the nature of its dealer agreements . hn6 [ ] where a manufacturer has monopoly power , prices can be increased with or without exclusive provisions in a dealership agreement . e & l consulting , 472 f . 3d at 30 . if canine chooses to deal with one dealer at [ * * 17 ] the exclusion of another , it is merely an exercise of its contractual prerogative as a distributor and not an unlawful exercise of monopoly power . oreck , 579 f . 2d at 133 ; speed auto sales , inc . v . american motors corp . , 477 f . supp . 1193 , 1197 ( e . d . n . y . 1979 ) . moreover , any increase in price by an alleged monopolist , would effect only the ultimate purchasers of canine ' s product , and not any of its distributors . \" a distributor no longer in the business of distributing goods is not injured by monopoly prices charged for those goods . \" s . w . b . , 2008 u . s . dist . lexis 14892 , 2008 wl 540091 * 4 . plaintiff ' s allegations regarding predatory pricing , which do nothing more than invoke the term \" predatory pricing , \" with [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": h6 44, 2011
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 44?",
+        "Context": "a new hospital identical to st. luke's in northwest ohio in 2009 would cost $ 165 million \" on the cheap \" and over $ 200 million to \" do it right. \" px 1257 ( october 2009 email describing slh's buildings and departments and estimating how much it would cost to build a \" replacement \" st. luke's in 2009 ). although promedica purchased land in southwest lucas county around 2000, promedica has not budgeted any money for constructing a new hospital and no construction has taken place. see px 2005 at 82 : 21 - 25 ( oostra ( phs ) ih ) ( stating that promedica purchased property approximately ten years prior ) ; px 2132 at 113 ( dagen supp. decl. ). the most recent discussions about developing the property took place over two years ago and no plans for the project appear in promedica's 2010 - 2012 strategic plans. px 2005 at 93 : 21 - 94 : 18 ; px 6 ( phs hospitals'2010 - 2012 strategic goals and objectives ) ; see infra section xv. a. 2. 226. access to necessary capital is a significant barrier to entry [ * 85 ] for the vast",
+        "Predicted Answer": "[SEP] a new hospital identical to st . luke ' s in northwest ohio in 2009 would cost $ 165 million \" on the cheap \" and over $ 200 million to \" do it right . \" px 1257 ( october 2009 email describing slh ' s buildings and departments and estimating how much it would cost to build a \" replacement \" st . luke ' s in 2009 ) . although promedica purchased land in southwest lucas county around 2000 , promedica has not budgeted any money for constructing a new hospital and no construction has taken place . see px 2005 at 82 : 21 - 25 ( oostra ( phs ) ih ) ( stating that promedica purchased property approximately ten years prior ) ; px 2132 at 113 ( dagen supp . decl . ) . the most recent discussions about developing the property took place over two years ago and no plans for the project appear in promedica ' s 2010 - 2012 strategic plans . px 2005 at 93 : 21 - 94 : 18 ; px 6 ( phs hospitals ' 2010 - 2012 strategic goals and objectives ) ; see infra section xv . a . 2 . 226 . access to necessary capital is a significant barrier to entry [ * 85 ] for the vast [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": h8 70, 2012
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 70?",
+        "Context": "citations omitted ). like market power, mayer may establish monopoly power either directly or indirectly. \" monopoly power under § 2 requires, of course, something greater than market power under § 1. \" id. however, the § 2 case law indicates that at least for summary judgment purposes, monopoly power may sometimes [ * * 103 ] be inferred from market share, especially when accompanied by barriers to entry. see id. ( \" respondents'evidence that kodak controls nearly 100 % of the parts market and 80 % to 95 % of the service market, with no readily available substitutes, is, however, sufficient to survive summary judgment under the more stringent monopoly standard [ * 917 ] of § 2. \" ) ; united states v. grinnell, 384 u. s. 563, 571, 86 s. ct. 1698, 16 l. ed. 2d 778 ( 1966 ) ( \" the existence of [ monopoly ] power ordinarily may be inferred from the predominant share of the market. \" ). cf. safeway inc. v. abbott laboratories, 761 f. supp. 2d 874, 889 ( n. d. cal. 2011 ) ( \" a high market share, though it may ordinarily raise an inference of monopol",
+        "Predicted Answer": "[SEP] citations omitted ) . like market power , mayer may establish monopoly power either directly or indirectly . \" monopoly power under § 2 requires , of course , something greater than market power under § 1 . \" id . however , the § 2 case law indicates that at least for summary judgment purposes , monopoly power may sometimes [ * * 103 ] be inferred from market share , especially when accompanied by barriers to entry . see id . ( \" respondents ' evidence that kodak controls nearly 100 % of the parts market and 80 % to 95 % of the service market , with no readily available substitutes , is , however ,",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": h9 5, 2012
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 5?",
+        "Context": "services. in addition to offering superior video picture quality, digital transmission allows for the provision of several other advanced digital services such as hdtv, video - on - demand ( \" vod \" ), digital video recorder ( \" dvr \" ), broadband internet, and cable telephony. these technological advances have ushered a new paradigm in the telecommunications industry, dubbed'convergence,'under which multiple forms of telecommunications content ( audio, video, and data ) are delivered to the consumer by a single firm. \" ( id. 16 ( citations omitted ). ) he concludes that : regional clustering created significant efficiencies, including achieving economies of scale in upgrading systems to digital and to offer advanced services such as broadband internet and cable telephony.... clustering allowed cable operators to achieve regional scale comparable to dbs providers and ilecs. for instance, a former tci and at & t executive testified that clustering \" had everything to do with putting ourselves in an operating cost structure that mirrored as closely as possible our nearest and closest competitors. \" ( id. 21. ) comcast also presents evidence that the entry of incumbent",
+        "Predicted Answer": "[SEP] services . in addition to offering superior video picture quality , digital transmission allows for the provision of several other advanced digital services such as hdtv , video - on - demand ( \" vod \" ) , digital video recorder ( \" dvr \" ) , broadband internet , and cable telephony . these technological advances have ushered a new paradigm in the telecommunications industry , dubbed ' convergence , ' under which multiple forms of telecommunications content ( audio , video , and data ) are delivered to the consumer by a single firm . \" ( id . 16 ( citations omitted ) . ) he concludes that : regional clustering created significant efficiencies , including achieving economies of scale in upgrading systems to digital and to offer advanced services such as broadband internet and cable telephony . . . . clustering allowed cable operators to achieve regional scale comparable to dbs providers and ilecs . for instance , a former tci and at & t executive testified that clustering \" had everything to do with putting ourselves in an operating cost structure that mirrored as closely as possible our nearest and closest competitors . \" ( id . 21 . ) comcast also presents evidence that the entry of incumbent [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Economies of Scale",
+                "Definition": "Cost advantages due to increased production, making it harder for new entrants to compete."
+            }
+        ]
+    },
+    {
+        "Case Index": h9 88, 2012
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 88?",
+        "Context": "psc market ( id. 114 ), ( c ) monopolizing the market related to municipal waste by psc conversion ( id. 121 ), and ( d ) raising the barriers to entry into the psc market ( id. 122 ). cct does not allege that it suffered antitrust injury from cleantech's enforcement of its patent rights. rather, cct alleges that it, as well as the market as a whole, suffered an injury to competition as a result of cleantech's effort to conspire to consolidate the market and monopolize the market power into one entity. ( id. 110, 113, 120, 121, 122, 133, 136, 137. ) 2012 u. s. dist. lexis 117279, * 8",
+        "Predicted Answer": "[SEP] psc market ( id . 114 ) , ( c ) monopolizing the market related to municipal waste by psc conversion ( id . 121 ) , and ( d ) raising the barriers to entry into the psc market ( id . 122 ) . cct does not allege that it suffered antitrust injury from cleantech ' s enforcement of its patent rights . rather , cct alleges that it , as well as the market as a whole , suffered an injury to competition as a result of cleantech ' s effort to conspire to consolidate the market and monopolize the market power into one entity . ( id . 110 , 113 , 120 , 121 , 122 , 133 , 136 , 137 . ) 2012 u . s . dist . lexis 117279 , * 8 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": i2 31, 2017
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 31?",
+        "Context": "of a dominant share of the relevant market and significant barriers to market entry. r. j. reynolds tobacco co. v. philip morris inc., 199 f. supp. 2d 362, 381 - 83 ( m. d. n. c. 2002 ) ; dicesare, 2017 ncbc lexis 33, at * 48 - 49. on the buying side of a market, market power is defined as the ability of a single buyer of a good or service \" to lower input prices below competitive levels, which requires the ability to restrict the quantity demanded of the input, \" and results in higher output prices. roger d. blair & jeffrey l. harrison, [ * 62 ] antitrust policy and monopsony, 76 cornell l. rev. 297, 306 ( 1991 ). 139. plaintiffs argue that they have clearly demonstrated proof of an output restriction on chiropractic services and are therefore entitled to the presumption that the restriction resulted from the combined market power of hns and",
+        "Predicted Answer": "[SEP] of a dominant share of the relevant market and significant barriers to market entry . r . j . reynolds tobacco co . v . philip morris inc . , 199 f . supp . 2d 362 , 381 - 83 ( m . d . n . c . 2002 ) ; dicesare , 2017 ncbc lexis 33 , at * 48 - 49 . on the buying side of a market , market power is defined as the ability of a single buyer of a good or service \" to lower input prices below competitive levels , which requires the ability to restrict the quantity demanded of the input , \" and results in higher output prices . roger d . blair & jeffrey l . harrison , [ * 62 ] antitrust policy and monopsony , 76 cornell l . rev . 297 , 306 ( 1991 ) . 139 . plaintiffs argue that they have clearly demonstrated proof of an output restriction on chiropractic services and are therefore entitled to the presumption that the restriction resulted from the combined market power of hns and [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": i3 3, 2017
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 3?",
+        "Context": "barrier \" into the nupic grid design market. id. 57. further, it alleges that these processes distinguish the nupic grid design market from the general market for the sale and servicing of grid design products. id. 58. thus, it alleges that other companies that make and sell grid design products do not compete in the nupic grid design market because they have not completed a nupic audit for their respective grid design products. id. 62. the sac also alleges that these grid design products are \" not reasonable substitutes \" for the nupic - certified grid design products offered by plaintiff and etap. it also alleges that these companies do not",
+        "Predicted Answer": "[SEP] barrier \" into the nupic grid design market . id . 57 . further , it alleges that these processes distinguish the nupic grid design market from the general market for the sale and servicing of grid design products . id . 58 . thus , it alleges that other companies that make and sell grid design products do not compete in the nupic grid design market because they have not completed a nupic audit for their respective grid design products . id . 62 . the sac also alleges that these grid design products are \" not reasonable substitutes \" for the nupic - certified grid design products offered by plaintiff and etap . it also alleges that these companies do not [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": i4 25, 2018
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 25?",
+        "Context": ". again, teva and perrigo both confronted this hurdle. there can be additional obstacles for generic drug companies where, as here, a brand - name drug manufacturer holds a patent for the reference - listed drug. generic entrants must also consider the possibility of patent infringement litigation by the owner of the referenced brand - name drug and the accompanying delay caused by the automatic thirty - month stay under the hatch - waxman act before entry into the market, as occurred here. in short, a prospective entrant to the pharmaceutical market whether with a brand - name drug or a generic drug has significant capital, technical, regulatory, [ * 136 ] and legal barriers to overcome [ * * 78 ] before being able to enter the ttrt market. again, this is a far cry from entry into a market to sell an ordinary consumer product. as demonstrated by the record, teva and perrigo encountered these barriers, and teva ultimately decided not to launch its generic testosterone 1 % product when it did not receive an ab rating from the fda. 329 f. supp. 3d 98, * 134 ; 2018 u. s. dist. lexis 109628, * * 74",
+        "Predicted Answer": "[SEP] . again , teva and perrigo both confronted this hurdle . there can be additional obstacles for generic drug companies where , as here , a brand - name drug manufacturer holds a patent for the reference - listed drug . generic entrants must also consider the possibility of patent infringement litigation by the owner of the referenced brand - name drug and the accompanying delay caused by the automatic thirty - month stay under the hatch - waxman act before entry into the market , as occurred here . in short , a prospective entrant to the pharmaceutical market whether with a brand - name drug or a generic drug has significant capital , technical , regulatory , [ * 136 ] and legal barriers to overcome [ * * 78 ] before being able to enter the ttrt market . again , this is a far cry from entry into a market to sell an ordinary consumer product . as demonstrated by the record , teva and perrigo encountered these barriers , and teva ultimately decided not to launch its generic testosterone 1 % product when it did not receive an ab rating from the fda . 329 f . supp . 3d 98 , * 134 ; 2018 u . s . dist . lexis 109628 , * * 74 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": i4 34, 2018
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 34?",
+        "Context": "on plaintiff's knowledge of the relevant markets, no companies have sought nupic certification for their real time products, including etap. id. 115. it alleges that plaintiff has not undertaken a nupic audit for its real time products because the alleged anticompetitive agreement between osi and etap \" has foreclosed virtually all sale opportunities, creating an insurmountable economic barrier to entry. \" id. it alleges that this has occurred because plaintiff's real time products \" achieve full functionality \" only when they are used with plaintiff's grid design products. id. 114. thus, 2018 u. s. dist. lexis 232779, * 12",
+        "Predicted Answer": "[SEP] on plaintiff ' s knowledge of the relevant markets , no companies have sought nupic certification for their real time products , including etap . id . 115 . it alleges that plaintiff has not undertaken a nupic audit for its real time products because the alleged anticompetitive agreement between osi and etap \" has foreclosed virtually all sale opportunities , creating an insurmountable economic barrier to entry . \" id . it alleges that this has occurred because plaintiff ' s real time products \" achieve full functionality \" only when they are used with plaintiff ' s grid design products . id . 114 . thus , 2018 u . s . dist . lexis 232779 , * 12 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": i6 60, 2019
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 60?",
+        "Context": ", this court has had the benefit of comprehensive argument. in addition, it has access to two judgments of the tribunal and the competition appeal court ; these judgments each reach divergent conclusions on the relevant issues, which, along with reasons that will become apparent, indicate that there may be prospects of success ; 191 the matter primarily concerns statutory interpretation ; and the determination of the proper legal test for predatory pricing is of immense significance. for these reasons, leave to appeal ought to be granted notwithstanding the commission's failure to approach the competition appeal court for leave to appeal. failure to approach the supreme court of appeal [ 157 ] media24 argued that even if the commission was not required to approach the competition appeal court for leave to appeal, the commission should first have appealed to the supreme court of appeal before coming to this court. their argument was that section 168 ( 3 ) ( a ) of the constitution anticipates that legislation may limit the jurisdiction of the supreme court of appeal in competition matters ; 192 loungefoam held that sections 62 and 63 of the competition act confer appellate jurisdiction on the supreme court of appeal in respect of matters mentioned in section 62 ( 2 ) of the competition act ; 193 therefore sections 62 and 63 of the competition act confer on the supreme court of appeal jurisdiction",
+        "Predicted Answer": "[SEP] , this court has had the benefit of comprehensive argument . in addition , it has access to two judgments of the tribunal and the competition appeal court ; these judgments each reach divergent conclusions on the relevant issues , which , along with reasons that will become apparent , indicate that there may be prospects of success ; 191 the matter primarily concerns statutory interpretation ; and the determination of the proper legal test for predatory pricing is of immense significance . for these reasons , leave to appeal ought to be granted notwithstanding the commission ' s failure to approach the competition appeal court for leave to appeal . failure to approach the supreme court of appeal [ 157 ] media24 argued that even if the commission was not required to approach the competition appeal court for leave to appeal , the commission should first have appealed to the supreme court of appeal before coming to this court . their argument was that section 168 ( 3 ) ( a ) of the constitution anticipates that legislation may limit the jurisdiction of the supreme court of appeal in competition matters ; 192 loungefoam held that sections 62 and 63 of the competition act confer appellate jurisdiction on the supreme court of appeal in respect of matters mentioned in section 62 ( 2 ) of the competition act ; 193 therefore sections 62 and 63 of the competition act confer on the supreme court of appeal jurisdiction [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": i3 73, 2018
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 73?",
+        "Context": ") ( breyer, j. ) ( noting that legitimate business justifications can support a limited exclusivity contract, including assurances for the buyer of a stable, favorable price ) ; constr. aggregate transp., inc. v. fla. rock indus., inc., 710 f. 2d 752, 773 ( 11th cir. 1983 ) [ * 58 ] ( exclusive dealing \" does not give rise to antitrust liability without proof of actual competitive injury.... [ s ] uch a unilateral exercise of business judgment is free from scrutiny in the absence of proof of competitive harm, or other underlying illegal behavior. \" ) ; philippe aghion & patrick bolton, contracts as a barrier to entry, 77 am. econ. rev. 388, 388 ( 1987 ) ( \" [ i ] t is a widespread opinion among antitrust practitioners that contracts between buyers and sellers are socially efficient. \" ). 2014 u. s. dist. lexis 46107, * 56",
+        "Predicted Answer": "[SEP] ) ( breyer , j . ) ( noting that legitimate business justifications can support a limited exclusivity contract , including assurances for the buyer of a stable , favorable price ) ; constr . aggregate transp . , inc . v . fla . rock indus . , inc . , 710 f . 2d 752 , 773 ( 11th cir . 1983 ) [ * 58 ] ( exclusive dealing \" does not give rise to antitrust liability without proof of actual competitive injury . . . . [ s ] uch a unilateral exercise of business judgment is free from scrutiny in the absence of proof of competitive harm , or other underlying illegal behavior . \" ) ; philippe aghion & patrick bolton , contracts as a barrier to entry , 77 am . econ . rev . 388 , 388 ( 1987 ) ( \" [ i ] t is a widespread opinion among antitrust practitioners that contracts between buyers and sellers are socially efficient . \" ) . 2014 u . s . dist . lexis 46107 , * 56 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": j5 84, 2015
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 84?",
+        "Context": "( \" it is the actual amount paid by the purchaser to the seller after taking into consideration all discounts, rebates, or other allowances with which we are concerned here. \" ), cited in a. a. poultry, 881 f. 2d at 1407. any consumer would consider a rebate as a reduction in cost, even if the consumer were \" refunded \" months after the actual sale for the higher price. just ask the purchaser of a new \" $ 600 \" cellphone for which a $ 300 rebate were available. perhaps felder's position in this case stems from the extra step in the transaction ; all star gets a rebate from gm on a product that all star passes on to its consumers. but any confusion resulting from that extra step is eliminated by considering an example involving a different cost input : if all star received a rebate on the costs of shipping the collision parts, is there any [ * * 19 ] doubt that rebate would reduce its shipping costs even though the discount would not be realized the day the shipping would take place? an analogy used in a prior predatory pricing case also supports rejecting felder's isolated view of the transaction. we have noted that when \" a company has a'buy",
+        "Predicted Answer": "[SEP] ( \" it is the actual amount paid by the purchaser to the seller after taking into consideration all discounts , rebates , or other allowances with which we are concerned here . \" ) , cited in a . a . poultry , 881 f . 2d at 1407 . any consumer would consider a rebate as a reduction in cost , even if the consumer were \" refunded \" months after the actual sale for the higher price . just ask the purchaser of a new \" $ 600 \" cellphone for which a $ 300 rebate were available . perhaps felder ' s position in this case stems from the extra step in the transaction ; all star gets a rebate from gm on a product that all star passes on to its consumers . but any confusion resulting from that extra step is eliminated by considering an example involving a different cost input : if all star received a rebate on the costs of shipping the collision parts , is there any [ * * 19 ] doubt that rebate would reduce its shipping costs even though the discount would not be realized the day the shipping would take place ? an analogy used in a prior predatory pricing case also supports rejecting felder ' s isolated view of the transaction . we have noted that when \" a company has a ' buy [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": j7 43, 2015
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 43?",
+        "Context": "[ defendants'] bids are independent of each other and truly competitive. \" ). ) plaintiff does not explain, however, how bidding artificially high prices to purchase advertisements constitutes predatory pricing in the relevant market here. ( see fac 16 ( defining the \" relevant product market \" as the \" purchasing of structured settlement payment receivables [ * 14 ] from individual consumer sellers \" ). ) advertisements are a cost of doing business in the market of purchasing structured settlement payment rights. the supreme court, however, has \" rejected... the notion that above - cost prices that are below general market levels or the costs of a firm's competitors inflict injury to competition cognizable under the antitrust laws. \" brooke grp. ltd. v. brown & williamson tobacco corp., 509 u. s. 209, 223, 113 s. ct. 2578, 125 l. ed. 2d 168 ( 1993 ) ( citing atl. richfield, 495 u. s. at 340 ) ; see weyerhaeuser co. v. ross - simmons hardwood lumber co., inc., 549 u. s. 312, 314, 127 s. ct. 1069, 166 l. ed. 2d 911",
+        "Predicted Answer": "[SEP] [ defendants ' ] bids are independent of each other and truly competitive . \" ) . ) plaintiff does not explain , however , how bidding artificially high prices to purchase advertisements constitutes predatory pricing in the relevant market here . ( see fac 16 ( defining the \" relevant product market \" as the \" purchasing of structured settlement payment receivables [ * 14 ] from individual consumer sellers \" ) . ) advertisements are a cost of doing business in the market of purchasing structured settlement payment rights . the supreme court , however , has \" rejected . . . the notion that above - cost prices that are below general market levels or the costs of a firm ' s competitors inflict injury to competition cognizable under the antitrust laws . \" brooke grp . ltd . v . brown & williamson tobacco corp . , 509 u . s . 209 , 223 , 113 s . ct . 2578 , 125 l . ed . 2d 168 ( 1993 ) ( citing atl . richfield , 495 u . s . at 340 ) ; see weyerhaeuser co . v . ross - simmons hardwood lumber co . ,",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Predatory Pricing",
+                "Definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+            }
+        ]
+    },
+    {
+        "Case Index": j9 36, 2016
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 36?",
+        "Context": "153 - 54 ). in other words, per plaintiffs'own allegations, the dot consciously chose to deregulate the gdss with full awareness that those systems were no longer owned by the airlines, because the dot believed rightly or wrongly that deregulation of airlines and gdss would remove barriers to an efficient market. ( id. at 154 - 56 ). see also computer reservations system ( crs ) regulations, 69 fed. reg. 976 - 01 ( 2004 ). that the dot allegedly made this decision based on erroneous assumptions about market forces does not justify correctively legislating from the judicial bench. rather, the express decision to deregulate gdss as independent entities lends further support to the view that ada preemption reaches the instant claims, [ * * 72 ] as the dot clearly considered gdss'function to be integral to the fares and services offered by air carriers. 194 f. supp. 3d 236, * 244 ; 2016 u. s. dist. lexis 88013, * * 68",
+        "Predicted Answer": "[SEP] 153 - 54 ) . in other words , per plaintiffs ' own allegations , the dot consciously chose to deregulate the gdss with full awareness that those systems were no longer owned by the airlines , because the dot believed rightly or wrongly that deregulation of airlines and gdss would remove barriers to an efficient market . ( id . at 154 - 56 ) . see also computer reservations system ( crs ) regulations , 69 fed . reg . 976 - 01 ( 2004 ) . that the dot allegedly made this decision based on erroneous assumptions about market forces does not justify correctively legislating from the judicial bench . rather , the express decision to deregulate gdss as independent entities lends further support to the view that ada preemption reaches the instant claims , [ * * 72 ] as the dot clearly considered gdss ' function to be integral to the fares and services offered by air carriers . 194 f . supp . 3d 236 , * 244 ; 2016 u . s . dist . lexis 88013 , * * 68 [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Entry Barriers",
+                "Definition": "Factors that deter or prevent new competitors from entering a market.",
+                "Synonyms": [
+                    "Barriers",
+                    "Barrier",
+                    "Barrier to Entry",
+                    "Entry Costs",
+                    "Entry Restrictions"
+                ]
+            }
+        ]
+    },
+    {
+        "Case Index": j9 79, 2016
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 79?",
+        "Context": "the value of [ its ] marketplace to both sellers and buyers increase [ d ] as [ it ] add [ ed ] more users. \" ( id. 64 ). hn11 [ ] \" in markets characterized by network effects, one product or standard tends toward dominance, because'the utility that a user derives from consumption of the good increases with the number of other agents consuming the good.'\" microsoft, 253 f. 3d at 49 ( quoting michael l. katz & carl shapiro, network externalities, competition, and compatibility, 75 am. econ. rev. 424, 424 ( 1985 ) ). \" for example,'[ a ] n individual consumer's [ * 18 ] demand to use ( and hence her benefit from ) the telephone network... increases with the number of other users on the network whom she can call or from whom she can receive calls.'\" id. ( alteration and omission in original ) ( quoting howard a. shelanski & j. gregory sidak, antitrust divestiture in network industries, 68 u. chi. l. rev. 1, 8 ( 2001 ) ). in support of its \" network effects \" theory, icp relies on micro",
+        "Predicted Answer": "[SEP] the value of [ its ] marketplace to both sellers and buyers increase [ d ] as [ it ] add [ ed ] more users . \" ( id . 64 ) . hn11 [ ] \" in markets characterized by network effects , one product or standard tends toward dominance , because ' the utility that a user derives from consumption of the good increases with the number of other agents consuming the good . ' \" microsoft , 253 f . 3d at 49 ( quoting michael l . katz & carl shapiro , network externalities , competition , and compatibility , 75 am . econ . rev . 424 , 424 ( 1985 ) ) . \" for example , ' [ a ] n individual consumer ' s [ * 18 ] demand to use ( and hence her benefit from ) the telephone network . . . increases with the number of other users on the network whom she can call or from whom she can receive calls . ' \" id . ( alteration and omission in original ) ( quoting howard a . shelanski & j . gregory sidak , antitrust divestiture in network industries , 68 u . chi . l . rev . 1 , 8 ( 2001 ) ) . in support of its \" network effects \" theory , icp relies on micro [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Network Effects",
+                "Definition": "The value of a product increases as more people use it, deterring new competitors."
+            }
+        ]
+    },
+    {
+        "Case Index": k2 5, 2021
+        "CSV File": "Processed_Opinion_Data3.csv",
+        "Question": "What is the judge's opinion regarding entry barriers in case 5?",
+        "Context": "as an overview, dr. evans first calculates an \" effective \" commission rate of 27. 7 %, and then determines that a 5 % increase to consumers would correspond to a 30 % increase in developer commissions. because even this large increase in commissions would be profitable for apple due to the lack of consumer switching, dr. evans concludes that ios distribution is its own market. 289 dr. evans confirmed that [ * * 100 ] consumer response to long - run price changes may be substantially different than for short - run ones. 290 this feature is important to dr. evans'analysis. as discussed above, dr. rossi's failure to survey properly and confirm respondents'understanding of a non - transient price increases leaves the adequacy of the survey for a ssnip analysis in question. economists lack consensus about how to design hypothetical monopoly tests properly to account for indirect network effects. while dr. evans has proposed one approach, another preeminent economist, dr. schmalensee, believes it is conceptually flawed. even dr. evans himself has previously written that \" even if it is technically possible to extend the hypothetical monopoly test to two - sided platforms, the challenges",
+        "Predicted Answer": "[SEP] as an overview , dr . evans first calculates an \" effective \" commission rate of 27 . 7 % , and then determines that a 5 % increase to consumers would correspond to a 30 % increase in developer commissions . because even this large increase in commissions would be profitable for apple due to the lack of consumer switching , dr . evans concludes that ios distribution is its own market . 289 dr . evans confirmed that [ * * 100 ] consumer response to long - run price changes may be substantially different than for short - run ones . 290 this feature is important to dr . evans ' analysis . as discussed above , dr . rossi ' s failure to survey properly and confirm respondents ' understanding of a non - transient price increases leaves the adequacy of the survey for a ssnip analysis in question . economists lack consensus about how to design hypothetical monopoly tests properly to account for indirect network effects . while dr . evans has proposed one approach , another preeminent economist , dr . schmalensee , believes it is conceptually flawed . even dr . evans himself has previously written that \" even if it is technically possible to extend the hypothetical monopoly test to two - sided platforms , the challenges [SEP]",
+        "Knowledge Graph Result": [
+            {
+                "Name": "Network Effects",
+                "Definition": "The value of a product increases as more people use it, deterring new competitors."
+            }
+        ]
+    }
+]

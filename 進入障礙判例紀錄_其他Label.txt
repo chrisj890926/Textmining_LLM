@@ -1,0 +1,48 @@
+# Core Terms
+
+"c5 19, United States District Court for the District of Connecticut
+
+# HN
+"c1 59,
+"c5 9, Supreme Court of the United States
+"c5 29, United States Court of Appeals for the Eighth Circuit
+"d6 , Supreme Court of the United States
+"d17 Supreme Court of the United States
+"e8 2, United States District Court for the Eastern District of Virginia, Norfolk Division
+"e8 73, United States District Court for the Eastern District of Pennsylvania
+"f4 98, United States District Court for the Middle District of Alabama, Southern Division
+"f9, 66, United States District Court for the Eastern District of Pennsylvania
+"f10, 1, United States Court of Appeals for the Ninth Circuit
+"f10, 43, United States District Court for the District of Utah, Central Division
+"g3, 17, United States Court of Appeals for the Ninth Circuit
+"g10, 8, United States Court of Appeals for the Fifth Circuit
+"h1, 42, United States District Court for the Middle District of Louisiana
+"h8, 29, United States District Court for the Southern District of Texas, Houston Division
+"i1, 50, United States District Court for the District of Kansas
+"i2, 33, United States District Court for the District of Vermont
+"i10 68, United States Court of Appeals for the Eleventh Circuit
+"j8 97, United States District Court for the Southern District of Ohio, Western Division
+"j9 32, United States District Court for the Southern District of California
+
+# FN
+"b1 13, United States Court of Appeals for the District of Columbia Circuit
+"b4 66, United States District Court for the District of Hawaii
+"b6 53, United States Court of Appeals for the Ninth Circuit.
+"b8 81, United States Court of Appeals for the Eighth Circuit
+"c1 1, United States District Court for the Southern District of Florida
+"c9 25, United States District Court for the Eastern District of Pennsylvania
+"e1 2, United States District Court for the Eastern District of New York
+"e3 90 United States District Court for the Southern District of New York
+"e4 7 United States District Court for the Southern District of New York
+"e5 24 , United States District Court for the Northern District of Alabama, Southern Division
+"e7 42, United States District Court for the Southern District of New York
+"e8 29 , Court of Civil Appeals of Oklahoma, Division Three
+"e10 64,  United States Court of Appeals for the Tenth Circuit
+"f3 48,  United States Court of Appeals for the Third Circuit
+"g3 99, United States District Court for the Northern District of Illinois, Eastern Division
+"g10 79, United States District Court for the Southern District of New York
+"h3 56, United States District Court for the Southern District of New York
+"h4 39, United States District Court for the Eastern District of California
+"i7 91, United States District Court for the Eastern District of Pennsylvania
+"i8 46, Court of Appeal of Louisiana, First Circuit
+

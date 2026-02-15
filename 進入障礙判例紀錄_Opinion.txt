@@ -1,0 +1,74 @@
+{Data1}：從 16 筆提升至 23 筆 總共 2986 判例
+{Data2}：從 17 筆提升至 19 筆 總共 2998 判例
+{Data3}：由 7 筆提升至 19 筆 總共3302 判例
+
+Data 1 有 4 篇被LLM驗證非進入障礙
+Data 2 有 4 篇被LLM驗證非進入障礙
+Data 3 有 3 篇被LLM驗證非進入障礙
+
+Data 1 ：
+a5-25 Supreme Court of the United States 1963
+"a7 30, United States District Court for the Southern District of New York 
+"b10 47, Circuit Court of Maryland, Charles County 
+"b10 75,  United States District Court for the Eastern District of California. 
+"b10 89, United States District Court for the Northern District of Ohio, Eastern Division 
+"b2 4, United States District Court for the District of Hawaii 
+"b3 54,  United States Court of Appeals for the Second Circuit 
+"b4 32, United States District Court for the Northern District of California 
+"b6 53, , United States Court of Appeals for the Ninth Circuit. 
+"b6 66, United States Court of Appeals for the Third Circuit 
+"b7 65, United States District Court for the Western District of Michigan, Southern Division 
+"b7 83,, Supreme Court of Idaho 
+"b9 58, United States District Court for the District of Nebraska. 
+"c1 30, United States District Court for the Northern District of Illinois, Eastern Division 
+"c10 30, United States Court of Appeals for the Ninth Circuit 
+"c10 30,United States Court of Appeals for the Ninth Circuit 
+"c10 46, United States Court of Appeals for the Ninth Circuit 
+"c10 70, United States District Court for the Middle District of North Carolina, Durham Division 
+"c4 32, United States District Court for the District of Kansas 
+"c9 17, United States District Court for the District of Rhode Island 
+"c9 39, United States Court of Appeals for the Seventh Circuit 
+"c9 84, United States Court of Appeals for the Eighth Circuit 
+"c9 93, United States District Court for the Northern District of Illinois, Eastern Division 
+
+Data2：
+"f2 47, Supreme Court of Texas
+"f2 80, United States District Court for the Western District of Louisiana, Lafayette - Opelousas Division
+"f3 3, United States District Court for the District of Columbia
+"f3 16, United States Court of Appeals for the Ninth Circuit
+"f3 41, United States District Court for the Southern District of New York
+"f4 94, United States District Court for the District of Columbia
+"f5 14, United States District Court for the District of Oregon
+"f6 58, Superior Court of New Jersey, Appellate Division
+ "f7 50,United States Court of Appeals for the Eighth Circuit
+"f9 64, United States District Court for the District of Arizona
+"f9 93, United States District Court for the Southern District of New York
+"g3 67, United States Court of Appeals for the First Circuit
+"e2 78, United States Court of Appeals for the Fifth Circuit
+"e3 58, United States Court of Appeals for the Ninth Circuit
+"e5 24,United States District Court for the Northern District of Alabama, Southern Division
+"e5 50, United States District Court for the District of Columbia
+"e5 100, United States District Court for the Western District of Washington
+"e7 57, Court of Special Appeals of Maryland
+"e7 82, United States Court of Appeals for the District of Columbia Circuit
+
+Data 3：
+"h10 20, United States Court of Appeals for the Third Circuit
+"h10 48, United States Court of Appeals for the Federal Circuit
+"h10 98,United States District Court for the District of New Jersey
+"h3 38 United States District Court for the Eastern District of New York
+"h6 44, United States District Court for the Northern District of Ohio, Western Division
+"h8 70, United States District Court for the Northern District of California
+"h9 5, United States District Court for the Eastern District of Pennsylvania
+"h9 88, United States District Court for the Southern District of California
+"i2 31, North Carolina Superior Court, Forsyth County
+"i3 3, United States District Court for the Central District of California
+"i4 25, United States District Court for the Eastern District of Pennsylvania
+"i4 34, United States District Court for the Central District of California
+"i6 60, United States District Court for the Northern District of California
+"i3 73,United States District Court for the District of South Dakota, Northern Division
+"j5 84, United States Court of Appeals for the Fifth Circuit
+"j7 43, United States District Court for the Central District of California
+"j9 36, United States District Court for the Southern District of New York
+"j9 79,United States District Court for the District of Delaware
+"k2 5, United States District Court for the Northern District of California

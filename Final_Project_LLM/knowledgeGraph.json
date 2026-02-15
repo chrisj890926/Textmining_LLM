@@ -1,0 +1,506 @@
+﻿[
+  {
+    "n": {
+      "identity": 46,
+      "labels": [
+        "Center"
+      ],
+      "properties": {
+        "name": "Entry Barriers",
+        "definition": "Factors that deter or prevent new competitors from entering a market."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:46"
+    },
+    "r": {
+      "identity": 1152928101676613678,
+      "start": 46,
+      "end": 47,
+      "type": "HAS_SUBCATEGORY",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1152928101676613678",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:46",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:47"
+    },
+    "m": {
+      "identity": 47,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Natural Barriers",
+        "definition": "Barriers due to market characteristics or geographical constraints."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:47"
+    }
+  },
+  {
+    "n": {
+      "identity": 46,
+      "labels": [
+        "Center"
+      ],
+      "properties": {
+        "name": "Entry Barriers",
+        "definition": "Factors that deter or prevent new competitors from entering a market."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:46"
+    },
+    "r": {
+      "identity": 1155179901490298926,
+      "start": 46,
+      "end": 48,
+      "type": "HAS_SUBCATEGORY",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1155179901490298926",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:46",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:48"
+    },
+    "m": {
+      "identity": 48,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Artificial Barriers",
+        "definition": "Barriers created by firms or legal structures to restrict entry."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:48"
+    }
+  },
+  {
+    "n": {
+      "identity": 46,
+      "labels": [
+        "Center"
+      ],
+      "properties": {
+        "name": "Entry Barriers",
+        "definition": "Factors that deter or prevent new competitors from entering a market."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:46"
+    },
+    "r": {
+      "identity": 1157431701303984174,
+      "start": 46,
+      "end": 49,
+      "type": "HAS_SUBCATEGORY",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1157431701303984174",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:46",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:49"
+    },
+    "m": {
+      "identity": 49,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Strategic Barriers",
+        "definition": "Barriers created intentionally by existing firms to deter competition."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:49"
+    }
+  },
+  {
+    "n": {
+      "identity": 47,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Natural Barriers",
+        "definition": "Barriers due to market characteristics or geographical constraints."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:47"
+    },
+    "r": {
+      "identity": 1152929201188241455,
+      "start": 47,
+      "end": 50,
+      "type": "INCLUDES",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1152929201188241455",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:47",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:50"
+    },
+    "m": {
+      "identity": 50,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "Economies of Scale",
+        "definition": "Cost advantages due to increased production, making it harder for new entrants to compete."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:50"
+    }
+  },
+  {
+    "n": {
+      "identity": 47,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Natural Barriers",
+        "definition": "Barriers due to market characteristics or geographical constraints."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:47"
+    },
+    "r": {
+      "identity": 1155181001001926703,
+      "start": 47,
+      "end": 51,
+      "type": "INCLUDES",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1155181001001926703",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:47",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:51"
+    },
+    "m": {
+      "identity": 51,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "High Initial Capital Requirements",
+        "definition": "Significant upfront investments required to enter a market."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:51"
+    }
+  },
+  {
+    "n": {
+      "identity": 47,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Natural Barriers",
+        "definition": "Barriers due to market characteristics or geographical constraints."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:47"
+    },
+    "r": {
+      "identity": 1157432800815611951,
+      "start": 47,
+      "end": 52,
+      "type": "INCLUDES",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1157432800815611951",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:47",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:52"
+    },
+    "m": {
+      "identity": 52,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "Geographic Constraints",
+        "definition": "Barriers arising from location-specific factors such as access to resources."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:52"
+    }
+  },
+  {
+    "n": {
+      "identity": 48,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Artificial Barriers",
+        "definition": "Barriers created by firms or legal structures to restrict entry."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:48"
+    },
+    "r": {
+      "identity": 1152929201188241456,
+      "start": 48,
+      "end": 53,
+      "type": "INCLUDES",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1152929201188241456",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:48",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:53"
+    },
+    "m": {
+      "identity": 53,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "Patent Protection",
+        "definition": "Legal barriers that prevent competitors from using patented technologies or processes."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:53"
+    }
+  },
+  {
+    "n": {
+      "identity": 48,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Artificial Barriers",
+        "definition": "Barriers created by firms or legal structures to restrict entry."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:48"
+    },
+    "r": {
+      "identity": 1155181001001926704,
+      "start": 48,
+      "end": 54,
+      "type": "INCLUDES",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1155181001001926704",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:48",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:54"
+    },
+    "m": {
+      "identity": 54,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "Brand Loyalty",
+        "definition": "Consumer preference for existing brands, reducing new entrants' market share."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:54"
+    }
+  },
+  {
+    "n": {
+      "identity": 48,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Artificial Barriers",
+        "definition": "Barriers created by firms or legal structures to restrict entry."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:48"
+    },
+    "r": {
+      "identity": 1157432800815611952,
+      "start": 48,
+      "end": 55,
+      "type": "INCLUDES",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1157432800815611952",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:48",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:55"
+    },
+    "m": {
+      "identity": 55,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "Government Regulations",
+        "definition": "Legal or administrative restrictions that limit market entry."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:55"
+    }
+  },
+  {
+    "n": {
+      "identity": 49,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Strategic Barriers",
+        "definition": "Barriers created intentionally by existing firms to deter competition."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:49"
+    },
+    "r": {
+      "identity": 1152929201188241457,
+      "start": 49,
+      "end": 56,
+      "type": "INCLUDES",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1152929201188241457",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:49",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:56"
+    },
+    "m": {
+      "identity": 56,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "Predatory Pricing",
+        "definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:56"
+    }
+  },
+  {
+    "n": {
+      "identity": 49,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Strategic Barriers",
+        "definition": "Barriers created intentionally by existing firms to deter competition."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:49"
+    },
+    "r": {
+      "identity": 1155181001001926705,
+      "start": 49,
+      "end": 57,
+      "type": "INCLUDES",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1155181001001926705",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:49",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:57"
+    },
+    "m": {
+      "identity": 57,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "Network Effects",
+        "definition": "The value of a product increases as more people use it, deterring new competitors."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:57"
+    }
+  },
+  {
+    "n": {
+      "identity": 49,
+      "labels": [
+        "MainNode"
+      ],
+      "properties": {
+        "name": "Strategic Barriers",
+        "definition": "Barriers created intentionally by existing firms to deter competition."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:49"
+    },
+    "r": {
+      "identity": 1157432800815611953,
+      "start": 49,
+      "end": 58,
+      "type": "INCLUDES",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1157432800815611953",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:49",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:58"
+    },
+    "m": {
+      "identity": 58,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "Vertical Integration",
+        "definition": "Control over supply chain that limits competitors' access to resources or distribution."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:58"
+    }
+  },
+  {
+    "n": {
+      "identity": 50,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "Economies of Scale",
+        "definition": "Cost advantages due to increased production, making it harder for new entrants to compete."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:50"
+    },
+    "r": {
+      "identity": 1152941295816146994,
+      "start": 50,
+      "end": 51,
+      "type": "IMPACTS",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1152941295816146994",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:50",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:51"
+    },
+    "m": {
+      "identity": 51,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "High Initial Capital Requirements",
+        "definition": "Significant upfront investments required to enter a market."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:51"
+    }
+  },
+  {
+    "n": {
+      "identity": 56,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "Predatory Pricing",
+        "definition": "Deliberate underpricing to drive out competitors or prevent new entry."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:56"
+    },
+    "r": {
+      "identity": 1152940196304519224,
+      "start": 56,
+      "end": 57,
+      "type": "RELATES_TO",
+      "properties": {
+
+      },
+      "elementId": "5:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:1152940196304519224",
+      "startNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:56",
+      "endNodeElementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:57"
+    },
+    "m": {
+      "identity": 57,
+      "labels": [
+        "SubNode"
+      ],
+      "properties": {
+        "name": "Network Effects",
+        "definition": "The value of a product increases as more people use it, deterring new competitors."
+      },
+      "elementId": "4:61a0bb34-d4bc-4c0a-92ff-0d3d46946f09:57"
+    }
+  }
+]

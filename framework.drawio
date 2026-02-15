@@ -1,0 +1,316 @@
+<mxfile host="65bd71144e">
+    <diagram id="JRO-zE2JIRfyZcf3Uk5I" name="Research Framework">
+        <mxGraphModel dx="3773" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="54" value="Research Process Architecture Diagram" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+                    <mxGeometry x="150" y="50" width="1200" height="890" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="54" source="57" target="58">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="Data Preprocessing" treeRoot="1" id="57">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#99CCFF;" vertex="1" parent="54">
+                        <mxGeometry x="80" y="40" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="58" value="Extracting Opinion Paragraphs" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="54">
+                    <mxGeometry x="90" y="130" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <UserObject label="Model Fine-tuning" treeRoot="1" id="97">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#99CCFF;" vertex="1" parent="54">
+                        <mxGeometry x="280" y="40" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="98" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" source="97" target="99" parent="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="LegalBERT Model Fine-tuning" treeRoot="1" id="99">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="280" y="130" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="100" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="54">
+                    <mxGeometry x="380" y="170" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="102" source="99" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="190" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Selecting Data 2 Subset" treeRoot="1" id="102">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="280" y="230" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="104" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;" vertex="1" parent="54">
+                    <mxGeometry x="389.5" y="270" width="30.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="106" source="102" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="280" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Designing Fine-tuning Questions" treeRoot="1" id="106">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="280" y="330" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="107" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="108" source="106" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="380" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Training Model" treeRoot="1" id="108">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="280" y="430" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="111" value="" style="shape=mxgraph.aws4.machine_learning;fillColor=#4FC3F7;strokeColor=#0288D1;strokeWidth=1;fontColor=#0D47A1;fontSize=12;align=center;verticalAlign=middle;html=1;aspect=fixed;" vertex="1" parent="54">
+                    <mxGeometry x="380" y="470" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" target="114" source="58" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="140" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="114" value="Structuring CSV" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="54">
+                    <mxGeometry x="90" y="230" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;" vertex="1" parent="54">
+                    <mxGeometry x="180" y="270" width="30" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="54">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="259.5" as="sourcePoint"/>
+                        <mxPoint x="270" y="259.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="125" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" target="126" source="114" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="240" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="126" value="Sliding Window to Chunk" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="54">
+                    <mxGeometry x="90" y="330" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="54">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="430" y="259.5" as="sourcePoint"/>
+                        <mxPoint x="490" y="259.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Knowledge Graph Construction" treeRoot="1" id="128">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#99CCFF;" vertex="1" parent="54">
+                        <mxGeometry x="520" y="40" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="129" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" source="128" target="130" parent="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="Constructing Knowledge Graph" treeRoot="1" id="130">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="520" y="130" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="131" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="132" source="130" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="700" y="150" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Defining Graph Node &amp;amp; Edge" treeRoot="1" id="132">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="520" y="230" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="133" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="134" source="132" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="700" y="240" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Exporting JSON Format" treeRoot="1" id="134">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="520" y="330" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="135" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json" vertex="1" parent="54">
+                    <mxGeometry x="620" y="370" width="40" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.gdb_graph_database;" vertex="1" parent="54">
+                    <mxGeometry x="620.97" y="173.15" width="42.68" height="36.85" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="54">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="670" y="259.5" as="sourcePoint"/>
+                        <mxPoint x="730" y="259.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Matching / Inference Phase" treeRoot="1" id="138">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#99CCFF;" vertex="1" parent="54">
+                        <mxGeometry x="760" y="40" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="139" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" source="138" target="140" parent="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="Performing Match &amp;amp; Retrieval" treeRoot="1" id="140">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="760" y="130" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="141" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="142" source="140" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="940" y="150" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Predicting Relevant Paragraphs" treeRoot="1" id="142">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="760" y="230" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="143" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="144" source="142" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="940" y="240" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Decoding Model Output" treeRoot="1" id="144">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="760" y="330" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="145" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="146" source="144" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="940" y="340" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Matching with Knowledge Graph" treeRoot="1" id="146">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="760" y="430" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="147" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="148" source="146" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="940" y="440" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Analyzing Result" treeRoot="1" id="148">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="760" y="530" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="149" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="150" source="148" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="940" y="540" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Output of Matching" treeRoot="1" id="150">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="760" y="630" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="151" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="54">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="920" y="259.5" as="sourcePoint"/>
+                        <mxPoint x="980" y="259.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Analysis &amp;amp; Optimization" treeRoot="1" id="152">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#99CCFF;" vertex="1" parent="54">
+                        <mxGeometry x="1000" y="40" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="154" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" source="152" target="155" parent="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="Presenting Main Findings" treeRoot="1" id="155">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="1000" y="130" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="156" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="157" source="155" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1180" y="150" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Highlighting Data 2 Dominance" treeRoot="1" id="157">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="1000" y="230" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="158" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="159" source="157" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1180" y="240" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Comparing Data Matching and Expansion" treeRoot="1" id="159">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="1000" y="330" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="160" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="161" source="159" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1180" y="340" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Performing Data Matching &amp;amp; Expansion" treeRoot="1" id="161">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="1000" y="430" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="162" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="163" source="161" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1180" y="440" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Expanding with External LLM" treeRoot="1" id="163">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="1000" y="530" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="164" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="165" source="163" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1180" y="540" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Final Expanded Knowledge Graph" treeRoot="1" id="165">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="1000" y="630" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="166" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="167" source="165" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1180" y="640" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Summarizing Knowledge Graph Benefits" treeRoot="1" id="167">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="1000" y="730" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="168" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;startArrow=none;endArrow=none;" edge="1" target="169" source="167" parent="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1180" y="740" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Identifying Supreme Court Challenges" treeRoot="1" id="169">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#FFFFFF;" vertex="1" parent="54">
+                        <mxGeometry x="1000" y="830" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="153" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.gdb_graph_database;" vertex="1" parent="54">
+                    <mxGeometry x="1100" y="680" width="42.68" height="36.85" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.gdb_graph_database;" vertex="1" parent="54">
+                    <mxGeometry x="860" y="473.15" width="42.68" height="36.85" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="" style="shape=mxgraph.aws4.machine_learning;fillColor=#4FC3F7;strokeColor=#0288D1;strokeWidth=1;fontColor=#0D47A1;fontSize=12;align=center;verticalAlign=middle;html=1;aspect=fixed;" vertex="1" parent="54">
+                    <mxGeometry x="861.3399999999999" y="270" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-10" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
